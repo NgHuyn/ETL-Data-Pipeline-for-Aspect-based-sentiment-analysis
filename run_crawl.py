@@ -1,7 +1,7 @@
 import os
 import json
-from src.movies_scraper import MoviesScraper
-from src.reviews_scraper import MovieReviewScraper
+from src.crawl_reviews import MoviesScraper
+from src.crawl_reviews import MovieReviewScraper
 
 if __name__ == "__main__":
     # get the movie_id first

@@ -8,15 +8,6 @@ from tqdm import tqdm
 from bs4 import BeautifulSoup
 import json 
 
-import json
-import re
-import time
-from tqdm import tqdm
-from bs4 import BeautifulSoup
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 class MoviesScraper(BaseScraper):
     def __init__(self, clicks=200, release_date_from='2024-01-01', release_date_to='2024-10-07'):
         super().__init__()
@@ -228,51 +219,43 @@ class MovieReviewScraper(BaseScraper):
 
         return len(reviews)  # Return the number of reviews processed
 
+    def convert_to_int(human_readable):
+        """Convert human-readable numbers to integers."""
+        if 'K' in human_readable:
+            return int(float(human_readable.replace('K', '').strip()) * 1000)
+        elif 'M' in human_readable:
+            return int(float(human_readable.replace('M', '').strip()) * 1000000)
+        else:
+            return int(human_readable.strip())
+
     def _parse_review(self, review, button_type):
         """
         Extract information from the review and return as a dictionary.
         """
-        found_helpful = 0
-        not_helpful = 0
-        
-        # Define selectors based on button_type
+        # Extract information from the review based on its type (load_more or all)
         if button_type == "load_more":
-            selectors = {
-                'rating': 'span.rating-other-user-rating span',
-                'summary': 'a.title',
-                'text': 'div.text.show-more__control',
-                'author': 'span.display-name-link a',
-                'date': 'span.review-date',
-                'helpful': 'div.actions.text-muted',
-            }
+            review_rating = review.select_one('span.rating-other-user-rating span').get_text(strip=True) if review.select_one('span.rating-other-user-rating span') else 'No rating'
+            review_summary = review.select_one('a.title').get_text(strip=True) if review.select_one('a.title') else 'No summary'
+            review_text = review.select_one('div.text.show-more__control').get_text(strip=True) if review.select_one('div.text.show-more__control') else 'No content'
+            author_tag = review.select_one('span.display-name-link a').get_text(strip=True) if review.select_one('span.display-name-link a') else 'Unknown Author'
+            review_date = review.select_one('span.review-date').get_text(strip=True) if review.select_one('span.review-date') else 'No date'
         else:
-            selectors = {
-                'rating': 'span.ipc-rating-star--rating',
-                'summary': 'span[data-testid="review-summary"]',
-                'text': 'div.ipc-html-content-inner-div',
-                'author': 'a[data-testid="author-link"]',
-                'date': 'li.review-date',
-                'helpful_up': 'span.ipc-voting__label__count--up',
-                'helpful_down': 'span.ipc-voting__label__count--down',
-            }
-
-        # Extract data using selectors
-        review_rating = review.select_one(selectors['rating']).get_text(strip=True) if review.select_one(selectors['rating']) else 'No rating'
-        review_summary = review.select_one(selectors['summary']).get_text(strip=True) if review.select_one(selectors['summary']) else 'No summary'
-        review_text = review.select_one(selectors['text']).get_text(strip=True) if review.select_one(selectors['text']) else 'No content'
-        author_tag = review.select_one(selectors['author']).get_text(strip=True) if review.select_one(selectors['author']) else 'Unknown Author'
-        review_date = review.select_one(selectors['date']).get_text(strip=True) if review.select_one(selectors['date']) else 'No date'
+            review_rating = review.select_one('span.ipc-rating-star--rating').get_text(strip=True) if review.select_one('span.ipc-rating-star--rating') else 'No rating'
+            review_summary = review.select_one('span[data-testid="review-summary"]').get_text(strip=True) if review.select_one('span[data-testid="review-summary"]') else 'No summary'
+            review_text = review.select_one('div.ipc-html-content-inner-div').get_text(strip=True) if review.select_one('div.ipc-html-content-inner-div') else 'No content'
+            author_tag = review.select_one('a[data-testid="author-link"]').get_text(strip=True) if review.select_one('a[data-testid="author-link"]') else 'Unknown Author'
+            review_date = review.select_one('li.review-date').get_text(strip=True) if review.select_one('li.review-date') else 'No date'
 
         # Extract helpful votes
         if button_type == "load_more":
-            helpful_text = review.select_one(selectors['helpful']).get_text(strip=True) if review.select_one(selectors['helpful']) else ''
+            helpful_text = review.select_one('div.actions.text-muted').get_text(strip=True) if review.select_one('div.actions.text-muted') else ''
             match = re.search(r'(\d+) out of (\d+) found this helpful', helpful_text)
             if match:
                 found_helpful = int(match.group(1))
                 not_helpful = int(match.group(2)) - found_helpful
         else:
-            found_helpful = int(review.select_one(selectors['helpful_up']).get_text(strip=True)) if review.select_one(selectors['helpful_up']) else 0
-            not_helpful = int(review.select_one(selectors['helpful_down']).get_text(strip=True)) if review.select_one(selectors['helpful_down']) else 0
+            found_helpful = convert_to_int(review.select_one('span.ipc-voting__label__count--up').get_text(strip=True)) if review.select_one('span.ipc-voting__label__count--up') else 0
+            not_helpful = convert_to_int(review.select_one('span.ipc-voting__label__count--down').get_text(strip=True)) if review.select_one('span.ipc-voting__label__count--down') else 0
 
         # Return the review information in the expected format
         return {

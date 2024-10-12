@@ -254,8 +254,8 @@ class MovieReviewScraper(BaseScraper):
                 found_helpful = int(match.group(1))
                 not_helpful = int(match.group(2)) - found_helpful
         else:
-            found_helpful = convert_to_int(review.select_one('span.ipc-voting__label__count--up').get_text(strip=True)) if review.select_one('span.ipc-voting__label__count--up') else 0
-            not_helpful = convert_to_int(review.select_one('span.ipc-voting__label__count--down').get_text(strip=True)) if review.select_one('span.ipc-voting__label__count--down') else 0
+            found_helpful = self.convert_to_int(review.select_one('span.ipc-voting__label__count--up').get_text(strip=True)) if review.select_one('span.ipc-voting__label__count--up') else 0
+            not_helpful = self.convert_to_int(review.select_one('span.ipc-voting__label__count--down').get_text(strip=True)) if review.select_one('span.ipc-voting__label__count--down') else 0
 
         # Return the review information in the expected format
         return {

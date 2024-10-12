@@ -7,6 +7,36 @@ import re
 from tqdm import tqdm  
 from bs4 import BeautifulSoup
 from datetime import datetime, date
+import logging
+import os
+
+# # Thiết lập logging
+# logging.basicConfig(
+#     filename='scraping.log',  # Tên file log
+#     filemode='a',  # Append log vào file đã có
+#     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+#     level=logging.INFO  # Chỉ ghi log từ cấp INFO trở lên
+# )
+# logger = logging.getLogger(__name__)
+
+def setup_logger(movie_id):
+    # Tạo thư mục logs nếu chưa tồn tại
+    if not os.path.exists('logs'):
+        os.makedirs('logs')
+    
+    # Đặt tên file log theo movie_id
+    logger = logging.getLogger(movie_id)
+    logger.setLevel(logging.INFO)
+    
+    # Tạo file handler
+    file_handler = logging.FileHandler(f'logs/{movie_id}_reviews.log', mode='a', encoding='utf-8')
+    file_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+    
+    # Thêm handler vào logger
+    if not logger.handlers:
+        logger.addHandler(file_handler)
+    
+    return logger
 
 class MoviesScraper(BaseScraper):
     def __init__(self, clicks=200, release_date_from='2024-01-01', release_date_to='2024-10-07'):
@@ -15,33 +45,39 @@ class MoviesScraper(BaseScraper):
         self.movie_data = []
         self.release_date_from = release_date_from
         self.release_date_to = release_date_to
+        logger.info("MoviesScraper initialized with %s clicks", self.clicks)
 
     def fetch_movies(self):
-        url = f'https://www.imdb.com/search/title/?title_type=feature&release_date={self.release_date_from},{self.release_date_to}'
-        self.driver.get(url)
+        try:
+            url = f'https://www.imdb.com/search/title/?title_type=feature&release_date={self.release_date_from},{self.release_date_to}'
+            self.driver.get(url)
 
-        initial_html = self.driver.page_source
-        initial_soup = BeautifulSoup(initial_html, 'html.parser')
-        initial_movies = initial_soup.select('div.sc-59c7dc1-2')  # Save the initial elements
+            initial_html = self.driver.page_source
+            initial_soup = BeautifulSoup(initial_html, 'html.parser')
+            initial_movies = initial_soup.select('div.sc-59c7dc1-2')  # Save the initial elements
 
-        # Extract data for the initial set of movies
-        self.extract_movie_data(initial_movies)
+            # Extract data for the initial set of movies
+            self.extract_movie_data(initial_movies)
 
-        with tqdm(total=self.clicks, desc='Loading movies') as pbar:
-            for _ in range(self.clicks):
-                soup = self.click_see_more_button()
-                pbar.update(1)
-                time.sleep(1)  # Optional wait time between clicks
+            with tqdm(total=self.clicks, desc='Loading movies') as pbar:
+                for _ in range(self.clicks):
+                    soup = self.click_see_more_button()
+                    pbar.update(1)
+                    time.sleep(1)  # Optional wait time between clicks
 
-        final_html = self.driver.page_source
-        final_soup = BeautifulSoup(final_html, 'html.parser')
-        final_movies = final_soup.select('div.sc-59c7dc1-2')
+            final_html = self.driver.page_source
+            final_soup = BeautifulSoup(final_html, 'html.parser')
+            final_movies = final_soup.select('div.sc-59c7dc1-2')
 
-        # After all clicks, extract movie data
-        new_movies = final_movies[len(initial_movies):]
-        self.extract_movie_data(new_movies)
+            # After all clicks, extract movie data
+            new_movies = final_movies[len(initial_movies):]
+            self.extract_movie_data(new_movies)
 
-        self.close_driver()
+            logger.info("Completed fetching movies. Total movies: %d", len(self.movie_data))
+        except Exception as e:
+            logger.error("Error in fetch_movies: %s", str(e))
+        finally:
+            self.close_driver()
         return self.movie_data
 
     def click_see_more_button(self):
@@ -105,6 +141,7 @@ class MovieReviewScraper(BaseScraper):
         self.movie_reviews = []  # Adjusted to be a list of movie objects
         self.clicks = 0  # Initialize click counter
         self.is_scraping = True  # Flag to manage scraping status
+        logger.info("MovieReviewScraper initialized")
 
     def fetch_reviews(self):
         try:
@@ -122,12 +159,11 @@ class MovieReviewScraper(BaseScraper):
                         # Check if there are any reviews available
                         review_count = self._get_total_reviews()
                         if review_count == 0:
-                            print(f"No reviews found for Movie {movie_id} with rating {rating_filter}.")
+                            logger.info("No reviews found for Movie ID %s with rating %d", movie_id, rating_filter)
                             continue  # Skip to the next rating filter if no reviews
 
                         # If reviews are available, attempt to load all or more reviews
                         self._load_reviews()  # Load more reviews by clicking the button
-
                         wait_time = self._calculate_wait_time(10, self.clicks)  # Adjust wait time based on click count
                         time.sleep(wait_time)
 
@@ -140,10 +176,9 @@ class MovieReviewScraper(BaseScraper):
                         total_reviews += review_count
                         total_actual_reviews += num_reviews  # Accumulate reviews count
 
-                else:
-                    print(f"Movie data missing for {movie}. Skipping this movie.")
-
-                print(f'Movie {movie_id} has {total_actual_reviews}/{total_reviews} reviews')
+                logger.info('Movie %s has %d/%d reviews', movie_id, total_actual_reviews, total_reviews)
+        except Exception as e:
+            logger.error("Error in fetch_reviews: %s", str(e))
         finally:
             self.close_driver()
             self.is_scraping = False
@@ -157,6 +192,7 @@ class MovieReviewScraper(BaseScraper):
                 EC.presence_of_element_located((By.XPATH, '//div[@data-testid="tturv-total-reviews"]'))
             )
             total_reviews_text = total_reviews_element.text.split()[0]  # Get the number part
+            logger.info("Total reviews found: %s", total_reviews_text)
             return int(total_reviews_text)
         except Exception as e:
             # If the first attempt fails, check the alternative method
@@ -165,105 +201,115 @@ class MovieReviewScraper(BaseScraper):
                     EC.presence_of_element_located((By.XPATH, '//div[@class="header"]//span'))
                 )
                 total_reviews_text = total_reviews_element.text.split()[0]  # Get the number part
+                logger.info("Total reviews found: %s", total_reviews_text)
                 return int(total_reviews_text)
             except Exception as e:
-                print(f"Error fetching total reviews: {e}")
+                logger.error("Error fetching total reviews: %s", e)
                 return 0  # Default to 0 if neither element is found
 
-    
     # def _load_reviews(self):
-    #     # Try to find and click the 'All' reviews button
     #     try:
-    #         # all_reviews_button = WebDriverWait(self.driver, 2).until(
-    #         #     EC.presence_of_element_located((By.XPATH, "//*[@id='__next']/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[2]/button"))
-    #         # )
-    #         # all_reviews_button = WebDriverWait(self.driver, 5).until(
-    #         #     EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'All')]"))
-    #         # )
-    #         # self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", all_reviews_button)
-    #         # all_reviews_button.click()
-
+    #         # Find and click the 'All' button
     #         all_reviews_button = WebDriverWait(self.driver, 10).until(
-    #         EC.element_to_be_clickable((By.XPATH, "//span[contains(text(), 'All')]"))
+    #             EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[2]/button/span/span'))
     #         )
-    #         self.driver.execute_script("arguments[0].scrollIntoView(); arguments[0].click();", all_reviews_button)
-            
-    #         time.sleep(4)  # Wait for the page to load if needed
+    #         self.driver.execute_script(
+    #             "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", 
+    #             all_reviews_button
+    #         )
+    #         time.sleep(4)  # Wait for the page to load after clicking
+    #         logger.info("Clicked 'All' reviews button and waiting for the page to load.")
 
-    #         # Scroll to the bottom of the page
-    #         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    #     except Exception as e:
-    #         # Could not find 'All' button, will try to find 'Load More' button.
-    #         self._load_more_reviews()
-    #         time.sleep(4)
+    #         # Scroll slowly to ensure all content loads
+    #         last_height = self.driver.execute_script("return document.body.scrollHeight")
+    #         logger.info("Starting to scroll to load all reviews.")
 
-    # def _load_more_reviews(self):
-    #     # Add progress bar for loading more reviews
-    #     with tqdm(desc='Loading More Reviews', leave=False) as pbar:
     #         while True:
-    #             try:
-    #                 load_more_button = WebDriverWait(self.driver, 5).until(
-    #                     EC.presence_of_element_located((By.XPATH, '//*[@id="load-more-trigger"]'))
-    #                 )
-    #                 self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", load_more_button)
-    #                 load_more_button.click()
-    #                 self.clicks += 1  # Increment the click count
-    #                 pbar.update(1)  # Update progress bar
+    #             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    #             time.sleep(2)  # Wait for content to load after each scroll
 
-    #                 wait_time = self._calculate_wait_time(1, self.clicks)  # Adjust wait time based on click count
-    #                 time.sleep(wait_time)
-
-    #                 self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-    #             except Exception as e:  # No more 'Load More' buttons to click.
+    #             # Check the new height of the page
+    #             new_height = self.driver.execute_script("return document.body.scrollHeight")
+    #             if new_height == last_height:  # If there is no more content to load, stop
+    #                 logger.info("Reached the bottom of the page, all reviews loaded.")
     #                 break
+    #             last_height = new_height
 
+    #     except Exception as e:
+    #         logger.error("Error loading 'All' reviews")
+
+    #         # If the 'All' button is not found, try to find the 'Load More' button
+    #         try:
+    #             load_more_button = WebDriverWait(self.driver, 5).until(
+    #                 # EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Load More')]"))
+    #                 EC.element_to_be_clickable((By.XPATH, '//*[@id="load-more-trigger"]'))
+    #             )
+    #             self.driver.execute_script("arguments[0].click();", load_more_button)
+    #             time.sleep(4)  # Wait after clicking
+    #             logger.info("Clicked 'Load More' button to load more reviews.")
+    #         except Exception as e:
+    #             try:
+    #                 more_button = WebDriverWait(self.driver, 5).until(
+    #                     EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[1]/button/span/span'))
+    #                 )
+    #                 self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", more_button)
+    #                 time.sleep(4)  # Chờ sau khi click
+    #                 logger.info("Clicked 'More' button to load more reviews.")
+    #             except Exception as e:
+    #                 logger.info("No more button found to click.")
 
     def _load_reviews(self):
-        try:
-            # Tìm và click vào nút 'All'
-            all_reviews_button = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//span[contains(text(), 'All')]"))
-            )
-            self.driver.execute_script(
-                "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", 
-                all_reviews_button
-            )
-            time.sleep(4)  # Chờ trang load sau khi click
-            
-            # Scroll từ từ để đảm bảo toàn bộ nội dung được load
-            last_height = self.driver.execute_script("return document.body.scrollHeight")
-            while True:
-                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                time.sleep(2)  # Chờ nội dung load sau mỗi lần scroll
-
-                # Kiểm tra chiều cao mới của trang
-                new_height = self.driver.execute_script("return document.body.scrollHeight")
-                if new_height == last_height:  # Nếu không còn nội dung để load thì dừng
-                    print("Reached the bottom of the page.")
-                    break
-                last_height = new_height
-
-        except Exception as e:
-            print(f"Error loading 'All' reviews: {e}")
-            
-            # Nếu không tìm thấy nút 'All', thử tìm nút 'Load More'
+        def click_button(xpath, name, wait=5):
+            """Helper function to find and click a button if available."""
             try:
-                load_more_button = WebDriverWait(self.driver, 5).until(
-                    EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Load More')]"))
+                button = WebDriverWait(self.driver, wait).until(
+                    EC.element_to_be_clickable((By.XPATH, xpath))
                 )
-                self.driver.execute_script("arguments[0].click();", load_more_button)
-                time.sleep(4)  # Chờ sau khi click
-            except Exception as e:
-                print(f"Error loading 'Load More' button: {e}")
+                self.driver.execute_script(
+                    "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", 
+                    button
+                )
+                time.sleep(4)  # Wait for content to load after clicking
+                logger.info(f"Clicked '{name}' button successfully.")
+                return True
+            except Exception:
+                logger.info(f"No '{name}' button found.")
+                return False
 
+        # 1. Try clicking the 'All' button first
+        if click_button('//*[@id="__next"]/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[2]/button/span/span', 'All'):
+            logger.info("Clicked 'More' button successfully.")
+            self._scroll_to_load_all()  # Scroll if 'All' button is clicked
+            return  # Stop after 'All' is clicked
 
+        # 2. Continuously click 'Load More' button until it no longer appears
+        while True:
+            if not click_button('//*[@id="load-more-trigger"]', 'Load More'):
+                logger.info("No more 'Load More' buttons found, moving to 'More' button check.")
+                break  # Exit the loop when 'Load More' is no longer available
 
+        # 3. Try clicking the 'More' button if it exists
+        if click_button('//*[@id="__next"]/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[1]/button/span/span', 'More'):
+            logger.info("Clicked 'More' button successfully.")
+        else:
+            logger.info("No 'More' button found, all reviews loaded.")
 
+    def _scroll_to_load_all(self):
+        """Scroll the page slowly to ensure all reviews are loaded."""
+        last_height = self.driver.execute_script("return document.body.scrollHeight")
+        logger.info("Starting to scroll to load all reviews.")
 
+        while True:
+            # Scroll to the bottom of the page
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(2)  # Wait for new content to load after each scroll
 
-
-
+            # Check if the new page height is the same as the previous one
+            new_height = self.driver.execute_script("return document.body.scrollHeight")
+            if new_height == last_height:  # Stop if no more content is being loaded
+                logger.info("Reached the bottom of the page, all reviews loaded.")
+                break
+            last_height = new_height
 
     def _calculate_wait_time(self, base_wait_time, clicks):
         """
@@ -277,7 +323,8 @@ class MovieReviewScraper(BaseScraper):
 
 
     def _extract_reviews(self, soup, movie_id, title):
-        reviews = soup.select('article.user-review-item')  # Attempt to extract reviews using one selector
+        # Attempt to extract reviews using the primary selector
+        reviews = soup.select('article.user-review-item')
 
         # Check if movie info already exists in the list
         movie_info = next((info for info in self.movie_reviews if info['Movie ID'] == movie_id), None)
@@ -289,12 +336,13 @@ class MovieReviewScraper(BaseScraper):
                 'Reviews': []
             }
             self.movie_reviews.append(movie_info)  # Append to the main list
+            logger.info(f"Initialized new movie info for Movie ID: {movie_id}, Title: {title}.")
 
         # If no reviews found, try to load more reviews
-        if not reviews:  # Load more
+        if not reviews:  # Attempt to load more reviews
             reviews = soup.select('div.lister-item.mode-detail.imdb-user-review')
             if not reviews:  # If still no reviews available
-                print(f"No reviews found for {title}.")
+                logger.warning(f"No reviews found for {title}.")
                 return 0  # Return 0 if no reviews found
 
         # Parse reviews and add them to the movie_info['Reviews'] list
@@ -305,8 +353,11 @@ class MovieReviewScraper(BaseScraper):
 
             # Append the parsed review to the 'Reviews' list
             movie_info['Reviews'].append(parsed_review)
+            logger.info(f"Added review for Movie ID: {movie_id}, Title: {title}, Button Type: {button_type}.")
 
+        logger.info(f"Processed {len(reviews)} reviews for Movie ID: {movie_id}, Title: {title}.")
         return len(reviews)  # Return the number of reviews processed
+
 
     def convert_to_int(self, human_readable):
         """Convert human-readable numbers to integers."""
@@ -324,6 +375,8 @@ class MovieReviewScraper(BaseScraper):
         # Initialize helpful votes to 0
         found_helpful = 0
         not_helpful = 0
+
+        # Parse review based on the button type
         if button_type == "load_more":
             review_rating = review.select_one('span.rating-other-user-rating span').get_text(strip=True) if review.select_one('span.rating-other-user-rating span') else 'No rating'
             review_summary = review.select_one('a.title').get_text(strip=True) if review.select_one('a.title') else 'No summary'
@@ -344,9 +397,14 @@ class MovieReviewScraper(BaseScraper):
             if match:
                 found_helpful = int(match.group(1))
                 not_helpful = int(match.group(2)) - found_helpful
+                logger.info(f"Found {found_helpful} helpful votes and {not_helpful} not helpful votes for the review.")
         else:
             found_helpful = self.convert_to_int(review.select_one('span.ipc-voting__label__count--up').get_text(strip=True)) if review.select_one('span.ipc-voting__label__count--up') else 0
             not_helpful = self.convert_to_int(review.select_one('span.ipc-voting__label__count--down').get_text(strip=True)) if review.select_one('span.ipc-voting__label__count--down') else 0
+            logger.info(f"Found {found_helpful} helpful votes and {not_helpful} not helpful votes for the review.")
+
+        # Log the parsed review details
+        logger.info(f"Parsed review for Author: {author_tag}, Rating: {review_rating}, Date: {review_date}")
 
         # Return the review information in the expected format
         return {
@@ -358,6 +416,3 @@ class MovieReviewScraper(BaseScraper):
             'Helpful': found_helpful,
             'Not Helpful': not_helpful
         }
-
-
-

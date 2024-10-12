@@ -171,46 +171,98 @@ class MovieReviewScraper(BaseScraper):
                 return 0  # Default to 0 if neither element is found
 
     
+    # def _load_reviews(self):
+    #     # Try to find and click the 'All' reviews button
+    #     try:
+    #         # all_reviews_button = WebDriverWait(self.driver, 2).until(
+    #         #     EC.presence_of_element_located((By.XPATH, "//*[@id='__next']/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[2]/button"))
+    #         # )
+    #         # all_reviews_button = WebDriverWait(self.driver, 5).until(
+    #         #     EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'All')]"))
+    #         # )
+    #         # self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", all_reviews_button)
+    #         # all_reviews_button.click()
+
+    #         all_reviews_button = WebDriverWait(self.driver, 10).until(
+    #         EC.element_to_be_clickable((By.XPATH, "//span[contains(text(), 'All')]"))
+    #         )
+    #         self.driver.execute_script("arguments[0].scrollIntoView(); arguments[0].click();", all_reviews_button)
+            
+    #         time.sleep(4)  # Wait for the page to load if needed
+
+    #         # Scroll to the bottom of the page
+    #         self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    #     except Exception as e:
+    #         # Could not find 'All' button, will try to find 'Load More' button.
+    #         self._load_more_reviews()
+    #         time.sleep(4)
+
+    # def _load_more_reviews(self):
+    #     # Add progress bar for loading more reviews
+    #     with tqdm(desc='Loading More Reviews', leave=False) as pbar:
+    #         while True:
+    #             try:
+    #                 load_more_button = WebDriverWait(self.driver, 5).until(
+    #                     EC.presence_of_element_located((By.XPATH, '//*[@id="load-more-trigger"]'))
+    #                 )
+    #                 self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", load_more_button)
+    #                 load_more_button.click()
+    #                 self.clicks += 1  # Increment the click count
+    #                 pbar.update(1)  # Update progress bar
+
+    #                 wait_time = self._calculate_wait_time(1, self.clicks)  # Adjust wait time based on click count
+    #                 time.sleep(wait_time)
+
+    #                 self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+    #             except Exception as e:  # No more 'Load More' buttons to click.
+    #                 break
+
+
     def _load_reviews(self):
-        # Try to find and click the 'All' reviews button
         try:
-            # all_reviews_button = WebDriverWait(self.driver, 2).until(
-            #     EC.presence_of_element_located((By.XPATH, "//*[@id='__next']/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[2]/button"))
-            # )
-            all_reviews_button = WebDriverWait(self.driver, 5).until(
-                EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'All')]"))
+            # Tìm và click vào nút 'All'
+            all_reviews_button = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, "//span[contains(text(), 'All')]"))
             )
-            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", all_reviews_button)
-            all_reviews_button.click()
-            time.sleep(4)  # Wait for the page to load if needed
-
-            # Scroll to the bottom of the page
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        except Exception as e:
-            # Could not find 'All' button, will try to find 'Load More' button.
-            self._load_more_reviews()
-            time.sleep(4)
-
-    def _load_more_reviews(self):
-        # Add progress bar for loading more reviews
-        with tqdm(desc='Loading More Reviews', leave=False) as pbar:
+            self.driver.execute_script(
+                "arguments[0].scrollIntoView({block: 'center'}); arguments[0].click();", 
+                all_reviews_button
+            )
+            time.sleep(4)  # Chờ trang load sau khi click
+            
+            # Scroll từ từ để đảm bảo toàn bộ nội dung được load
+            last_height = self.driver.execute_script("return document.body.scrollHeight")
             while True:
-                try:
-                    load_more_button = WebDriverWait(self.driver, 5).until(
-                        EC.presence_of_element_located((By.XPATH, '//*[@id="load-more-trigger"]'))
-                    )
-                    self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", load_more_button)
-                    load_more_button.click()
-                    self.clicks += 1  # Increment the click count
-                    pbar.update(1)  # Update progress bar
+                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(2)  # Chờ nội dung load sau mỗi lần scroll
 
-                    wait_time = self._calculate_wait_time(1, self.clicks)  # Adjust wait time based on click count
-                    time.sleep(wait_time)
-
-                    self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-                except Exception as e:  # No more 'Load More' buttons to click.
+                # Kiểm tra chiều cao mới của trang
+                new_height = self.driver.execute_script("return document.body.scrollHeight")
+                if new_height == last_height:  # Nếu không còn nội dung để load thì dừng
+                    print("Reached the bottom of the page.")
                     break
+                last_height = new_height
+
+        except Exception as e:
+            print(f"Error loading 'All' reviews: {e}")
+            
+            # Nếu không tìm thấy nút 'All', thử tìm nút 'Load More'
+            try:
+                load_more_button = WebDriverWait(self.driver, 5).until(
+                    EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Load More')]"))
+                )
+                self.driver.execute_script("arguments[0].click();", load_more_button)
+                time.sleep(4)  # Chờ sau khi click
+            except Exception as e:
+                print(f"Error loading 'Load More' button: {e}")
+
+
+
+
+
+
+
 
 
     def _calculate_wait_time(self, base_wait_time, clicks):

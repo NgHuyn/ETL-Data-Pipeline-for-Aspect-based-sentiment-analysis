@@ -17,8 +17,15 @@ import json
 #         print("Reviews saved to movies_reviews.json")
 
 def fetch_movie_reviews(movie):
+    movie_id = movie['movie_id']  # Thay đổi để lấy movie_id từ dữ liệu
+    logger = MovieReviewScraper.setup_logger(movie_id)  # Khởi tạo logger với movie_id
+    logger.info(f"Fetching reviews for Movie ID: {movie_id}")
+
     scraper = MovieReviewScraper(movie_data=[movie])  # Đảm bảo truyền dữ liệu phim dưới dạng danh sách
-    return scraper.fetch_reviews()
+    reviews = scraper.fetch_reviews()
+    
+    logger.info(f"Fetched {len(reviews)} reviews for Movie ID: {movie_id}")
+    return reviews
 
 if __name__ == "__main__":
     # Get the movie_id first

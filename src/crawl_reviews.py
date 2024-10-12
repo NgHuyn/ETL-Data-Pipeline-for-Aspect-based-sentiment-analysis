@@ -174,8 +174,11 @@ class MovieReviewScraper(BaseScraper):
     def _load_reviews(self):
         # Try to find and click the 'All' reviews button
         try:
-            all_reviews_button = WebDriverWait(self.driver, 2).until(
-                EC.presence_of_element_located((By.XPATH, "//*[@id='__next']/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[2]/button"))
+            # all_reviews_button = WebDriverWait(self.driver, 2).until(
+            #     EC.presence_of_element_located((By.XPATH, "//*[@id='__next']/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[2]/button"))
+            # )
+            all_reviews_button = WebDriverWait(self.driver, 5).until(
+                EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'All')]"))
             )
             self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", all_reviews_button)
             all_reviews_button.click()
@@ -192,7 +195,7 @@ class MovieReviewScraper(BaseScraper):
         with tqdm(desc='Loading More Reviews', leave=False) as pbar:
             while True:
                 try:
-                    load_more_button = WebDriverWait(self.driver, 2).until(
+                    load_more_button = WebDriverWait(self.driver, 5).until(
                         EC.presence_of_element_located((By.XPATH, '//*[@id="load-more-trigger"]'))
                     )
                     self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", load_more_button)
@@ -200,8 +203,8 @@ class MovieReviewScraper(BaseScraper):
                     self.clicks += 1  # Increment the click count
                     pbar.update(1)  # Update progress bar
 
-                    # wait_time = self._calculate_wait_time(1, self.clicks)  # Adjust wait time based on click count
-                    # time.sleep(wait_time)
+                    wait_time = self._calculate_wait_time(1, self.clicks)  # Adjust wait time based on click count
+                    time.sleep(wait_time)
 
                     self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 

@@ -189,6 +189,7 @@ class MovieReviewScraper(BaseScraper):
         except Exception as e:
             # Could not find 'All' button, will try to find 'Load More' button.
             self._load_more_reviews()
+            time.sleep(4)
 
     def _load_more_reviews(self):
         # Add progress bar for loading more reviews

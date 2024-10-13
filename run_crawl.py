@@ -1,43 +1,25 @@
-from src.crawl_reviews import MoviesScraper
+from src.crawl_movies import MoviesScraper
 from src.crawl_reviews import MovieReviewScraper
 import concurrent.futures
 import json
-# if __name__ == "__main__":
-#     # get the movie_id first
-#     scraper = MoviesScraper(clicks=0, release_date_from='2024-01-01', release_date_to='2024-10-07')
-#     movie_data = scraper.fetch_movies()
-#     print(movie_data[1:2])
 
-#     # get the reviews from each movie
-#     scraper = MovieReviewScraper(movie_data=movie_data[1:2])
-#     movie_reviews = scraper.fetch_reviews()
-
-#     with open('movies_reviews.json', 'w', encoding='utf-8') as f:
-#         json.dump(movie_reviews, f, ensure_ascii=False, indent=4)
-#         print("Reviews saved to movies_reviews.json")
-
-def fetch_movie_reviews(movie):
-    movie_id = movie['movie_id']  # Thay đổi để lấy movie_id từ dữ liệu
-    logger = MovieReviewScraper.setup_logger(movie_id)  # Khởi tạo logger với movie_id
-    logger.info(f"Fetching reviews for Movie ID: {movie_id}")
-
-    scraper = MovieReviewScraper(movie_data=[movie])  # Đảm bảo truyền dữ liệu phim dưới dạng danh sách
-    reviews = scraper.fetch_reviews()
+def fetch_movie_reviews(movie_id, movie_title):
+    scraper = MovieReviewScraper(movie_id=movie_id, movie_title=movie_title)  # Đảm bảo truyền dữ liệu phim
+    movie_reviews  = scraper.fetch_reviews()
     
-    logger.info(f"Fetched {len(reviews)} reviews for Movie ID: {movie_id}")
-    return reviews
+    return movie_reviews 
 
 if __name__ == "__main__":
     # Get the movie_id first
     scraper = MoviesScraper(clicks=0, release_date_from='2024-01-01', release_date_to='2024-10-07')
     movie_data = scraper.fetch_movies()
-    print(movie_data[:10])  # In ra danh sách phim để kiểm tra
+    print(movie_data[3:6])  # In ra danh sách phim để kiểm tra
 
-    # Get the reviews from each movie using threading
+    # Lấy đánh giá cho từng phim bằng threading
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
-        movie_reviews = list(executor.map(fetch_movie_reviews, movie_data[:10]))
+        movies_reviews = list(executor.map(lambda movie: fetch_movie_reviews(movie.get('Movie ID'), movie.get('Title')), movie_data[3:6]))
 
     # Save all reviews to a JSON file
     with open('movies_reviews.json', 'w', encoding='utf-8') as f:
-        json.dump(movie_reviews, f, ensure_ascii=False, indent=4)
-        print("Reviews saved to movies_reviews.json")
+        json.dump(movies_reviews, f, ensure_ascii=False, indent=4)
+        print("Reviews saved to movies_reviews_test.json")

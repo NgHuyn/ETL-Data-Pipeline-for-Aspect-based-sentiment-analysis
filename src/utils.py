@@ -1,18 +1,18 @@
 import logging
 import os
 
-def setup_movie_logger(movie_id):
-    # Tạo thư mục 'logs' nếu chưa có
-    os.makedirs('logs', exist_ok=True)
+def setup_reviews_logger(movie_id):
+    # Initialize logs/reviews_log folder
+    os.makedirs('logs/reviews_log', exist_ok=True)
     
-    # Tạo logger riêng với tên dựa trên movie_id
+    # Initialize logger base in movie_id
     logger = logging.getLogger(movie_id)
     logger.setLevel(logging.INFO)
 
-    # Kiểm tra nếu logger đã có handler để tránh bị thêm nhiều lần
+    # check if logger is already have handler to avoid adding many times
     if not logger.handlers:
-        # Tạo file handler cho từng movie_id
-        file_handler = logging.FileHandler(f'logs/{movie_id}.log')
+        # create file handler for each movie_id
+        file_handler = logging.FileHandler(f'logs/reviews_log/{movie_id}.log')
         formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
@@ -20,17 +20,15 @@ def setup_movie_logger(movie_id):
     return logger
 
 def setup_movies_scraper_logger():
-    # Tạo thư mục 'logs' nếu chưa có
-    os.makedirs('logs', exist_ok=True)
+    # Initialize logs/movies_log folder
+    os.makedirs('logs/movies_log', exist_ok=True)
 
-    # Tạo logger cho movies scraper
+    # Initialize logger for movies scraper
     logger = logging.getLogger('movies_scraper')
     logger.setLevel(logging.INFO)
 
-    # Kiểm tra nếu logger đã có handler để tránh bị thêm nhiều lần
     if not logger.handlers:
-        # Tạo file handler cho movies scraper
-        file_handler = logging.FileHandler('logs/movies_scraper.log')
+        file_handler = logging.FileHandler('logs/movies_log/movies_scraper.log')
         formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)

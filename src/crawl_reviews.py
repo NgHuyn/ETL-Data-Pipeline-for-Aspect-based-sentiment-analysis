@@ -9,6 +9,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime, date
 import logging
 import os
+from .utils import setup_movie_logger
+from .utils import setup_movies_scraper_logger
 
 # # Thiết lập logging
 # logging.basicConfig(
@@ -19,25 +21,6 @@ import os
 # )
 # logger = logging.getLogger(__name__)
 
-def setup_logger(movie_id):
-    # Tạo thư mục logs nếu chưa tồn tại
-    if not os.path.exists('logs'):
-        os.makedirs('logs')
-    
-    # Đặt tên file log theo movie_id
-    logger = logging.getLogger(movie_id)
-    logger.setLevel(logging.INFO)
-    
-    # Tạo file handler
-    file_handler = logging.FileHandler(f'logs/{movie_id}_reviews.log', mode='a', encoding='utf-8')
-    file_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
-    
-    # Thêm handler vào logger
-    if not logger.handlers:
-        logger.addHandler(file_handler)
-    
-    return logger
-
 class MoviesScraper(BaseScraper):
     def __init__(self, clicks=200, release_date_from='2024-01-01', release_date_to='2024-10-07'):
         super().__init__()
@@ -45,7 +28,8 @@ class MoviesScraper(BaseScraper):
         self.movie_data = []
         self.release_date_from = release_date_from
         self.release_date_to = release_date_to
-        logger.info("MoviesScraper initialized with %s clicks", self.clicks)
+        self.logger = setup_movies_scraper_logger()  # Khởi tạo logger
+        self.logger.info("MoviesScraper initialized with %s clicks", self.clicks)
 
     def fetch_movies(self):
         try:
@@ -61,7 +45,7 @@ class MoviesScraper(BaseScraper):
 
             with tqdm(total=self.clicks, desc='Loading movies') as pbar:
                 for _ in range(self.clicks):
-                    soup = self.click_see_more_button()
+                    self.click_see_more_button()
                     pbar.update(1)
                     time.sleep(1)  # Optional wait time between clicks
 
@@ -73,9 +57,9 @@ class MoviesScraper(BaseScraper):
             new_movies = final_movies[len(initial_movies):]
             self.extract_movie_data(new_movies)
 
-            logger.info("Completed fetching movies. Total movies: %d", len(self.movie_data))
+            self.logger.info("Completed fetching movies. Total movies: %d", len(self.movie_data))
         except Exception as e:
-            logger.error("Error in fetch_movies: %s", str(e))
+            self.logger.error("Error in fetch_movies: %s", str(e))
         finally:
             self.close_driver()
         return self.movie_data
@@ -98,7 +82,7 @@ class MoviesScraper(BaseScraper):
                     break
                 time.sleep(1)
 
-            return BeautifulSoup(self.driver.page_source, 'html.parser')
+            return 
 
         except Exception as e:
             print(f"Error occurred: {e}")
@@ -141,7 +125,7 @@ class MovieReviewScraper(BaseScraper):
         self.movie_reviews = []  # Adjusted to be a list of movie objects
         self.clicks = 0  # Initialize click counter
         self.is_scraping = True  # Flag to manage scraping status
-        logger.info("MovieReviewScraper initialized")
+        # logger.info("MovieReviewScraper initialized")
 
     def fetch_reviews(self):
         try:
@@ -150,12 +134,16 @@ class MovieReviewScraper(BaseScraper):
                 title = movie.get('Title')  # Get Title from the dictionary
                 total_reviews = 0
                 total_actual_reviews = 0
-
+                
                 if movie_id and title:  # Check if both Movie ID and Title are present
+                    logger = setup_movie_logger(movie_id)  # Logger riêng cho từng movie_id
+                    logger.info("Fetching reviews for movie_id: %s", movie_id)
+
                     for rating_filter in range(1, 11):  # Loop from 1 to 10
                         review_url = f"https://www.imdb.com/title/{movie_id}/reviews?sort=submissionDate&dir=desc&ratingFilter={rating_filter}&rating={rating_filter}"
                         self.driver.get(review_url)
 
+                        logger.info("Accessed URL: %s", review_url)
                         # Check if there are any reviews available
                         review_count = self._get_total_reviews()
                         if review_count == 0:

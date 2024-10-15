@@ -31,14 +31,14 @@ if __name__ == "__main__":
     movie_data = scraper.fetch_movies()
     # print(movie_data[10:20])  # In ra danh sách phim để kiểm tra
 
-    file_path = 'movies_reviews_test.json'
+    file_path = 'movies_reviews_1.json'
 
     # 1. Đọc dữ liệu đã tồn tại trong file JSON (nếu có)
     movies_reviews = load_existing_data(file_path)
 
     # Lấy đánh giá cho từng phim bằng threading
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
-        new_movies_reviews = list(executor.map(lambda movie: fetch_movie_reviews(movie.get('Movie ID'), movie.get('Title')), movie_data[10:20]))
+        new_movies_reviews = list(executor.map(lambda movie: fetch_movie_reviews(movie.get('Movie ID'), movie.get('Title')), movie_data[30:40]))
 
     # 3. Lọc bỏ các phần tử trống hoặc None trong new_reviews
     new_movies_reviews = [review for review in new_movies_reviews if review]

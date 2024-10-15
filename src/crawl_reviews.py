@@ -51,11 +51,11 @@ class MovieReviewScraper(BaseScraper):
     #             soup = BeautifulSoup(html, 'html.parser')
 
     #             # Extract reviews for the current movie and accumulate total_reviews
-    #             self.movie_reviews, num_reviews = self._extract_reviews(soup, self.movie_id, self.movie_title)
+    #             self.movie_info, num_reviews = self._extract_reviews(soup, self.movie_id, self.movie_title)
 
     #             total_reviews += review_count
-    #             # if movie_info is None:
-    #             #     self.logger.warning(f"No reviews found for Movie ID: {self.movie_id}.")
+    #             if num_reviews == 0:
+    #                 self.logger.warning(f"No reviews found for Movie ID: {self.movie_id}.")
 
     #             total_actual_reviews += num_reviews  # Accumulate reviews count
     #             if review_count - num_reviews != 0:
@@ -68,22 +68,20 @@ class MovieReviewScraper(BaseScraper):
     #         self.logger.info('Movie %s has %d/%d reviews', self.movie_id, total_actual_reviews, total_reviews)
     #         self.close_driver()
     #         self.is_scraping = False
-    #     return self.movie_reviews
+    #     return self.movie_info
 
     def fetch_reviews(self):
-        total_reviews = 0
-        total_actual_reviews = 0
-        try:
-            for rating_filter in range(1, 11):  # Loop from 1 to 10
-                review_url = f"https://www.imdb.com/title/{self.movie_id}/reviews?sort=submissionDate&dir=desc&ratingFilter={rating_filter}&rating={rating_filter}"
+            total_reviews = 0
+            try:
+                review_url = f"https://www.imdb.com/title/{self.movie_id}/reviews?sort=submissionDate&dir=desc"
                 self.driver.get(review_url)
 
                 self.logger.info("Accessed URL: %s", review_url)
                 # Check if there are any reviews available
-                review_count = self._get_total_reviews()
-                if review_count == 0:
-                    self.logger.info("No reviews found for Movie ID %s with rating %d", self.movie_id, rating_filter)
-                    continue  # Skip to the next rating filter if no reviews
+                total_reviews = self._get_total_reviews()
+                if total_reviews == 0:
+                    self.logger.info("No reviews found for Movie ID %s", self.movie_id)
+                    return 
 
                 # If reviews are available, attempt to load all or more reviews
                 self._load_reviews()  # Load more reviews by clicking the button
@@ -97,22 +95,18 @@ class MovieReviewScraper(BaseScraper):
                 # Extract reviews for the current movie and accumulate total_reviews
                 self.movie_info, num_reviews = self._extract_reviews(soup, self.movie_id, self.movie_title)
 
-                total_reviews += review_count
                 if num_reviews == 0:
                     self.logger.warning(f"No reviews found for Movie ID: {self.movie_id}.")
 
-                total_actual_reviews += num_reviews  # Accumulate reviews count
-                if review_count - num_reviews != 0:
-                    self.logger.warning('Missing %d reviews', review_count - num_reviews)
-                self.logger.info('Movie %s has %d/%d reviews', self.movie_id, num_reviews, review_count)
-        except Exception as e:
-            self.logger.error("Error in fetch_reviews: %s", str(e))
-        finally:
-            # self.logger.info(f"Fetched {total_actual_reviews} reviews for Movie ID: {self.movie_id}")
-            self.logger.info('Movie %s has %d/%d reviews', self.movie_id, total_actual_reviews, total_reviews)
-            self.close_driver()
-            self.is_scraping = False
-        return self.movie_info
+                if total_reviews - num_reviews != 0:
+                    self.logger.warning('Missing %d reviews', total_reviews - num_reviews)
+            except Exception as e:
+                self.logger.error("Error in fetch_reviews: %s", str(e))
+            finally:
+                self.logger.info('Movie %s has %d/%d reviews', self.movie_id, num_reviews, total_reviews)
+                self.close_driver()
+                self.is_scraping = False
+            return self.movie_info
 
     def _get_total_reviews(self):
         """Fetch the total number of reviews from the page."""
@@ -123,7 +117,7 @@ class MovieReviewScraper(BaseScraper):
             )
             total_reviews_text = total_reviews_element.text.split()[0]  # Get the number part
             self.logger.info("Total reviews found: %s", total_reviews_text)
-            return int(total_reviews_text)
+            return int(total_reviews_text.replace(',', ''))
         except Exception as e:
             # If the first attempt fails, check the alternative method
             try:
@@ -132,7 +126,7 @@ class MovieReviewScraper(BaseScraper):
                 )
                 total_reviews_text = total_reviews_element.text.split()[0]  # Get the number part
                 self.logger.info("Total reviews found: %s", total_reviews_text)
-                return int(total_reviews_text)
+                return int(total_reviews_text.replace(',', ''))
             except Exception as e:
                 self.logger.error("Error fetching total reviews: %s", e)
                 return 0  # Default to 0 if neither element is found

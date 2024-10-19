@@ -11,7 +11,7 @@ from .utils import setup_movies_scraper_logger
 import math
 
 class MoviesScraper(BaseScraper):
-    def __init__(self, release_date_from='2024-10-19', release_date_to='2024-10-20'):
+    def __init__(self, release_date_from='2024-01-01', release_date_to='2024-10-19'):
         super().__init__()
         self.release_date_from = release_date_from
         self.release_date_to = release_date_to
@@ -62,10 +62,11 @@ class MoviesScraper(BaseScraper):
     def click_see_more_button(self):
         try:
             see_more_button = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//span[contains(text(), 'more')]"))
+                EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/main/div[2]/div[3]/section/section/div/section/section/div[2]/div/section/div[2]/div[2]/div[2]/div/span/button'))
             )
             self.driver.execute_script("arguments[0].scrollIntoView(); arguments[0].click();", see_more_button)
             self.logger.info("Clicked 'Load More' button successfully.")
+            
         except Exception as e:
             self.logger.warning(f"No more 'See More' buttons found")
             return None

@@ -9,66 +9,21 @@ from datetime import datetime, date
 from .utils import setup_reviews_logger
 
 # ReviewsScraper class to fetch reviews for each movie
-class MovieReviewScraper(BaseScraper):
+class MovieNewReviewScraper(BaseScraper):
     def __init__(self, movie_id, movie_title):
         super().__init__()  # Call the base class constructor
-        self.movie_id = movie_id  # Load movie data from movie data
+        self.movie_id = movie_id
         self.movie_title = movie_title
-        # self.movie_reviews = []  # Adjusted to be a list of movie objects
         self.clicks = 0  # Initialize click counter
-        # Initialize a new movie_info if it doesn't exist
-        self.movie_info = {
+        self.movie_info = { 
             'Movie ID': movie_id,
+            'Total Reviews': 0,
             'Reviews': []
         }
         self.is_scraping = True  # Flag to manage scraping status
 
         self.logger = setup_reviews_logger(movie_id) 
         self.logger.info("Fetching reviews for movie_id: %s", movie_id)
-
-    # def fetch_reviews(self):
-    #     total_reviews = 0
-    #     total_actual_reviews = 0
-    #     try:
-    #         for rating_filter in range(1, 11):  # Loop from 1 to 10
-    #             review_url = f"https://www.imdb.com/title/{self.movie_id}/reviews?sort=submissionDate&dir=desc&ratingFilter={rating_filter}&rating={rating_filter}"
-    #             self.driver.get(review_url)
-
-    #             self.logger.info("Accessed URL: %s", review_url)
-    #             # Check if there are any reviews available
-    #             review_count = self._get_total_reviews()
-    #             if review_count == 0:
-    #                 self.logger.info("No reviews found for Movie ID %s with rating %d", self.movie_id, rating_filter)
-    #                 continue  # Skip to the next rating filter if no reviews
-
-    #             # If reviews are available, attempt to load all or more reviews
-    #             self._load_reviews()  # Load more reviews by clicking the button
-    #             wait_time = self._calculate_wait_time(10, self.clicks)  # Adjust wait time based on click count
-    #             time.sleep(wait_time)
-
-    #             # Extract reviews from the loaded page
-    #             html = self.driver.page_source
-    #             soup = BeautifulSoup(html, 'html.parser')
-
-    #             # Extract reviews for the current movie and accumulate total_reviews
-    #             self.movie_info, num_reviews = self._extract_reviews(soup, self.movie_id, self.movie_title)
-
-    #             total_reviews += review_count
-    #             if num_reviews == 0:
-    #                 self.logger.warning(f"No reviews found for Movie ID: {self.movie_id}.")
-
-    #             total_actual_reviews += num_reviews  # Accumulate reviews count
-    #             if review_count - num_reviews != 0:
-    #                 self.logger.warning('Missing %d reviews', review_count - num_reviews)
-    #             self.logger.info('Movie %s has %d/%d reviews', self.movie_id, num_reviews, review_count)
-    #     except Exception as e:
-    #         self.logger.error("Error in fetch_reviews: %s", str(e))
-    #     finally:
-    #         # self.logger.info(f"Fetched {total_actual_reviews} reviews for Movie ID: {self.movie_id}")
-    #         self.logger.info('Movie %s has %d/%d reviews', self.movie_id, total_actual_reviews, total_reviews)
-    #         self.close_driver()
-    #         self.is_scraping = False
-    #     return self.movie_info
 
     def fetch_reviews(self):
             total_reviews = 0
@@ -81,7 +36,8 @@ class MovieReviewScraper(BaseScraper):
                 total_reviews = self._get_total_reviews()
                 if total_reviews == 0:
                     self.logger.info("No reviews found for Movie ID %s", self.movie_id)
-                    return 
+                    return None
+                self.movie_info['Total Reviews'] = total_reviews
 
                 # If reviews are available, attempt to load all or more reviews
                 self._load_reviews()  # Load more reviews by clicking the button
@@ -97,13 +53,14 @@ class MovieReviewScraper(BaseScraper):
 
                 if num_reviews == 0:
                     self.logger.warning(f"No reviews found for Movie ID: {self.movie_id}.")
+                    return None
 
                 if total_reviews - num_reviews != 0:
                     self.logger.warning('Missing %d reviews', total_reviews - num_reviews)
+                self.logger.info('Movie %s has %d/%d reviews', self.movie_id, num_reviews, total_reviews)
             except Exception as e:
                 self.logger.error("Error in fetch_reviews: %s", str(e))
             finally:
-                self.logger.info('Movie %s has %d/%d reviews', self.movie_id, num_reviews, total_reviews)
                 self.close_driver()
                 self.is_scraping = False
             return self.movie_info
@@ -194,58 +151,9 @@ class MovieReviewScraper(BaseScraper):
         
         return base_wait_time + additional_wait_time
 
-
-    # def _extract_reviews(self, soup, movie_id, title):
-    #     # Attempt to extract reviews using the primary selector
-    #     reviews = soup.select('article.user-review-item')
-
-    #     # Check if movie info already exists in the list
-    #     movie_info = next((info for info in self.movie_reviews if info['Movie ID'] == movie_id), None)
-
-    #     if movie_info is None:
-    #         # Initialize a new movie_info if it doesn't exist
-    #         movie_info = {
-    #             'Movie ID': movie_id,
-    #             'Reviews': []
-    #         }
-    #         self.movie_reviews.append(movie_info)  # Append to the main list
-    #         self.logger.info(f"Initialized new movie info for Movie ID: {movie_id}, Title: {title}.")
-
-    #     # If no reviews found, try to load more reviews
-    #     if not reviews:  # Attempt to load more reviews
-    #         reviews = soup.select('div.lister-item.mode-detail.imdb-user-review')
-    #         if not reviews:  # If still no reviews available
-    #             self.logger.warning(f"No reviews found for {title}.")
-    #             return 0  # Return 0 if no reviews found
-
-    #     # Parse reviews and add them to the movie_info['Reviews'] list
-    #     for review in reviews:
-    #         # Determine the button type (all vs. load more) based on the presence of specific elements
-    #         button_type = "load_more" if review.select_one('span.rating-other-user-rating span') else "all"
-    #         parsed_review = self._parse_review(review, button_type)
-
-    #         # Append the parsed review to the 'Reviews' list
-    #         movie_info['Reviews'].append(parsed_review)
-    #         # self.logger.info(f"Added review for Movie ID: {movie_id}, Title: {title}, Button Type: {button_type}.")
-
-    #     self.logger.info(f"Processed {len(reviews)} reviews for Movie ID: {movie_id}, Title: {title}.")
-    #     return self.movie_reviews, len(reviews) # Return the number of reviews processed
-
     def _extract_reviews(self, soup, movie_id, title):
         # Attempt to extract reviews using the primary selector
         reviews = soup.select('article.user-review-item')
-
-        # # Check if movie info already exists in the list
-        # movie_info = next((info for info in self.movie_reviews if info['Movie ID'] == movie_id), None)
-
-        # if movie_info is None:
-        #     # Initialize a new movie_info if it doesn't exist
-        #     movie_info = {
-        #         'Movie ID': movie_id,
-        #         'Reviews': []
-        #     }
-        #     self.movie_reviews.append(movie_info)  # Append to the main list
-        #     self.logger.info(f"Initialized new movie info for Movie ID: {movie_id}, Title: {title}.")
 
         # If no reviews found, try to load more reviews
         if not reviews:  # Attempt to load more reviews

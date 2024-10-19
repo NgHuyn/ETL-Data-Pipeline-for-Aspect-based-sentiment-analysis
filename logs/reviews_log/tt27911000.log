@@ -1,0 +1,96 @@
+2024-10-14 20:36:21,697 - INFO - Fetching reviews for movie_id: tt27911000
+2024-10-14 20:36:28,314 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 20:36:30,408 - INFO - Total reviews found: 9
+2024-10-14 20:36:35,561 - INFO - No 'All' button found.
+2024-10-14 20:36:40,707 - INFO - No 'Load More' button found.
+2024-10-14 20:36:40,707 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:36:45,819 - INFO - No 'More' button found.
+2024-10-14 20:36:45,819 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:37:05,963 - INFO - Processed 9 reviews for Movie ID: tt27911000, Title: Terrifier 3.
+2024-10-14 20:37:05,963 - INFO - Movie tt27911000 has 9/9 reviews
+2024-10-14 20:37:10,689 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 20:37:12,755 - INFO - Total reviews found: 4
+2024-10-14 20:37:17,888 - INFO - No 'All' button found.
+2024-10-14 20:37:23,010 - INFO - No 'Load More' button found.
+2024-10-14 20:37:23,010 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:37:28,154 - INFO - No 'More' button found.
+2024-10-14 20:37:28,154 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:37:48,231 - INFO - Processed 4 reviews for Movie ID: tt27911000, Title: Terrifier 3.
+2024-10-14 20:37:48,232 - INFO - Movie tt27911000 has 4/4 reviews
+2024-10-14 20:37:51,014 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 20:37:53,077 - INFO - Total reviews found: 0
+2024-10-14 20:37:53,086 - INFO - No reviews found for Movie ID tt27911000 with rating 3
+2024-10-14 20:37:55,208 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 20:37:57,277 - INFO - Total reviews found: 3
+2024-10-14 20:38:02,440 - INFO - No 'All' button found.
+2024-10-14 20:38:07,587 - INFO - No 'Load More' button found.
+2024-10-14 20:38:07,587 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:38:12,741 - INFO - No 'More' button found.
+2024-10-14 20:38:12,741 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:38:32,818 - INFO - Processed 3 reviews for Movie ID: tt27911000, Title: Terrifier 3.
+2024-10-14 20:38:32,818 - INFO - Movie tt27911000 has 3/3 reviews
+2024-10-14 20:38:34,922 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 20:38:36,986 - INFO - Total reviews found: 2
+2024-10-14 20:38:42,155 - INFO - No 'All' button found.
+2024-10-14 20:38:47,282 - INFO - No 'Load More' button found.
+2024-10-14 20:38:47,282 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:38:52,413 - INFO - No 'More' button found.
+2024-10-14 20:38:52,413 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:39:12,464 - INFO - Processed 2 reviews for Movie ID: tt27911000, Title: Terrifier 3.
+2024-10-14 20:39:12,464 - INFO - Movie tt27911000 has 2/2 reviews
+2024-10-14 20:39:14,561 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 20:39:16,637 - INFO - Total reviews found: 7
+2024-10-14 20:39:21,796 - INFO - No 'All' button found.
+2024-10-14 20:39:26,943 - INFO - No 'Load More' button found.
+2024-10-14 20:39:26,943 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:39:32,106 - INFO - No 'More' button found.
+2024-10-14 20:39:32,106 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:39:52,161 - INFO - Processed 7 reviews for Movie ID: tt27911000, Title: Terrifier 3.
+2024-10-14 20:39:52,161 - INFO - Movie tt27911000 has 7/7 reviews
+2024-10-14 20:39:54,313 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 20:39:56,379 - INFO - Total reviews found: 19
+2024-10-14 20:40:01,544 - INFO - No 'All' button found.
+2024-10-14 20:40:06,704 - INFO - No 'Load More' button found.
+2024-10-14 20:40:06,704 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:40:11,835 - INFO - No 'More' button found.
+2024-10-14 20:40:11,835 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:40:31,923 - INFO - Processed 19 reviews for Movie ID: tt27911000, Title: Terrifier 3.
+2024-10-14 20:40:31,923 - INFO - Movie tt27911000 has 19/19 reviews
+2024-10-14 20:40:34,085 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 20:40:36,146 - INFO - Total reviews found: 27
+2024-10-14 20:40:41,290 - INFO - No 'All' button found.
+2024-10-14 20:40:45,337 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:40:50,559 - INFO - No 'Load More' button found.
+2024-10-14 20:40:50,559 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:40:55,722 - INFO - No 'More' button found.
+2024-10-14 20:40:55,722 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:41:15,848 - INFO - Processed 27 reviews for Movie ID: tt27911000, Title: Terrifier 3.
+2024-10-14 20:41:15,848 - INFO - Movie tt27911000 has 27/27 reviews
+2024-10-14 20:41:17,994 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 20:41:20,050 - INFO - Total reviews found: 15
+2024-10-14 20:41:25,149 - INFO - No 'All' button found.
+2024-10-14 20:41:30,239 - INFO - No 'Load More' button found.
+2024-10-14 20:41:30,239 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:41:35,327 - INFO - No 'More' button found.
+2024-10-14 20:41:35,327 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:41:55,412 - INFO - Processed 15 reviews for Movie ID: tt27911000, Title: Terrifier 3.
+2024-10-14 20:41:55,412 - INFO - Movie tt27911000 has 15/15 reviews
+2024-10-14 20:41:57,619 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 20:41:59,673 - INFO - Total reviews found: 31
+2024-10-14 20:42:04,757 - INFO - No 'All' button found.
+2024-10-14 20:42:08,809 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:42:13,966 - INFO - No 'Load More' button found.
+2024-10-14 20:42:13,966 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:42:19,083 - INFO - No 'More' button found.
+2024-10-14 20:42:19,083 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:42:39,236 - INFO - Processed 31 reviews for Movie ID: tt27911000, Title: Terrifier 3.
+2024-10-14 20:42:39,236 - INFO - Movie tt27911000 has 31/31 reviews
+2024-10-14 20:42:39,236 - INFO - Movie tt27911000 has 117/117 reviews
+2024-10-14 21:00:13,443 - INFO - Fetching reviews for movie_id: tt27911000
+2024-10-14 21:00:20,676 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 21:00:22,755 - INFO - Total reviews found: 9
+2024-10-14 21:00:27,969 - INFO - No 'All' button found.
+2024-10-14 21:00:33,119 - INFO - No 'Load More' button found.
+2024-10-14 21:00:33,119 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:00:38,286 - INFO - No 'More' button found.
+2024-10-14 21:00:38,286 - INFO - No 'More' button found, all reviews loaded.

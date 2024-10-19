@@ -1,0 +1,97 @@
+2024-10-14 14:26:11,871 - INFO - Fetching reviews for movie_id: tt14257582
+2024-10-14 14:26:19,973 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 14:26:22,077 - INFO - Total reviews found: 14
+2024-10-14 14:26:27,200 - INFO - No 'All' button found.
+2024-10-14 14:26:32,319 - INFO - No 'Load More' button found.
+2024-10-14 14:26:32,319 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:26:37,438 - INFO - No 'More' button found.
+2024-10-14 14:26:37,438 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:26:57,577 - INFO - Processed 14 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:26:57,577 - INFO - Movie tt14257582 has 14/14 reviews
+2024-10-14 14:26:59,836 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 14:27:01,900 - INFO - Total reviews found: 12
+2024-10-14 14:27:07,006 - INFO - No 'All' button found.
+2024-10-14 14:27:12,119 - INFO - No 'Load More' button found.
+2024-10-14 14:27:12,119 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:27:17,235 - INFO - No 'More' button found.
+2024-10-14 14:27:17,235 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:27:37,298 - INFO - Processed 12 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:27:37,298 - INFO - Movie tt14257582 has 12/12 reviews
+2024-10-14 14:27:39,970 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 14:27:42,017 - INFO - Total reviews found: 19
+2024-10-14 14:27:47,135 - INFO - No 'All' button found.
+2024-10-14 14:27:52,252 - INFO - No 'Load More' button found.
+2024-10-14 14:27:52,252 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:27:57,374 - INFO - No 'More' button found.
+2024-10-14 14:27:57,374 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:28:17,457 - INFO - Processed 19 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:28:17,457 - INFO - Movie tt14257582 has 19/19 reviews
+2024-10-14 14:28:19,715 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 14:28:21,775 - INFO - Total reviews found: 28
+2024-10-14 14:28:26,896 - INFO - No 'All' button found.
+2024-10-14 14:28:30,950 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:28:36,148 - INFO - No 'Load More' button found.
+2024-10-14 14:28:36,148 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:28:41,280 - INFO - No 'More' button found.
+2024-10-14 14:28:41,280 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:29:01,410 - INFO - Processed 28 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:29:01,410 - INFO - Movie tt14257582 has 28/28 reviews
+2024-10-14 14:29:03,762 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 14:29:05,817 - INFO - Total reviews found: 30
+2024-10-14 14:29:10,949 - INFO - No 'All' button found.
+2024-10-14 14:29:14,987 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:29:20,178 - INFO - No 'Load More' button found.
+2024-10-14 14:29:20,178 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:29:25,305 - INFO - No 'More' button found.
+2024-10-14 14:29:25,305 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:29:45,450 - INFO - Processed 30 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:29:45,450 - INFO - Movie tt14257582 has 30/30 reviews
+2024-10-14 14:29:47,856 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 14:29:49,916 - INFO - Total reviews found: 38
+2024-10-14 14:29:55,021 - INFO - No 'All' button found.
+2024-10-14 14:29:59,070 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:30:04,251 - INFO - No 'Load More' button found.
+2024-10-14 14:30:04,251 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:30:09,377 - INFO - No 'More' button found.
+2024-10-14 14:30:09,377 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:30:29,516 - INFO - Processed 38 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:30:29,516 - INFO - Movie tt14257582 has 38/38 reviews
+2024-10-14 14:30:31,729 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 14:30:33,799 - INFO - Total reviews found: 43
+2024-10-14 14:30:38,913 - INFO - No 'All' button found.
+2024-10-14 14:30:42,950 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:30:48,140 - INFO - No 'Load More' button found.
+2024-10-14 14:30:48,140 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:30:53,277 - INFO - No 'More' button found.
+2024-10-14 14:30:53,277 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:31:13,463 - INFO - Processed 43 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:31:13,463 - INFO - Movie tt14257582 has 43/43 reviews
+2024-10-14 14:31:15,731 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 14:31:17,799 - INFO - Total reviews found: 29
+2024-10-14 14:31:22,910 - INFO - No 'All' button found.
+2024-10-14 14:31:26,948 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:31:32,128 - INFO - No 'Load More' button found.
+2024-10-14 14:31:32,128 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:31:37,252 - INFO - No 'More' button found.
+2024-10-14 14:31:37,252 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:31:57,368 - INFO - Processed 29 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:31:57,368 - INFO - Movie tt14257582 has 29/29 reviews
+2024-10-14 14:31:59,587 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 14:32:01,657 - INFO - Total reviews found: 12
+2024-10-14 14:32:06,765 - INFO - No 'All' button found.
+2024-10-14 14:32:11,880 - INFO - No 'Load More' button found.
+2024-10-14 14:32:11,880 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:32:16,992 - INFO - No 'More' button found.
+2024-10-14 14:32:16,992 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:32:37,063 - INFO - Processed 12 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:32:37,063 - INFO - Movie tt14257582 has 12/12 reviews
+2024-10-14 14:32:39,338 - INFO - Accessed URL: https://www.imdb.com/title/tt14257582/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 14:32:41,396 - INFO - Total reviews found: 10
+2024-10-14 14:32:46,497 - INFO - No 'All' button found.
+2024-10-14 14:32:51,610 - INFO - No 'Load More' button found.
+2024-10-14 14:32:51,610 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:32:56,728 - INFO - No 'More' button found.
+2024-10-14 14:32:56,728 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:33:16,802 - INFO - Processed 10 reviews for Movie ID: tt14257582, Title: Wolfs.
+2024-10-14 14:33:16,802 - INFO - Movie tt14257582 has 10/10 reviews
+2024-10-14 14:33:16,802 - INFO - Movie tt14257582 has 235/235 reviews

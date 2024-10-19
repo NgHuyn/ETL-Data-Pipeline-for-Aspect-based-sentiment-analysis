@@ -1,0 +1,10 @@
+2024-10-19 17:01:08,083 - INFO - Fetching reviews for movie_id: tt27604605
+2024-10-19 17:01:12,184 - INFO - Accessed URL: https://www.imdb.com/title/tt27604605/reviews?sort=submissionDate&dir=desc
+2024-10-19 17:01:12,210 - INFO - Total reviews found: 2
+2024-10-19 17:01:17,376 - INFO - No 'All' button found.
+2024-10-19 17:01:22,520 - INFO - No 'Load More' button found.
+2024-10-19 17:01:22,520 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-19 17:01:27,661 - INFO - No 'More' button found.
+2024-10-19 17:01:27,661 - INFO - No 'More' button found, all reviews loaded.
+2024-10-19 17:01:47,788 - INFO - Processed 2 reviews for Movie ID: tt27604605, Title: Winner.
+2024-10-19 17:01:47,789 - INFO - Movie tt27604605 has 2/2 reviews

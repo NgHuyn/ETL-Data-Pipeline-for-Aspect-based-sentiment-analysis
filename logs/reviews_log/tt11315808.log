@@ -1,0 +1,1663 @@
+2024-10-14 13:12:56,805 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 13:13:00,181 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 13:13:00,367 - INFO - Total reviews found: 358
+2024-10-14 13:13:04,428 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:13:04,428 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:13:04,441 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:13:24,724 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:13:46,363 - INFO - Processed 358 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:13:46,380 - INFO - Movie tt11315808 has 358/358 reviews
+2024-10-14 13:13:49,175 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 13:13:49,348 - INFO - Total reviews found: 116
+2024-10-14 13:13:53,381 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:13:53,382 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:13:53,482 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:13:57,507 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:14:18,046 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:14:18,046 - WARNING - Missing 1 reviews
+2024-10-14 13:14:18,046 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 13:14:20,693 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 13:14:20,851 - INFO - Total reviews found: 144
+2024-10-14 13:14:24,889 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:14:24,889 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:14:24,944 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:14:30,980 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:14:51,649 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:14:51,649 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 13:14:54,542 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 13:14:54,715 - INFO - Total reviews found: 132
+2024-10-14 13:14:58,754 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:14:58,754 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:14:58,764 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:15:04,798 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:15:25,439 - INFO - Processed 132 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:15:25,439 - INFO - Movie tt11315808 has 132/132 reviews
+2024-10-14 13:15:28,316 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 13:15:28,493 - INFO - Total reviews found: 131
+2024-10-14 13:15:32,531 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:15:32,531 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:15:32,542 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:15:38,574 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:15:59,258 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:15:59,258 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 13:16:01,989 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 13:16:02,159 - INFO - Total reviews found: 114
+2024-10-14 13:16:06,193 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:16:06,193 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:16:06,203 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:16:10,234 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:16:30,852 - INFO - Processed 114 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:16:30,852 - INFO - Movie tt11315808 has 114/114 reviews
+2024-10-14 13:16:33,568 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 13:16:33,745 - INFO - Total reviews found: 114
+2024-10-14 13:16:37,778 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:16:37,778 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:16:37,832 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:16:41,856 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:17:02,566 - INFO - Processed 114 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:17:02,566 - INFO - Movie tt11315808 has 114/114 reviews
+2024-10-14 13:17:05,925 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 13:17:06,138 - INFO - Total reviews found: 147
+2024-10-14 13:17:10,202 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:17:10,202 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:17:10,218 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:17:16,252 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:17:36,971 - INFO - Processed 147 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:17:36,971 - INFO - Movie tt11315808 has 147/147 reviews
+2024-10-14 13:17:39,754 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 13:17:39,966 - INFO - Total reviews found: 124
+2024-10-14 13:17:44,017 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:17:44,017 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:17:44,036 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:17:48,063 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:18:08,593 - INFO - Processed 124 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:18:08,593 - INFO - Movie tt11315808 has 124/124 reviews
+2024-10-14 13:18:11,412 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 13:18:11,555 - INFO - Total reviews found: 204
+2024-10-14 13:18:15,588 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:18:15,588 - INFO - Clicked 'All' button successfully.
+2024-10-14 13:18:15,596 - INFO - Starting to scroll to load all reviews.
+2024-10-14 13:18:25,669 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 13:18:46,625 - INFO - Processed 204 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 13:18:46,625 - INFO - Movie tt11315808 has 204/204 reviews
+2024-10-14 13:18:46,625 - INFO - Movie tt11315808 has 1583/1584 reviews
+2024-10-14 13:28:06,543 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 13:28:10,356 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 13:28:12,449 - INFO - Total reviews found: 358
+2024-10-14 13:28:17,577 - INFO - No 'All' button found.
+2024-10-14 13:28:21,627 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:28:25,665 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:28:29,704 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:05:32,418 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 14:05:38,381 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 14:05:38,418 - INFO - Total reviews found: 358
+2024-10-14 14:05:42,471 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:05:42,471 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:05:42,481 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:05:50,602 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:06:12,356 - INFO - Processed 358 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:06:12,356 - INFO - Movie tt11315808 has 358/358 reviews
+2024-10-14 14:06:14,957 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 14:06:15,140 - INFO - Total reviews found: 116
+2024-10-14 14:06:19,182 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:06:19,182 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:06:19,193 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:06:21,205 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:06:41,716 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:06:41,716 - WARNING - Missing 1 reviews
+2024-10-14 14:06:41,716 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 14:06:45,117 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 14:06:45,320 - INFO - Total reviews found: 144
+2024-10-14 14:06:49,363 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:06:49,363 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:06:49,372 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:06:51,382 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:07:12,123 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:07:12,123 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 14:07:14,947 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 14:07:15,127 - INFO - Total reviews found: 132
+2024-10-14 14:07:19,168 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:07:19,168 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:07:19,179 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:07:21,192 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:07:41,814 - INFO - Processed 132 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:07:41,815 - INFO - Movie tt11315808 has 132/132 reviews
+2024-10-14 14:07:45,214 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 14:07:45,369 - INFO - Total reviews found: 131
+2024-10-14 14:07:49,403 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:07:49,403 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:07:49,412 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:07:51,426 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:08:12,045 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:08:12,045 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 14:08:14,762 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 14:08:14,941 - INFO - Total reviews found: 114
+2024-10-14 14:08:18,986 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:08:18,986 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:08:18,996 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:08:21,010 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:08:41,511 - INFO - Processed 114 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:08:41,511 - INFO - Movie tt11315808 has 114/114 reviews
+2024-10-14 14:08:44,143 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 14:08:44,472 - INFO - Total reviews found: 114
+2024-10-14 14:08:48,511 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:08:48,511 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:08:48,518 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:08:50,531 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:09:11,110 - INFO - Processed 114 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:09:11,110 - INFO - Movie tt11315808 has 114/114 reviews
+2024-10-14 14:09:13,972 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 14:09:14,141 - INFO - Total reviews found: 147
+2024-10-14 14:09:18,172 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:09:18,172 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:09:18,182 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:09:20,196 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:09:40,821 - INFO - Processed 147 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:09:40,822 - INFO - Movie tt11315808 has 147/147 reviews
+2024-10-14 14:09:43,548 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 14:09:43,721 - INFO - Total reviews found: 124
+2024-10-14 14:09:47,757 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:09:47,757 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:09:47,764 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:09:49,776 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:10:10,366 - INFO - Processed 124 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:10:10,367 - INFO - Movie tt11315808 has 124/124 reviews
+2024-10-14 14:10:13,742 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 14:10:13,913 - INFO - Total reviews found: 204
+2024-10-14 14:10:17,952 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:10:17,953 - INFO - Clicked 'All' button successfully.
+2024-10-14 14:10:17,984 - INFO - Starting to scroll to load all reviews.
+2024-10-14 14:10:19,998 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 14:10:40,854 - INFO - Processed 204 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 14:10:40,855 - INFO - Movie tt11315808 has 204/204 reviews
+2024-10-14 14:10:40,855 - INFO - Movie tt11315808 has 1583/1584 reviews
+2024-10-14 14:59:36,286 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 14:59:39,385 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 14:59:41,465 - INFO - Total reviews found: 358
+2024-10-14 14:59:46,596 - INFO - No 'All' button found.
+2024-10-14 14:59:50,646 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:59:54,686 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:59:58,724 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:02,762 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:06,799 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:10,838 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:14,883 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:18,927 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:22,968 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:27,010 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:31,052 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:35,093 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:39,135 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:43,183 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:00:48,433 - INFO - No 'Load More' button found.
+2024-10-14 15:00:48,433 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:00:53,616 - INFO - No 'More' button found.
+2024-10-14 15:00:53,616 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:01:14,588 - INFO - Processed 358 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:01:14,588 - INFO - Movie tt11315808 has 358/358 reviews
+2024-10-14 15:01:17,466 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 15:01:19,530 - INFO - Total reviews found: 116
+2024-10-14 15:01:24,670 - INFO - No 'All' button found.
+2024-10-14 15:01:28,722 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:01:32,761 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:01:36,798 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:01:40,838 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:01:46,055 - INFO - No 'Load More' button found.
+2024-10-14 15:01:46,055 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:01:51,191 - INFO - No 'More' button found.
+2024-10-14 15:01:51,191 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:02:11,648 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:02:11,648 - WARNING - Missing 1 reviews
+2024-10-14 15:02:11,648 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 15:02:15,558 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 15:02:17,639 - INFO - Total reviews found: 144
+2024-10-14 15:02:22,762 - INFO - No 'All' button found.
+2024-10-14 15:02:26,801 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:02:30,848 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:02:34,889 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:02:38,930 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:02:42,987 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:02:48,202 - INFO - No 'Load More' button found.
+2024-10-14 15:02:48,202 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:02:53,350 - INFO - No 'More' button found.
+2024-10-14 15:02:53,350 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:03:13,752 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:03:13,767 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 15:03:16,375 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 15:03:18,449 - INFO - Total reviews found: 133
+2024-10-14 15:03:23,564 - INFO - No 'All' button found.
+2024-10-14 15:03:27,602 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:03:31,638 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:03:35,681 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:03:39,725 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:03:43,778 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:03:48,980 - INFO - No 'Load More' button found.
+2024-10-14 15:03:48,980 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:03:54,118 - INFO - No 'More' button found.
+2024-10-14 15:03:54,118 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:04:14,533 - INFO - Processed 133 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:04:14,533 - INFO - Movie tt11315808 has 133/133 reviews
+2024-10-14 15:04:17,189 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 15:04:19,253 - INFO - Total reviews found: 131
+2024-10-14 15:04:24,367 - INFO - No 'All' button found.
+2024-10-14 15:04:28,410 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:04:32,450 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:04:36,494 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:04:40,533 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:04:44,586 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:04:49,824 - INFO - No 'Load More' button found.
+2024-10-14 15:04:49,824 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:04:54,968 - INFO - No 'More' button found.
+2024-10-14 15:04:54,968 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:05:15,399 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:05:15,399 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 15:05:18,121 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 15:05:20,181 - INFO - Total reviews found: 114
+2024-10-14 15:05:25,309 - INFO - No 'All' button found.
+2024-10-14 15:05:29,354 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:05:33,394 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:05:37,431 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:05:41,472 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:05:46,692 - INFO - No 'Load More' button found.
+2024-10-14 15:05:46,692 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:05:51,829 - INFO - No 'More' button found.
+2024-10-14 15:05:51,829 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:06:12,163 - INFO - Processed 114 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:06:12,164 - INFO - Movie tt11315808 has 114/114 reviews
+2024-10-14 15:06:14,969 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 15:06:17,036 - INFO - Total reviews found: 114
+2024-10-14 15:06:22,160 - INFO - No 'All' button found.
+2024-10-14 15:06:26,199 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:06:30,265 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:06:34,298 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:06:38,337 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:06:43,551 - INFO - No 'Load More' button found.
+2024-10-14 15:06:43,551 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:06:48,691 - INFO - No 'More' button found.
+2024-10-14 15:06:48,691 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:07:09,090 - INFO - Processed 114 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:07:09,090 - INFO - Movie tt11315808 has 114/114 reviews
+2024-10-14 15:07:11,637 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 15:07:13,706 - INFO - Total reviews found: 148
+2024-10-14 15:07:18,816 - INFO - No 'All' button found.
+2024-10-14 15:07:22,854 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:07:26,887 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:07:30,951 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:07:34,987 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:07:39,041 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:07:44,261 - INFO - No 'Load More' button found.
+2024-10-14 15:07:44,261 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:07:49,409 - INFO - No 'More' button found.
+2024-10-14 15:07:49,409 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:08:09,892 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:08:09,892 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 15:08:12,493 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 15:08:14,563 - INFO - Total reviews found: 124
+2024-10-14 15:08:19,684 - INFO - No 'All' button found.
+2024-10-14 15:08:23,729 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:08:27,764 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:08:31,804 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:08:35,844 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:08:41,053 - INFO - No 'Load More' button found.
+2024-10-14 15:08:41,053 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:08:46,190 - INFO - No 'More' button found.
+2024-10-14 15:08:46,190 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:09:06,597 - INFO - Processed 124 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:09:06,597 - INFO - Movie tt11315808 has 124/124 reviews
+2024-10-14 15:09:09,286 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 15:09:11,351 - INFO - Total reviews found: 204
+2024-10-14 15:09:16,471 - INFO - No 'All' button found.
+2024-10-14 15:09:20,510 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:09:24,542 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:09:28,620 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:09:32,664 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:09:36,718 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:09:40,755 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:09:44,807 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:09:48,854 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:09:54,085 - INFO - No 'Load More' button found.
+2024-10-14 15:09:54,085 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:09:59,240 - INFO - No 'More' button found.
+2024-10-14 15:09:59,240 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:10:19,801 - INFO - Processed 204 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:10:19,801 - INFO - Movie tt11315808 has 204/204 reviews
+2024-10-14 15:10:19,801 - INFO - Movie tt11315808 has 1585/1586 reviews
+2024-10-14 15:24:17,237 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 15:24:21,862 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 15:24:21,894 - INFO - Total reviews found: 358
+2024-10-14 15:24:25,952 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:24:25,952 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:24:26,049 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:24:44,223 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:25:05,735 - INFO - Processed 358 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:25:05,735 - INFO - Movie tt11315808 has 358/358 reviews
+2024-10-14 15:25:08,660 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 15:25:08,742 - INFO - Total reviews found: 116
+2024-10-14 15:25:12,780 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:25:12,780 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:25:12,890 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:25:16,910 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:25:37,386 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:25:37,386 - WARNING - Missing 1 reviews
+2024-10-14 15:25:37,386 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 15:25:40,246 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 15:25:40,413 - INFO - Total reviews found: 144
+2024-10-14 15:25:44,447 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:25:44,447 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:25:44,458 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:25:50,488 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:26:11,187 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:26:11,187 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 15:26:14,187 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 15:26:14,351 - INFO - Total reviews found: 133
+2024-10-14 15:26:18,394 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:26:18,394 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:26:18,472 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:26:24,509 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:26:45,080 - INFO - Processed 133 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:26:45,080 - INFO - Movie tt11315808 has 133/133 reviews
+2024-10-14 15:26:47,854 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 15:26:48,037 - INFO - Total reviews found: 131
+2024-10-14 15:26:52,078 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:26:52,078 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:26:52,090 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:26:58,126 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:27:18,735 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:27:18,735 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 15:27:21,559 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 15:27:21,725 - INFO - Total reviews found: 114
+2024-10-14 15:27:25,758 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:27:25,758 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:27:25,767 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:27:29,794 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:27:50,267 - INFO - Processed 114 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:27:50,267 - INFO - Movie tt11315808 has 114/114 reviews
+2024-10-14 15:27:53,276 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 15:27:53,455 - INFO - Total reviews found: 114
+2024-10-14 15:27:57,493 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:27:57,493 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:27:57,500 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:28:01,522 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:28:22,038 - INFO - Processed 114 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:28:22,038 - INFO - Movie tt11315808 has 114/114 reviews
+2024-10-14 15:28:24,820 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 15:28:24,998 - INFO - Total reviews found: 148
+2024-10-14 15:28:29,047 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:28:29,047 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:28:29,108 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:28:35,143 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:28:55,856 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:28:55,856 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 15:28:59,264 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 15:28:59,461 - INFO - Total reviews found: 124
+2024-10-14 15:29:03,498 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:29:03,498 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:29:03,651 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:29:07,675 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:29:28,380 - INFO - Processed 124 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:29:28,380 - INFO - Movie tt11315808 has 124/124 reviews
+2024-10-14 15:29:31,136 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 15:29:31,306 - INFO - Total reviews found: 204
+2024-10-14 15:29:35,347 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:29:35,347 - INFO - Clicked 'All' button successfully.
+2024-10-14 15:29:35,357 - INFO - Starting to scroll to load all reviews.
+2024-10-14 15:29:45,419 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 15:30:06,219 - INFO - Processed 204 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:30:06,219 - INFO - Movie tt11315808 has 204/204 reviews
+2024-10-14 15:30:06,219 - INFO - Movie tt11315808 has 1585/1586 reviews
+2024-10-14 15:43:11,909 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 15:43:14,923 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 15:43:17,016 - INFO - Total reviews found: 358
+2024-10-14 15:43:22,142 - INFO - No 'All' button found.
+2024-10-14 15:43:26,199 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:43:30,240 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:43:34,276 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:43:38,311 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:43:42,373 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:43:46,415 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:43:50,466 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:43:54,504 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:43:58,562 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:44:02,604 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:44:06,646 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:44:10,681 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:44:14,725 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:44:18,771 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:44:24,023 - INFO - No 'Load More' button found.
+2024-10-14 15:44:24,023 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:44:29,228 - INFO - No 'More' button found.
+2024-10-14 15:44:29,228 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:44:50,329 - INFO - Processed 358 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:44:50,329 - INFO - Movie tt11315808 has 358/358 reviews
+2024-10-14 15:44:53,694 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 15:44:55,755 - INFO - Total reviews found: 116
+2024-10-14 15:45:00,892 - INFO - No 'All' button found.
+2024-10-14 15:45:04,934 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:45:08,968 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:45:13,007 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:45:17,041 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:45:22,253 - INFO - No 'Load More' button found.
+2024-10-14 15:45:22,253 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:45:27,392 - INFO - No 'More' button found.
+2024-10-14 15:45:27,392 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:45:47,788 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:45:47,788 - WARNING - Missing 1 reviews
+2024-10-14 15:45:47,788 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 15:45:50,115 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 15:45:52,192 - INFO - Total reviews found: 144
+2024-10-14 15:45:57,316 - INFO - No 'All' button found.
+2024-10-14 15:46:01,366 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:46:05,406 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:46:09,444 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:46:13,499 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:46:17,540 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:46:22,765 - INFO - No 'Load More' button found.
+2024-10-14 15:46:22,765 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:46:27,917 - INFO - No 'More' button found.
+2024-10-14 15:46:27,917 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:46:48,346 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:46:48,346 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 15:46:50,965 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 15:46:53,030 - INFO - Total reviews found: 133
+2024-10-14 15:46:58,149 - INFO - No 'All' button found.
+2024-10-14 15:47:02,194 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:47:06,228 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:47:10,275 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:47:14,318 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:47:18,369 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:47:23,586 - INFO - No 'Load More' button found.
+2024-10-14 15:47:23,586 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:47:28,728 - INFO - No 'More' button found.
+2024-10-14 15:47:28,728 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:47:49,230 - INFO - Processed 133 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:47:49,230 - INFO - Movie tt11315808 has 133/133 reviews
+2024-10-14 15:47:52,135 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 15:47:54,202 - INFO - Total reviews found: 131
+2024-10-14 15:47:59,324 - INFO - No 'All' button found.
+2024-10-14 15:48:03,363 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:48:07,398 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:48:11,454 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:48:15,502 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:48:19,550 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:48:24,762 - INFO - No 'Load More' button found.
+2024-10-14 15:48:24,763 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:48:29,904 - INFO - No 'More' button found.
+2024-10-14 15:48:29,904 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:48:50,290 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:48:50,290 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 15:48:53,091 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 15:48:55,167 - INFO - Total reviews found: 114
+2024-10-14 15:49:00,293 - INFO - No 'All' button found.
+2024-10-14 15:49:04,333 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:49:08,373 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:49:12,412 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:49:16,448 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:49:21,648 - INFO - No 'Load More' button found.
+2024-10-14 15:49:21,648 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:49:26,792 - INFO - No 'More' button found.
+2024-10-14 15:49:26,792 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:49:47,150 - INFO - Processed 114 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:49:47,150 - INFO - Movie tt11315808 has 114/114 reviews
+2024-10-14 15:49:49,940 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 15:49:52,012 - INFO - Total reviews found: 113
+2024-10-14 15:49:57,136 - INFO - No 'All' button found.
+2024-10-14 15:50:01,184 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:50:05,219 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:50:09,256 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:50:13,297 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:50:18,516 - INFO - No 'Load More' button found.
+2024-10-14 15:50:18,516 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:50:23,647 - INFO - No 'More' button found.
+2024-10-14 15:50:23,647 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:50:44,051 - INFO - Processed 113 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:50:44,051 - INFO - Movie tt11315808 has 113/113 reviews
+2024-10-14 15:50:46,346 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 15:50:48,416 - INFO - Total reviews found: 148
+2024-10-14 15:50:53,539 - INFO - No 'All' button found.
+2024-10-14 15:50:57,579 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:51:01,625 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:51:05,663 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:51:09,710 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:51:13,760 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:51:18,996 - INFO - No 'Load More' button found.
+2024-10-14 15:51:18,996 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:51:24,177 - INFO - No 'More' button found.
+2024-10-14 15:51:24,177 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:51:44,627 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:51:44,627 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 15:51:46,526 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 15:51:48,607 - INFO - Total reviews found: 124
+2024-10-14 15:51:53,721 - INFO - No 'All' button found.
+2024-10-14 15:51:57,782 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:52:01,830 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:52:05,868 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:52:09,903 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 15:52:15,129 - INFO - No 'Load More' button found.
+2024-10-14 15:52:15,129 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:52:20,266 - INFO - No 'More' button found.
+2024-10-14 15:52:20,266 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 15:52:40,673 - INFO - Processed 124 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 15:52:40,673 - INFO - Movie tt11315808 has 124/124 reviews
+2024-10-14 15:52:42,828 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 15:52:44,894 - INFO - Total reviews found: 204
+2024-10-14 15:52:45,407 - INFO - No 'All' button found.
+2024-10-14 15:52:45,410 - INFO - No 'Load More' button found.
+2024-10-14 15:52:45,410 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 15:52:45,411 - INFO - No 'More' button found.
+2024-10-14 15:52:45,413 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 17:45:30,102 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 17:45:34,478 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 17:45:34,511 - INFO - Total reviews found: 358
+2024-10-14 17:45:38,631 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:45:38,631 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:45:38,643 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:45:56,852 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:46:18,486 - INFO - Processed 358 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:46:18,486 - INFO - Movie tt11315808 has 358/358 reviews
+2024-10-14 17:46:21,277 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 17:46:21,421 - INFO - Total reviews found: 116
+2024-10-14 17:46:25,464 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:46:25,464 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:46:25,471 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:46:29,504 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:46:49,957 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:46:49,957 - WARNING - Missing 1 reviews
+2024-10-14 17:46:49,957 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 17:46:52,696 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 17:46:52,867 - INFO - Total reviews found: 144
+2024-10-14 17:46:56,906 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:46:56,906 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:46:56,924 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:47:02,981 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:47:23,513 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:47:23,513 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 17:47:26,258 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 17:47:26,439 - INFO - Total reviews found: 133
+2024-10-14 17:47:30,475 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:47:30,475 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:47:30,491 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:47:36,522 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:47:57,009 - INFO - Processed 133 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:47:57,009 - INFO - Movie tt11315808 has 133/133 reviews
+2024-10-14 17:47:59,773 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 17:47:59,896 - INFO - Total reviews found: 131
+2024-10-14 17:48:03,934 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:48:03,934 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:48:03,943 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:48:09,986 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:48:30,549 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:48:30,559 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 17:48:33,301 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 17:48:33,438 - INFO - Total reviews found: 115
+2024-10-14 17:48:37,481 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:48:37,481 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:48:37,497 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:48:41,537 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:49:01,994 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:49:01,994 - INFO - Movie tt11315808 has 115/115 reviews
+2024-10-14 17:49:04,700 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 17:49:04,871 - INFO - Total reviews found: 113
+2024-10-14 17:49:08,905 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:49:08,905 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:49:08,913 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:49:12,934 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:49:33,346 - INFO - Processed 113 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:49:33,346 - INFO - Movie tt11315808 has 113/113 reviews
+2024-10-14 17:49:36,231 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 17:49:36,394 - INFO - Total reviews found: 148
+2024-10-14 17:49:40,448 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:49:40,449 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:49:40,455 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:49:46,497 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:50:07,003 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:50:07,003 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 17:50:09,809 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 17:50:09,975 - INFO - Total reviews found: 124
+2024-10-14 17:50:14,011 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:50:14,011 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:50:14,016 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:50:18,044 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:50:38,583 - INFO - Processed 124 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:50:38,583 - INFO - Movie tt11315808 has 124/124 reviews
+2024-10-14 17:50:40,275 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 17:50:40,456 - INFO - Total reviews found: 205
+2024-10-14 17:50:44,487 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:50:44,487 - INFO - Clicked 'All' button successfully.
+2024-10-14 17:50:44,504 - INFO - Starting to scroll to load all reviews.
+2024-10-14 17:50:54,576 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 17:51:15,274 - INFO - Processed 205 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 17:51:15,274 - INFO - Movie tt11315808 has 205/205 reviews
+2024-10-14 17:51:15,274 - INFO - Movie tt11315808 has 1586/1587 reviews
+2024-10-14 19:55:00,467 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 19:55:04,360 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 19:55:04,360 - ERROR - Error fetching total reviews: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E07FB095+29557]
+	(No symbol) [0x00007FF7E076FA50]
+	(No symbol) [0x00007FF7E062B56A]
+	(No symbol) [0x00007FF7E05FFCC5]
+	(No symbol) [0x00007FF7E06AEE07]
+	(No symbol) [0x00007FF7E06C7E21]
+	(No symbol) [0x00007FF7E06A6F33]
+	(No symbol) [0x00007FF7E067116F]
+	(No symbol) [0x00007FF7E06722D1]
+	GetHandleVerifier [0x00007FF7E0B2C96D+3378253]
+	GetHandleVerifier [0x00007FF7E0B78497+3688311]
+	GetHandleVerifier [0x00007FF7E0B6D1CB+3642539]
+	GetHandleVerifier [0x00007FF7E08BA6B6+813462]
+	(No symbol) [0x00007FF7E077AB5F]
+	(No symbol) [0x00007FF7E0776B74]
+	(No symbol) [0x00007FF7E0776D10]
+	(No symbol) [0x00007FF7E0765C1F]
+	BaseThreadInitThunk [0x00007FFEE125257D+29]
+	RtlUserThreadStart [0x00007FFEE2ECAF08+40]
+
+2024-10-14 19:55:04,368 - INFO - No reviews found for Movie ID tt11315808 with rating 1
+2024-10-14 19:55:04,374 - ERROR - Error in fetch_reviews: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E07FB095+29557]
+	(No symbol) [0x00007FF7E076FA50]
+	(No symbol) [0x00007FF7E062B56A]
+	(No symbol) [0x00007FF7E05FFCC5]
+	(No symbol) [0x00007FF7E06AEE07]
+	(No symbol) [0x00007FF7E06C7E21]
+	(No symbol) [0x00007FF7E06A6F33]
+	(No symbol) [0x00007FF7E067116F]
+	(No symbol) [0x00007FF7E06722D1]
+	GetHandleVerifier [0x00007FF7E0B2C96D+3378253]
+	GetHandleVerifier [0x00007FF7E0B78497+3688311]
+	GetHandleVerifier [0x00007FF7E0B6D1CB+3642539]
+	GetHandleVerifier [0x00007FF7E08BA6B6+813462]
+	(No symbol) [0x00007FF7E077AB5F]
+	(No symbol) [0x00007FF7E0776B74]
+	(No symbol) [0x00007FF7E0776D10]
+	(No symbol) [0x00007FF7E0765C1F]
+	BaseThreadInitThunk [0x00007FFEE125257D+29]
+	RtlUserThreadStart [0x00007FFEE2ECAF08+40]
+
+2024-10-14 19:55:04,379 - INFO - Movie tt11315808 has 0/0 reviews
+2024-10-14 20:15:45,608 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 20:15:48,611 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 20:15:50,692 - INFO - Total reviews found: 359
+2024-10-14 20:15:55,845 - INFO - No 'All' button found.
+2024-10-14 20:15:59,926 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:03,960 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:08,001 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:12,033 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:16,077 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:20,112 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:24,151 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:28,194 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:32,233 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:36,277 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:40,324 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:44,376 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:48,419 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:52,469 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:16:57,735 - INFO - No 'Load More' button found.
+2024-10-14 20:16:57,735 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:17:02,960 - INFO - No 'More' button found.
+2024-10-14 20:17:02,960 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:17:23,904 - INFO - Processed 359 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:17:23,919 - INFO - Movie tt11315808 has 359/359 reviews
+2024-10-14 20:17:26,582 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 20:17:28,664 - INFO - Total reviews found: 116
+2024-10-14 20:17:33,831 - INFO - No 'All' button found.
+2024-10-14 20:17:37,877 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:17:41,914 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:17:45,951 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:17:49,994 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:17:55,228 - INFO - No 'Load More' button found.
+2024-10-14 20:17:55,228 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:18:00,373 - INFO - No 'More' button found.
+2024-10-14 20:18:00,373 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:18:20,678 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:18:20,678 - WARNING - Missing 1 reviews
+2024-10-14 20:18:20,678 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 20:18:24,362 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 20:18:26,493 - INFO - Total reviews found: 144
+2024-10-14 20:18:31,630 - INFO - No 'All' button found.
+2024-10-14 20:18:35,668 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:18:39,709 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:18:43,741 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:18:47,786 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:18:51,850 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:18:57,119 - INFO - No 'Load More' button found.
+2024-10-14 20:18:57,119 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:19:02,353 - INFO - No 'More' button found.
+2024-10-14 20:19:02,353 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:19:22,826 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:19:22,827 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 20:19:25,530 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 20:19:27,625 - INFO - Total reviews found: 133
+2024-10-14 20:19:32,760 - INFO - No 'All' button found.
+2024-10-14 20:19:36,792 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:19:40,825 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:19:44,892 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:19:48,936 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:19:53,009 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:19:58,297 - INFO - No 'Load More' button found.
+2024-10-14 20:19:58,297 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:20:03,491 - INFO - No 'More' button found.
+2024-10-14 20:20:03,491 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:20:23,885 - INFO - Processed 133 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:20:23,885 - INFO - Movie tt11315808 has 133/133 reviews
+2024-10-14 20:20:26,687 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 20:20:28,813 - INFO - Total reviews found: 131
+2024-10-14 20:20:33,977 - INFO - No 'All' button found.
+2024-10-14 20:20:38,022 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:20:42,063 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:20:46,108 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:20:50,151 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:20:54,195 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:20:59,471 - INFO - No 'Load More' button found.
+2024-10-14 20:20:59,471 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:21:04,666 - INFO - No 'More' button found.
+2024-10-14 20:21:04,666 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:21:25,017 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:21:25,017 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 20:21:27,825 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 20:21:29,937 - INFO - Total reviews found: 115
+2024-10-14 20:21:35,124 - INFO - No 'All' button found.
+2024-10-14 20:21:39,170 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:21:43,213 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:21:47,284 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:21:51,330 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:21:56,600 - INFO - No 'Load More' button found.
+2024-10-14 20:21:56,600 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:22:01,802 - INFO - No 'More' button found.
+2024-10-14 20:22:01,802 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:22:22,116 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:22:22,116 - INFO - Movie tt11315808 has 115/115 reviews
+2024-10-14 20:22:24,898 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 20:22:26,989 - INFO - Total reviews found: 113
+2024-10-14 20:22:32,142 - INFO - No 'All' button found.
+2024-10-14 20:22:36,182 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:22:40,216 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:22:44,252 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:22:48,285 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:22:53,521 - INFO - No 'Load More' button found.
+2024-10-14 20:22:53,521 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:22:58,746 - INFO - No 'More' button found.
+2024-10-14 20:22:58,746 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:23:19,101 - INFO - Processed 113 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:23:19,101 - INFO - Movie tt11315808 has 113/113 reviews
+2024-10-14 20:23:21,367 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 20:23:23,481 - INFO - Total reviews found: 148
+2024-10-14 20:23:28,668 - INFO - No 'All' button found.
+2024-10-14 20:23:32,707 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:23:36,738 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:23:40,785 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:23:44,829 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:23:48,893 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:23:54,166 - INFO - No 'Load More' button found.
+2024-10-14 20:23:54,166 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:23:59,357 - INFO - No 'More' button found.
+2024-10-14 20:23:59,358 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:24:19,758 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:24:19,759 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 20:24:22,356 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 20:24:24,450 - INFO - Total reviews found: 125
+2024-10-14 20:24:29,615 - INFO - No 'All' button found.
+2024-10-14 20:24:33,663 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:24:37,696 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:24:41,763 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:24:45,808 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:24:51,085 - INFO - No 'Load More' button found.
+2024-10-14 20:24:51,085 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:24:56,270 - INFO - No 'More' button found.
+2024-10-14 20:24:56,271 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:25:16,816 - INFO - Processed 125 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:25:16,816 - INFO - Movie tt11315808 has 125/125 reviews
+2024-10-14 20:25:19,021 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 20:25:21,128 - INFO - Total reviews found: 205
+2024-10-14 20:25:26,259 - INFO - No 'All' button found.
+2024-10-14 20:25:30,314 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:25:34,387 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:25:38,451 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:25:42,496 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:25:46,564 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:25:50,611 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:25:54,686 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:25:58,736 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:26:04,181 - INFO - No 'Load More' button found.
+2024-10-14 20:26:04,181 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:26:09,458 - INFO - No 'More' button found.
+2024-10-14 20:26:09,458 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:26:30,310 - INFO - Processed 205 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:26:30,310 - INFO - Movie tt11315808 has 205/205 reviews
+2024-10-14 20:26:30,322 - INFO - Movie tt11315808 has 1588/1589 reviews
+2024-10-14 20:30:22,348 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 20:30:26,556 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 20:30:26,583 - INFO - Total reviews found: 360
+2024-10-14 20:30:30,632 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:30:30,632 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:30:30,640 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:30:50,846 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:31:12,261 - INFO - Processed 360 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:31:12,262 - INFO - Movie tt11315808 has 360/360 reviews
+2024-10-14 20:31:15,205 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 20:31:15,386 - INFO - Total reviews found: 116
+2024-10-14 20:31:19,434 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:31:19,434 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:31:19,446 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:31:23,482 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:31:43,956 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:31:43,956 - WARNING - Missing 1 reviews
+2024-10-14 20:31:43,956 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 20:31:46,614 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 20:31:46,837 - INFO - Total reviews found: 144
+2024-10-14 20:31:50,866 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:31:50,866 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:31:50,882 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:31:56,910 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:32:17,425 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:32:17,425 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 20:32:20,348 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 20:32:20,503 - INFO - Total reviews found: 134
+2024-10-14 20:32:24,535 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:32:24,535 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:32:24,547 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:32:30,596 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:32:51,086 - INFO - Processed 134 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:32:51,086 - INFO - Movie tt11315808 has 134/134 reviews
+2024-10-14 20:32:54,804 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 20:32:55,069 - INFO - Total reviews found: 131
+2024-10-14 20:32:59,106 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:32:59,106 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:32:59,116 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:33:05,153 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:33:25,703 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:33:25,703 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 20:33:28,707 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 20:33:28,912 - INFO - Total reviews found: 115
+2024-10-14 20:33:32,956 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:33:32,956 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:33:32,970 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:33:37,021 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:33:57,470 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:33:57,470 - INFO - Movie tt11315808 has 115/115 reviews
+2024-10-14 20:34:00,957 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 20:34:01,137 - INFO - Total reviews found: 113
+2024-10-14 20:34:05,179 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:34:05,179 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:34:05,194 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:34:09,223 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:34:29,709 - INFO - Processed 113 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:34:29,709 - INFO - Movie tt11315808 has 113/113 reviews
+2024-10-14 20:34:32,833 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 20:34:33,062 - INFO - Total reviews found: 148
+2024-10-14 20:34:37,108 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:34:37,109 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:34:37,131 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:34:43,177 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:35:03,716 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:35:03,716 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 20:35:08,599 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 20:35:08,765 - INFO - Total reviews found: 125
+2024-10-14 20:35:12,809 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:35:12,809 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:35:12,813 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:35:16,851 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:35:37,363 - INFO - Processed 125 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:35:37,364 - INFO - Movie tt11315808 has 125/125 reviews
+2024-10-14 20:35:40,340 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 20:35:40,601 - INFO - Total reviews found: 205
+2024-10-14 20:35:44,666 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:35:44,666 - INFO - Clicked 'All' button successfully.
+2024-10-14 20:35:44,671 - INFO - Starting to scroll to load all reviews.
+2024-10-14 20:35:54,747 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 20:36:15,460 - INFO - Processed 205 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:36:15,460 - INFO - Movie tt11315808 has 205/205 reviews
+2024-10-14 20:36:15,460 - INFO - Movie tt11315808 has 1590/1591 reviews
+2024-10-14 20:49:22,136 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 20:49:25,124 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 20:49:27,190 - INFO - Total reviews found: 360
+2024-10-14 20:49:32,352 - INFO - No 'All' button found.
+2024-10-14 20:49:36,403 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:49:40,442 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:49:44,486 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:49:48,527 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:49:52,580 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:49:56,618 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:50:00,673 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:50:04,722 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:50:08,776 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:50:12,826 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:50:16,875 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:50:20,935 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:50:24,975 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:50:29,036 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:50:34,300 - INFO - No 'Load More' button found.
+2024-10-14 20:50:34,300 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:50:39,533 - INFO - No 'More' button found.
+2024-10-14 20:50:39,533 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:51:00,521 - INFO - Processed 360 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:51:00,521 - INFO - Movie tt11315808 has 360/360 reviews
+2024-10-14 20:51:03,195 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 20:51:05,272 - INFO - Total reviews found: 116
+2024-10-14 20:51:10,429 - INFO - No 'All' button found.
+2024-10-14 20:51:14,480 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:51:18,519 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:51:22,557 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:51:26,590 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:51:31,795 - INFO - No 'Load More' button found.
+2024-10-14 20:51:31,795 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:51:36,961 - INFO - No 'More' button found.
+2024-10-14 20:51:36,961 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:51:57,298 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:51:57,298 - WARNING - Missing 1 reviews
+2024-10-14 20:51:57,298 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 20:51:59,761 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 20:52:01,848 - INFO - Total reviews found: 144
+2024-10-14 20:52:06,995 - INFO - No 'All' button found.
+2024-10-14 20:52:11,041 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:52:15,074 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:52:19,111 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:52:23,147 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:52:27,200 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:52:32,419 - INFO - No 'Load More' button found.
+2024-10-14 20:52:32,419 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:52:37,573 - INFO - No 'More' button found.
+2024-10-14 20:52:37,573 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:52:57,955 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:52:57,955 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 20:53:00,426 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 20:53:02,505 - INFO - Total reviews found: 134
+2024-10-14 20:53:07,665 - INFO - No 'All' button found.
+2024-10-14 20:53:11,708 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:53:15,742 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:53:19,775 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:53:23,811 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:53:27,870 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:53:33,078 - INFO - No 'Load More' button found.
+2024-10-14 20:53:33,078 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:53:38,242 - INFO - No 'More' button found.
+2024-10-14 20:53:38,242 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:53:58,653 - INFO - Processed 134 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:53:58,653 - INFO - Movie tt11315808 has 134/134 reviews
+2024-10-14 20:54:00,602 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 20:54:02,677 - INFO - Total reviews found: 131
+2024-10-14 20:54:07,822 - INFO - No 'All' button found.
+2024-10-14 20:54:11,864 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:54:15,908 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:54:19,935 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:54:23,980 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:54:28,025 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:54:33,274 - INFO - No 'Load More' button found.
+2024-10-14 20:54:33,274 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:54:38,472 - INFO - No 'More' button found.
+2024-10-14 20:54:38,472 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:54:58,975 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:54:58,976 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 20:55:01,751 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 20:55:03,842 - INFO - Total reviews found: 115
+2024-10-14 20:55:09,044 - INFO - No 'All' button found.
+2024-10-14 20:55:13,095 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:55:17,172 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:55:21,246 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:55:25,356 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:55:30,684 - INFO - No 'Load More' button found.
+2024-10-14 20:55:30,684 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:55:35,947 - INFO - No 'More' button found.
+2024-10-14 20:55:35,947 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:55:56,466 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:55:56,466 - INFO - Movie tt11315808 has 115/115 reviews
+2024-10-14 20:55:59,012 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 20:56:01,127 - INFO - Total reviews found: 113
+2024-10-14 20:56:06,323 - INFO - No 'All' button found.
+2024-10-14 20:56:10,402 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:56:14,480 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:56:18,547 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:56:22,617 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:56:27,991 - INFO - No 'Load More' button found.
+2024-10-14 20:56:27,991 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:56:33,186 - INFO - No 'More' button found.
+2024-10-14 20:56:33,186 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:56:53,538 - INFO - Processed 113 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:56:53,538 - INFO - Movie tt11315808 has 113/113 reviews
+2024-10-14 20:56:56,162 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 20:56:58,260 - INFO - Total reviews found: 148
+2024-10-14 20:57:03,397 - INFO - No 'All' button found.
+2024-10-14 20:57:07,431 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:57:11,480 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:57:15,546 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:57:19,587 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:57:23,632 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:57:28,919 - INFO - No 'Load More' button found.
+2024-10-14 20:57:28,919 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:57:34,136 - INFO - No 'More' button found.
+2024-10-14 20:57:34,137 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:57:54,511 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:57:54,511 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 20:57:59,537 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 20:58:01,633 - INFO - Total reviews found: 125
+2024-10-14 20:58:06,760 - INFO - No 'All' button found.
+2024-10-14 20:58:10,816 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:58:14,859 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:58:18,906 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:58:22,954 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:58:28,264 - INFO - No 'Load More' button found.
+2024-10-14 20:58:28,264 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:58:33,460 - INFO - No 'More' button found.
+2024-10-14 20:58:33,460 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 20:58:53,823 - INFO - Processed 125 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 20:58:53,823 - INFO - Movie tt11315808 has 125/125 reviews
+2024-10-14 20:58:56,345 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 20:58:58,453 - INFO - Total reviews found: 205
+2024-10-14 20:59:03,597 - INFO - No 'All' button found.
+2024-10-14 20:59:07,631 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:59:11,666 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:59:15,698 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:59:19,734 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:59:23,805 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:59:27,852 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:59:31,900 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:59:35,942 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 20:59:41,214 - INFO - No 'Load More' button found.
+2024-10-14 20:59:41,214 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 20:59:46,423 - INFO - No 'More' button found.
+2024-10-14 20:59:46,423 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:00:06,921 - INFO - Processed 205 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:00:06,921 - INFO - Movie tt11315808 has 205/205 reviews
+2024-10-14 21:00:06,921 - INFO - Movie tt11315808 has 1590/1591 reviews
+2024-10-14 21:01:59,265 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 21:02:03,519 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 21:02:03,542 - INFO - Total reviews found: 360
+2024-10-14 21:02:07,583 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:02:07,584 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:02:07,593 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:02:15,663 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:02:37,786 - INFO - Processed 360 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:02:37,786 - INFO - Movie tt11315808 has 360/360 reviews
+2024-10-14 21:02:40,698 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 21:02:41,053 - INFO - Total reviews found: 116
+2024-10-14 21:02:45,110 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:02:45,111 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:02:45,118 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:02:47,136 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:03:07,717 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:03:07,717 - WARNING - Missing 1 reviews
+2024-10-14 21:03:07,717 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 21:03:10,755 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 21:03:11,118 - INFO - Total reviews found: 144
+2024-10-14 21:03:15,191 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:03:15,191 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:03:15,207 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:03:19,253 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:03:39,899 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:03:39,899 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 21:03:43,650 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 21:03:44,208 - INFO - Total reviews found: 134
+2024-10-14 21:03:48,260 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:03:48,260 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:03:48,275 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:03:52,314 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:04:12,874 - INFO - Processed 134 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:04:12,874 - INFO - Movie tt11315808 has 134/134 reviews
+2024-10-14 21:04:16,699 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 21:04:17,194 - INFO - Total reviews found: 131
+2024-10-14 21:04:21,337 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:04:21,337 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:04:21,418 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:04:25,474 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:04:46,236 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:04:46,236 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 21:04:49,616 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 21:04:50,055 - INFO - Total reviews found: 115
+2024-10-14 21:04:54,221 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:04:54,221 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:04:54,237 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:04:58,273 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:05:18,739 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:05:18,739 - INFO - Movie tt11315808 has 115/115 reviews
+2024-10-14 21:05:22,091 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 21:05:22,617 - INFO - Total reviews found: 113
+2024-10-14 21:05:26,690 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:05:26,690 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:05:26,703 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:05:28,714 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:05:49,229 - INFO - Processed 113 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:05:49,229 - INFO - Movie tt11315808 has 113/113 reviews
+2024-10-14 21:05:52,854 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 21:05:53,440 - INFO - Total reviews found: 148
+2024-10-14 21:05:57,556 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:05:57,556 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:05:57,758 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:05:59,775 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:06:20,380 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:06:20,380 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 21:06:23,947 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 21:06:24,425 - INFO - Total reviews found: 125
+2024-10-14 21:06:28,564 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:06:28,564 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:06:28,583 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:06:30,590 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:06:51,154 - INFO - Processed 125 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:06:51,154 - INFO - Movie tt11315808 has 125/125 reviews
+2024-10-14 21:06:55,242 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 21:06:55,755 - INFO - Total reviews found: 205
+2024-10-14 21:06:59,954 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:06:59,954 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:06:59,972 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:07:04,307 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:07:25,510 - INFO - Processed 205 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:07:25,510 - INFO - Movie tt11315808 has 205/205 reviews
+2024-10-14 21:07:25,510 - INFO - Movie tt11315808 has 1590/1591 reviews
+2024-10-14 21:15:28,290 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 21:15:31,631 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 21:15:31,659 - INFO - Total reviews found: 360
+2024-10-14 21:15:35,702 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:15:35,702 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:15:35,721 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:15:41,768 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:16:03,286 - INFO - Processed 360 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:16:03,287 - INFO - Movie tt11315808 has 360/360 reviews
+2024-10-14 21:16:05,314 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 21:16:05,543 - INFO - Total reviews found: 116
+2024-10-14 21:16:09,599 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:16:09,599 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:16:09,613 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:16:11,627 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:16:32,450 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:16:32,450 - WARNING - Missing 1 reviews
+2024-10-14 21:16:32,450 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 21:16:34,549 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 21:16:35,091 - INFO - Total reviews found: 144
+2024-10-14 21:16:39,165 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:16:39,165 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:16:39,176 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:16:41,201 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:17:02,070 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:17:02,085 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 21:17:04,078 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 21:17:04,262 - INFO - Total reviews found: 134
+2024-10-14 21:17:08,313 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:17:08,313 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:17:08,329 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:17:10,351 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:17:31,091 - INFO - Processed 134 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:17:31,092 - INFO - Movie tt11315808 has 134/134 reviews
+2024-10-14 21:17:35,092 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 21:17:35,310 - INFO - Total reviews found: 131
+2024-10-14 21:17:39,351 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:17:39,351 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:17:39,539 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:17:43,579 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:18:04,402 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:18:04,402 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 21:18:08,757 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 21:18:08,820 - INFO - Total reviews found: 115
+2024-10-14 21:18:12,874 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:18:12,874 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:18:12,896 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:18:14,912 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:18:35,714 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:18:35,714 - INFO - Movie tt11315808 has 115/115 reviews
+2024-10-14 21:18:37,787 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 21:18:38,133 - INFO - Total reviews found: 113
+2024-10-14 21:18:42,181 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:18:42,181 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:18:42,208 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:18:44,220 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:19:04,662 - INFO - Processed 113 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:19:04,662 - INFO - Movie tt11315808 has 113/113 reviews
+2024-10-14 21:19:06,565 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 21:19:06,830 - INFO - Total reviews found: 148
+2024-10-14 21:19:10,871 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:19:10,871 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:19:10,886 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:19:12,894 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:19:33,386 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:19:33,386 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 21:19:35,823 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 21:19:36,096 - INFO - Total reviews found: 125
+2024-10-14 21:19:40,127 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:19:40,128 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:19:40,134 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:19:42,145 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:20:02,726 - INFO - Processed 125 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:20:02,726 - INFO - Movie tt11315808 has 125/125 reviews
+2024-10-14 21:20:04,657 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 21:20:04,878 - INFO - Total reviews found: 205
+2024-10-14 21:20:08,912 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:20:08,912 - INFO - Clicked 'All' button successfully.
+2024-10-14 21:20:09,158 - INFO - Starting to scroll to load all reviews.
+2024-10-14 21:20:13,180 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-14 21:20:33,921 - INFO - Processed 205 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:20:33,922 - INFO - Movie tt11315808 has 205/205 reviews
+2024-10-14 21:20:33,922 - INFO - Movie tt11315808 has 1590/1591 reviews
+2024-10-14 21:24:48,657 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-14 21:24:51,370 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 21:24:53,430 - INFO - Total reviews found: 360
+2024-10-14 21:24:58,565 - INFO - No 'All' button found.
+2024-10-14 21:25:02,622 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:06,657 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:10,688 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:14,727 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:18,770 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:22,816 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:26,860 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:30,909 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:34,960 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:39,047 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:43,101 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:47,146 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:51,192 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:25:55,247 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:26:00,529 - INFO - No 'Load More' button found.
+2024-10-14 21:26:00,529 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:26:05,753 - INFO - No 'More' button found.
+2024-10-14 21:26:05,753 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:26:26,710 - INFO - Processed 360 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:26:26,710 - INFO - Movie tt11315808 has 360/360 reviews
+2024-10-14 21:26:29,196 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 21:26:31,272 - INFO - Total reviews found: 116
+2024-10-14 21:26:36,407 - INFO - No 'All' button found.
+2024-10-14 21:26:40,449 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:26:44,482 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:26:48,522 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:26:52,553 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:26:57,728 - INFO - No 'Load More' button found.
+2024-10-14 21:26:57,728 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:27:02,891 - INFO - No 'More' button found.
+2024-10-14 21:27:02,891 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:27:23,210 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:27:23,210 - WARNING - Missing 1 reviews
+2024-10-14 21:27:23,210 - INFO - Movie tt11315808 has 115/116 reviews
+2024-10-14 21:27:25,662 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 21:27:27,752 - INFO - Total reviews found: 144
+2024-10-14 21:27:32,870 - INFO - No 'All' button found.
+2024-10-14 21:27:36,904 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:27:40,936 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:27:44,970 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:27:49,003 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:27:53,038 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:27:58,267 - INFO - No 'Load More' button found.
+2024-10-14 21:27:58,267 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:28:03,431 - INFO - No 'More' button found.
+2024-10-14 21:28:03,431 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:28:23,786 - INFO - Processed 144 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:28:23,786 - INFO - Movie tt11315808 has 144/144 reviews
+2024-10-14 21:28:26,296 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 21:28:28,375 - INFO - Total reviews found: 134
+2024-10-14 21:28:33,509 - INFO - No 'All' button found.
+2024-10-14 21:28:37,550 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:28:41,577 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:28:45,609 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:28:49,653 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:28:53,699 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:28:58,947 - INFO - No 'Load More' button found.
+2024-10-14 21:28:58,947 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:29:04,108 - INFO - No 'More' button found.
+2024-10-14 21:29:04,109 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:29:24,543 - INFO - Processed 134 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:29:24,543 - INFO - Movie tt11315808 has 134/134 reviews
+2024-10-14 21:29:27,009 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 21:29:29,089 - INFO - Total reviews found: 131
+2024-10-14 21:29:34,216 - INFO - No 'All' button found.
+2024-10-14 21:29:38,252 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:29:42,289 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:29:46,330 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:29:50,367 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:29:54,400 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:29:59,637 - INFO - No 'Load More' button found.
+2024-10-14 21:29:59,637 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:30:04,807 - INFO - No 'More' button found.
+2024-10-14 21:30:04,807 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:30:25,136 - INFO - Processed 131 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:30:25,137 - INFO - Movie tt11315808 has 131/131 reviews
+2024-10-14 21:30:27,668 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 21:30:29,750 - INFO - Total reviews found: 115
+2024-10-14 21:30:34,886 - INFO - No 'All' button found.
+2024-10-14 21:30:38,925 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:30:42,957 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:30:46,999 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:30:51,045 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:30:56,225 - INFO - No 'Load More' button found.
+2024-10-14 21:30:56,225 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:31:01,363 - INFO - No 'More' button found.
+2024-10-14 21:31:01,363 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:31:21,714 - INFO - Processed 115 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:31:21,714 - INFO - Movie tt11315808 has 115/115 reviews
+2024-10-14 21:31:24,275 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 21:31:26,345 - INFO - Total reviews found: 113
+2024-10-14 21:31:31,442 - INFO - No 'All' button found.
+2024-10-14 21:31:35,473 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:31:39,508 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:31:43,543 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:31:47,602 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:31:52,785 - INFO - No 'Load More' button found.
+2024-10-14 21:31:52,785 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:31:57,899 - INFO - No 'More' button found.
+2024-10-14 21:31:57,899 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:32:18,266 - INFO - Processed 113 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:32:18,266 - INFO - Movie tt11315808 has 113/113 reviews
+2024-10-14 21:32:20,740 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 21:32:22,790 - INFO - Total reviews found: 148
+2024-10-14 21:32:27,895 - INFO - No 'All' button found.
+2024-10-14 21:32:31,927 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:32:35,960 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:32:39,994 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:32:44,030 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:32:48,083 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:32:53,264 - INFO - No 'Load More' button found.
+2024-10-14 21:32:53,264 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:32:58,385 - INFO - No 'More' button found.
+2024-10-14 21:32:58,385 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:33:19,129 - INFO - Processed 148 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:33:19,130 - INFO - Movie tt11315808 has 148/148 reviews
+2024-10-14 21:33:21,660 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 21:33:23,745 - INFO - Total reviews found: 125
+2024-10-14 21:33:28,860 - INFO - No 'All' button found.
+2024-10-14 21:33:32,904 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:33:36,953 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:33:41,000 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:33:45,046 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:33:50,372 - INFO - No 'Load More' button found.
+2024-10-14 21:33:50,372 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:33:55,551 - INFO - No 'More' button found.
+2024-10-14 21:33:55,551 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:34:16,213 - INFO - Processed 125 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:34:16,214 - INFO - Movie tt11315808 has 125/125 reviews
+2024-10-14 21:34:18,704 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 21:34:20,792 - INFO - Total reviews found: 205
+2024-10-14 21:34:25,930 - INFO - No 'All' button found.
+2024-10-14 21:34:29,998 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:34:34,063 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:34:38,103 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:34:42,168 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:34:46,228 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:34:50,267 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:34:54,380 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:34:58,423 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 21:35:03,652 - INFO - No 'Load More' button found.
+2024-10-14 21:35:03,652 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 21:35:08,834 - INFO - No 'More' button found.
+2024-10-14 21:35:08,834 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 21:35:29,441 - INFO - Processed 205 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-14 21:35:29,442 - INFO - Movie tt11315808 has 205/205 reviews
+2024-10-14 21:35:29,442 - INFO - Movie tt11315808 has 1590/1591 reviews
+2024-10-15 18:44:29,634 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-15 18:44:32,552 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-15 18:44:34,636 - INFO - Total reviews found: 367
+2024-10-15 18:44:39,778 - INFO - No 'All' button found.
+2024-10-15 18:44:43,854 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:44:47,895 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:44:51,927 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:44:55,963 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:00,002 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:04,046 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:08,088 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:12,133 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:16,169 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:20,208 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:24,252 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:28,303 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:32,352 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:36,403 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:45:41,718 - INFO - No 'Load More' button found.
+2024-10-15 18:45:41,718 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-15 18:45:46,924 - INFO - No 'More' button found.
+2024-10-15 18:45:46,924 - INFO - No 'More' button found, all reviews loaded.
+2024-10-15 18:46:06,928 - ERROR - Error in fetch_reviews: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71F74B095+29557]
+	(No symbol) [0x00007FF71F6BFA50]
+	(No symbol) [0x00007FF71F57B56A]
+	(No symbol) [0x00007FF71F54FCC5]
+	(No symbol) [0x00007FF71F5FEE07]
+	(No symbol) [0x00007FF71F617E21]
+	(No symbol) [0x00007FF71F5F6F33]
+	(No symbol) [0x00007FF71F5C116F]
+	(No symbol) [0x00007FF71F5C22D1]
+	GetHandleVerifier [0x00007FF71FA7C96D+3378253]
+	GetHandleVerifier [0x00007FF71FAC8497+3688311]
+	GetHandleVerifier [0x00007FF71FABD1CB+3642539]
+	GetHandleVerifier [0x00007FF71F80A6B6+813462]
+	(No symbol) [0x00007FF71F6CAB5F]
+	(No symbol) [0x00007FF71F6C6B74]
+	(No symbol) [0x00007FF71F6C6D10]
+	(No symbol) [0x00007FF71F6B5C1F]
+	BaseThreadInitThunk [0x00007FFEE125257D+29]
+	RtlUserThreadStart [0x00007FFEE2ECAF08+40]
+
+2024-10-15 18:46:06,930 - INFO - Movie tt11315808 has 0/0 reviews
+2024-10-15 18:47:31,035 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-15 18:47:35,104 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-15 18:47:35,264 - INFO - Total reviews found: 367
+2024-10-15 18:47:39,357 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:47:39,357 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:47:39,368 - INFO - Starting to scroll to load all reviews.
+2024-10-15 18:47:59,604 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 18:48:21,032 - INFO - Processed 367 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 18:48:21,033 - INFO - Movie tt11315808 has 367/367 reviews
+2024-10-15 18:48:24,721 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-15 18:48:24,790 - INFO - Total reviews found: 118
+2024-10-15 18:48:28,847 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:48:28,848 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:48:28,887 - INFO - Starting to scroll to load all reviews.
+2024-10-15 18:48:32,911 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 18:48:53,396 - INFO - Processed 117 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 18:48:53,396 - WARNING - Missing 1 reviews
+2024-10-15 18:48:53,396 - INFO - Movie tt11315808 has 117/118 reviews
+2024-10-15 18:48:56,323 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-15 18:48:56,451 - INFO - Total reviews found: 147
+2024-10-15 18:49:00,504 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:49:00,504 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:49:00,514 - INFO - Starting to scroll to load all reviews.
+2024-10-15 18:49:06,571 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 18:49:27,089 - INFO - Processed 147 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 18:49:27,104 - INFO - Movie tt11315808 has 147/147 reviews
+2024-10-15 18:49:29,923 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-15 18:49:30,093 - INFO - Total reviews found: 137
+2024-10-15 18:49:34,137 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:49:34,137 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:49:34,150 - INFO - Starting to scroll to load all reviews.
+2024-10-15 18:49:40,208 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 18:50:00,835 - INFO - Processed 137 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 18:50:00,835 - INFO - Movie tt11315808 has 137/137 reviews
+2024-10-15 18:50:03,597 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-15 18:50:03,783 - INFO - Total reviews found: 133
+2024-10-15 18:50:07,811 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:50:07,811 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:50:07,816 - INFO - Starting to scroll to load all reviews.
+2024-10-15 18:50:13,865 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 18:50:34,433 - INFO - Processed 133 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 18:50:34,433 - INFO - Movie tt11315808 has 133/133 reviews
+2024-10-15 18:50:37,162 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-15 18:50:37,317 - INFO - Total reviews found: 119
+2024-10-15 18:50:41,354 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:50:41,354 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:50:41,364 - INFO - Starting to scroll to load all reviews.
+2024-10-15 18:50:45,388 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 18:51:05,941 - INFO - Processed 119 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 18:51:05,941 - INFO - Movie tt11315808 has 119/119 reviews
+2024-10-15 18:51:08,771 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-15 18:51:08,957 - INFO - Total reviews found: 116
+2024-10-15 18:51:12,996 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:51:12,996 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:51:13,015 - INFO - Starting to scroll to load all reviews.
+2024-10-15 18:51:17,060 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 18:51:37,531 - INFO - Processed 116 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 18:51:37,533 - INFO - Movie tt11315808 has 116/116 reviews
+2024-10-15 18:51:42,891 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-15 18:51:43,015 - INFO - Total reviews found: 152
+2024-10-15 18:51:47,050 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:51:47,050 - INFO - Clicked 'All' button successfully.
+2024-10-15 18:51:47,057 - INFO - Starting to scroll to load all reviews.
+2024-10-15 18:51:55,130 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 18:58:52,020 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-15 18:58:55,735 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-15 18:58:57,822 - INFO - Total reviews found: 367
+2024-10-15 18:59:02,935 - INFO - No 'All' button found.
+2024-10-15 18:59:06,992 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:11,033 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:15,081 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:19,121 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:23,167 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:27,234 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:31,269 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:35,333 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:39,386 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:43,433 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:47,491 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:51,540 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:55,582 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 18:59:59,655 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:00:05,014 - INFO - No 'Load More' button found.
+2024-10-15 19:00:05,014 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-15 19:00:10,238 - INFO - No 'More' button found.
+2024-10-15 19:00:10,238 - INFO - No 'More' button found, all reviews loaded.
+2024-10-15 19:00:31,244 - INFO - Processed 367 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 19:00:31,244 - INFO - Movie tt11315808 has 367/367 reviews
+2024-10-15 19:00:34,751 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-15 19:00:36,863 - INFO - Total reviews found: 118
+2024-10-15 19:00:42,004 - INFO - No 'All' button found.
+2024-10-15 19:00:46,086 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:00:50,143 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:00:54,255 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:00:58,297 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:01:03,658 - INFO - No 'Load More' button found.
+2024-10-15 19:01:03,658 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-15 19:01:08,876 - INFO - No 'More' button found.
+2024-10-15 19:01:08,877 - INFO - No 'More' button found, all reviews loaded.
+2024-10-15 19:02:09,101 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-15 19:02:13,177 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-15 19:02:13,206 - INFO - Total reviews found: 367
+2024-10-15 19:02:17,258 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:02:17,258 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:02:17,264 - INFO - Starting to scroll to load all reviews.
+2024-10-15 19:02:25,603 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 19:02:48,060 - INFO - Processed 367 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 19:02:48,060 - INFO - Movie tt11315808 has 367/367 reviews
+2024-10-15 19:02:50,433 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-15 19:02:50,526 - INFO - Total reviews found: 118
+2024-10-15 19:02:54,676 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:02:54,676 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:02:54,684 - INFO - Starting to scroll to load all reviews.
+2024-10-15 19:02:56,702 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 19:03:17,487 - INFO - Processed 117 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 19:03:17,487 - WARNING - Missing 1 reviews
+2024-10-15 19:03:17,488 - INFO - Movie tt11315808 has 117/118 reviews
+2024-10-15 19:03:19,344 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-15 19:03:19,682 - INFO - Total reviews found: 147
+2024-10-15 19:03:23,724 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:03:23,724 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:03:23,730 - INFO - Starting to scroll to load all reviews.
+2024-10-15 19:03:25,743 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-15 19:03:46,267 - INFO - Processed 147 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 19:03:46,267 - INFO - Movie tt11315808 has 147/147 reviews
+2024-10-15 19:03:48,155 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-15 19:03:48,418 - INFO - Total reviews found: 137
+2024-10-15 19:03:52,472 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:03:52,472 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:03:52,478 - INFO - Starting to scroll to load all reviews.
+2024-10-15 19:22:02,017 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-15 19:22:05,022 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-15 19:22:07,105 - INFO - Total reviews found: 367
+2024-10-15 19:22:12,279 - INFO - No 'All' button found.
+2024-10-15 19:22:16,333 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:22:20,392 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:22:24,435 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:22:28,475 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:22:32,511 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:22:36,561 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:22:40,605 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:22:44,649 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:22:48,706 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:22:52,760 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 19:51:39,557 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-15 19:51:43,917 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-15 19:51:43,953 - INFO - Total reviews found: 367
+2024-10-15 19:51:47,992 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:51:47,992 - INFO - Clicked 'All' button successfully.
+2024-10-15 19:51:48,000 - INFO - Starting to scroll to load all reviews.
+2024-10-15 20:36:42,282 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-15 20:36:46,020 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc
+2024-10-15 20:36:46,040 - INFO - Total reviews found: 1,645
+2024-10-15 20:36:50,127 - INFO - Clicked 'All' button successfully.
+2024-10-15 20:36:50,127 - INFO - Clicked 'All' button successfully.
+2024-10-15 20:36:50,135 - INFO - Starting to scroll to load all reviews.
+2024-10-15 20:37:16,441 - INFO - Fetching reviews for movie_id: tt11315808
+2024-10-15 20:37:19,072 - INFO - Accessed URL: https://www.imdb.com/title/tt11315808/reviews?sort=submissionDate&dir=desc
+2024-10-15 20:37:21,148 - INFO - Total reviews found: 1,645
+2024-10-15 20:37:26,308 - INFO - No 'All' button found.
+2024-10-15 20:37:30,394 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:37:34,462 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:37:38,585 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:37:42,670 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:37:46,720 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:37:50,782 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:37:54,833 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:37:58,899 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:02,951 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:07,000 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:11,059 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:15,117 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:19,180 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:23,262 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:27,328 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:31,396 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:35,480 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:39,537 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:43,650 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:47,746 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:51,821 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:55,916 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:38:59,982 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:04,066 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:08,122 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:12,186 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:16,273 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:20,355 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:24,450 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:28,527 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:32,611 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:36,681 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:40,770 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:44,834 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:48,882 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:52,955 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:39:57,038 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:01,120 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:05,243 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:09,325 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:13,438 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:17,550 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:21,627 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:25,734 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:29,822 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:33,930 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:38,031 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:42,129 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:46,257 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:50,371 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:54,484 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:40:58,630 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:02,696 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:06,857 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:10,979 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:15,128 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:19,231 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:23,438 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:27,552 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:31,704 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:35,877 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:40,012 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:44,126 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:48,299 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:52,409 - INFO - Clicked 'Load More' button successfully.
+2024-10-15 20:41:57,475 - INFO - No 'Load More' button found.
+2024-10-15 20:41:57,475 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-15 20:42:03,016 - INFO - No 'More' button found.
+2024-10-15 20:42:03,016 - INFO - No 'More' button found, all reviews loaded.
+2024-10-15 20:42:33,571 - INFO - Processed 1644 reviews for Movie ID: tt11315808, Title: Joker: Folie à Deux.
+2024-10-15 20:42:33,571 - WARNING - Missing 1 reviews
+2024-10-15 20:42:33,571 - INFO - Movie tt11315808 has 1644/1645 reviews

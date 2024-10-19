@@ -1,0 +1,4 @@
+2024-10-19 17:05:40,849 - INFO - Fetching reviews for movie_id: tt30498554
+2024-10-19 17:05:46,150 - INFO - Accessed URL: https://www.imdb.com/title/tt30498554/reviews?sort=submissionDate&dir=desc
+2024-10-19 17:05:46,177 - INFO - Total reviews found: 0
+2024-10-19 17:05:46,177 - INFO - No reviews found for Movie ID tt30498554

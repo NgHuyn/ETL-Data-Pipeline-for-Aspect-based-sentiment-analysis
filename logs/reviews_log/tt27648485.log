@@ -1,0 +1,10 @@
+2024-10-19 17:01:59,216 - INFO - Fetching reviews for movie_id: tt27648485
+2024-10-19 17:02:01,756 - INFO - Accessed URL: https://www.imdb.com/title/tt27648485/reviews?sort=submissionDate&dir=desc
+2024-10-19 17:02:03,853 - INFO - Total reviews found: 1
+2024-10-19 17:02:09,040 - INFO - No 'All' button found.
+2024-10-19 17:02:14,194 - INFO - No 'Load More' button found.
+2024-10-19 17:02:14,194 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-19 17:02:19,368 - INFO - No 'More' button found.
+2024-10-19 17:02:19,368 - INFO - No 'More' button found, all reviews loaded.
+2024-10-19 17:02:39,432 - INFO - Processed 1 reviews for Movie ID: tt27648485, Title: Suami Yang Lain.
+2024-10-19 17:02:39,432 - INFO - Movie tt27648485 has 1/1 reviews

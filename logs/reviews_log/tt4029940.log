@@ -1,0 +1,10 @@
+2024-10-19 16:41:03,809 - INFO - Fetching reviews for movie_id: tt4029940
+2024-10-19 16:41:07,761 - INFO - Accessed URL: https://www.imdb.com/title/tt4029940/reviews?sort=submissionDate&dir=desc
+2024-10-19 16:41:07,787 - INFO - Total reviews found: 30
+2024-10-19 16:41:13,103 - INFO - No 'All' button found.
+2024-10-19 16:41:18,269 - INFO - No 'Load More' button found.
+2024-10-19 16:41:18,269 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-19 16:41:22,323 - INFO - Clicked 'More' button successfully.
+2024-10-19 16:41:22,323 - INFO - Clicked 'More' button successfully.
+2024-10-19 16:41:42,697 - INFO - Processed 30 reviews for Movie ID: tt4029940, Title: Roadkill.
+2024-10-19 16:41:42,697 - INFO - Movie tt4029940 has 30/30 reviews

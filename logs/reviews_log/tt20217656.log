@@ -1,0 +1,4 @@
+2024-10-19 17:08:16,718 - INFO - Fetching reviews for movie_id: tt20217656
+2024-10-19 17:08:19,959 - INFO - Accessed URL: https://www.imdb.com/title/tt20217656/reviews?sort=submissionDate&dir=desc
+2024-10-19 17:08:19,978 - INFO - Total reviews found: 0
+2024-10-19 17:08:19,978 - INFO - No reviews found for Movie ID tt20217656

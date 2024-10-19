@@ -1,0 +1,10 @@
+2024-10-19 17:02:59,598 - INFO - Fetching reviews for movie_id: tt26902472
+2024-10-19 17:03:03,040 - INFO - Accessed URL: https://www.imdb.com/title/tt26902472/reviews?sort=submissionDate&dir=desc
+2024-10-19 17:03:03,053 - INFO - Total reviews found: 6
+2024-10-19 17:03:08,224 - INFO - No 'All' button found.
+2024-10-19 17:03:13,379 - INFO - No 'Load More' button found.
+2024-10-19 17:03:13,379 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-19 17:03:18,518 - INFO - No 'More' button found.
+2024-10-19 17:03:18,520 - INFO - No 'More' button found, all reviews loaded.
+2024-10-19 17:03:38,630 - INFO - Processed 6 reviews for Movie ID: tt26902472, Title: Dying for Fame.
+2024-10-19 17:03:38,630 - INFO - Movie tt26902472 has 6/6 reviews

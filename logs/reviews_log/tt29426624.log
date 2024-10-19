@@ -1,0 +1,4 @@
+2024-10-19 17:07:39,353 - INFO - Fetching reviews for movie_id: tt29426624
+2024-10-19 17:07:41,794 - INFO - Accessed URL: https://www.imdb.com/title/tt29426624/reviews?sort=submissionDate&dir=desc
+2024-10-19 17:07:43,893 - INFO - Total reviews found: 0
+2024-10-19 17:07:43,893 - INFO - No reviews found for Movie ID tt29426624

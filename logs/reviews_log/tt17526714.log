@@ -1,0 +1,264 @@
+2024-10-14 13:19:05,943 - INFO - Fetching reviews for movie_id: tt17526714
+2024-10-14 13:19:12,783 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 13:19:14,872 - INFO - Total reviews found: 69
+2024-10-14 13:19:20,008 - INFO - No 'All' button found.
+2024-10-14 13:19:24,061 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:19:28,101 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:19:33,299 - INFO - No 'Load More' button found.
+2024-10-14 13:19:33,299 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:19:38,420 - INFO - No 'More' button found.
+2024-10-14 13:19:38,420 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:19:58,668 - INFO - Processed 69 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:19:58,668 - INFO - Movie tt17526714 has 69/69 reviews
+2024-10-14 13:20:00,986 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 13:20:03,060 - INFO - Total reviews found: 20
+2024-10-14 13:20:08,173 - INFO - No 'All' button found.
+2024-10-14 13:20:13,279 - INFO - No 'Load More' button found.
+2024-10-14 13:20:13,279 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:20:18,391 - INFO - No 'More' button found.
+2024-10-14 13:20:18,391 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:20:38,525 - INFO - Processed 20 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:20:38,540 - INFO - Movie tt17526714 has 20/20 reviews
+2024-10-14 13:20:40,874 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 13:20:42,929 - INFO - Total reviews found: 22
+2024-10-14 13:20:48,034 - INFO - No 'All' button found.
+2024-10-14 13:20:53,143 - INFO - No 'Load More' button found.
+2024-10-14 13:20:53,143 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:20:58,250 - INFO - No 'More' button found.
+2024-10-14 13:20:58,250 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:21:18,346 - INFO - Processed 22 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:21:18,346 - INFO - Movie tt17526714 has 22/22 reviews
+2024-10-14 13:21:20,626 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 13:21:22,686 - INFO - Total reviews found: 31
+2024-10-14 13:21:27,794 - INFO - No 'All' button found.
+2024-10-14 13:21:31,849 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:21:37,037 - INFO - No 'Load More' button found.
+2024-10-14 13:21:37,037 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:21:42,165 - INFO - No 'More' button found.
+2024-10-14 13:21:42,165 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:22:02,277 - INFO - Processed 31 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:22:02,277 - INFO - Movie tt17526714 has 31/31 reviews
+2024-10-14 13:22:04,770 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 13:22:06,836 - INFO - Total reviews found: 35
+2024-10-14 13:22:11,946 - INFO - No 'All' button found.
+2024-10-14 13:22:15,983 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:22:21,171 - INFO - No 'Load More' button found.
+2024-10-14 13:22:21,171 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:22:26,303 - INFO - No 'More' button found.
+2024-10-14 13:22:26,303 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:22:46,453 - INFO - Processed 35 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:22:46,453 - INFO - Movie tt17526714 has 35/35 reviews
+2024-10-14 13:22:48,771 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 13:22:50,830 - INFO - Total reviews found: 35
+2024-10-14 13:22:55,990 - INFO - No 'All' button found.
+2024-10-14 13:23:00,029 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:23:05,209 - INFO - No 'Load More' button found.
+2024-10-14 13:23:05,209 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:23:10,341 - INFO - No 'More' button found.
+2024-10-14 13:23:10,341 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:23:30,494 - INFO - Processed 35 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:23:30,494 - INFO - Movie tt17526714 has 35/35 reviews
+2024-10-14 13:23:32,922 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 13:23:34,988 - INFO - Total reviews found: 42
+2024-10-14 13:23:40,094 - INFO - No 'All' button found.
+2024-10-14 13:23:44,134 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:23:49,334 - INFO - No 'Load More' button found.
+2024-10-14 13:23:49,334 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:23:54,467 - INFO - No 'More' button found.
+2024-10-14 13:23:54,467 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:24:14,621 - INFO - Processed 42 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:24:14,621 - INFO - Movie tt17526714 has 42/42 reviews
+2024-10-14 13:24:16,848 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 13:24:18,906 - INFO - Total reviews found: 79
+2024-10-14 13:24:24,030 - INFO - No 'All' button found.
+2024-10-14 13:24:28,068 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:24:32,106 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:24:36,144 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:24:41,357 - INFO - No 'Load More' button found.
+2024-10-14 13:24:41,358 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:24:46,491 - INFO - No 'More' button found.
+2024-10-14 13:24:46,491 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:25:06,908 - INFO - Processed 79 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:25:06,908 - INFO - Movie tt17526714 has 79/79 reviews
+2024-10-14 13:25:09,261 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 13:25:11,333 - INFO - Total reviews found: 100
+2024-10-14 13:25:16,446 - INFO - No 'All' button found.
+2024-10-14 13:25:20,483 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:25:24,520 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:25:28,558 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:25:33,776 - INFO - No 'Load More' button found.
+2024-10-14 13:25:33,777 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:25:38,911 - INFO - No 'More' button found.
+2024-10-14 13:25:38,911 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:25:59,362 - INFO - Processed 100 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:25:59,362 - INFO - Movie tt17526714 has 100/100 reviews
+2024-10-14 13:26:01,633 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 13:26:03,704 - INFO - Total reviews found: 74
+2024-10-14 13:26:08,816 - INFO - No 'All' button found.
+2024-10-14 13:26:12,856 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:26:16,889 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 13:26:22,104 - INFO - No 'Load More' button found.
+2024-10-14 13:26:22,104 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 13:26:27,224 - INFO - No 'More' button found.
+2024-10-14 13:26:27,224 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 13:26:47,455 - INFO - Processed 74 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 13:26:47,455 - INFO - Movie tt17526714 has 74/74 reviews
+2024-10-14 13:26:47,455 - INFO - Movie tt17526714 has 507/507 reviews
+2024-10-14 14:10:48,307 - INFO - Fetching reviews for movie_id: tt17526714
+2024-10-14 14:10:55,114 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 14:10:57,202 - INFO - Total reviews found: 69
+2024-10-14 14:11:02,340 - INFO - No 'All' button found.
+2024-10-14 14:11:06,435 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:11:10,477 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:11:15,664 - INFO - No 'Load More' button found.
+2024-10-14 14:11:15,664 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:11:20,773 - INFO - No 'More' button found.
+2024-10-14 14:11:20,773 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:11:41,053 - INFO - Processed 69 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:11:41,053 - INFO - Movie tt17526714 has 69/69 reviews
+2024-10-14 14:11:43,311 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=2&rating=2
+2024-10-14 14:11:45,375 - INFO - Total reviews found: 20
+2024-10-14 14:11:50,479 - INFO - No 'All' button found.
+2024-10-14 14:11:55,587 - INFO - No 'Load More' button found.
+2024-10-14 14:11:55,588 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:12:00,692 - INFO - No 'More' button found.
+2024-10-14 14:12:00,692 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:12:20,800 - INFO - Processed 20 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:12:20,800 - INFO - Movie tt17526714 has 20/20 reviews
+2024-10-14 14:12:23,065 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=3&rating=3
+2024-10-14 14:12:25,113 - INFO - Total reviews found: 22
+2024-10-14 14:12:30,235 - INFO - No 'All' button found.
+2024-10-14 14:12:35,349 - INFO - No 'Load More' button found.
+2024-10-14 14:12:35,349 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:12:40,477 - INFO - No 'More' button found.
+2024-10-14 14:12:40,477 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:13:00,583 - INFO - Processed 22 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:13:00,585 - INFO - Movie tt17526714 has 22/22 reviews
+2024-10-14 14:13:02,888 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=4&rating=4
+2024-10-14 14:13:04,950 - INFO - Total reviews found: 31
+2024-10-14 14:13:10,064 - INFO - No 'All' button found.
+2024-10-14 14:13:14,124 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:13:19,317 - INFO - No 'Load More' button found.
+2024-10-14 14:13:19,317 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:13:24,442 - INFO - No 'More' button found.
+2024-10-14 14:13:24,442 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:13:44,578 - INFO - Processed 31 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:13:44,578 - INFO - Movie tt17526714 has 31/31 reviews
+2024-10-14 14:13:49,578 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=5&rating=5
+2024-10-14 14:13:51,627 - INFO - Total reviews found: 35
+2024-10-14 14:13:56,754 - INFO - No 'All' button found.
+2024-10-14 14:14:00,795 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:14:05,992 - INFO - No 'Load More' button found.
+2024-10-14 14:14:05,992 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:14:11,121 - INFO - No 'More' button found.
+2024-10-14 14:14:11,121 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:14:31,239 - INFO - Processed 35 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:14:31,239 - INFO - Movie tt17526714 has 35/35 reviews
+2024-10-14 14:14:33,617 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=6&rating=6
+2024-10-14 14:14:35,670 - INFO - Total reviews found: 35
+2024-10-14 14:14:40,763 - INFO - No 'All' button found.
+2024-10-14 14:14:44,797 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:14:49,984 - INFO - No 'Load More' button found.
+2024-10-14 14:14:49,984 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:14:55,112 - INFO - No 'More' button found.
+2024-10-14 14:14:55,112 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:15:15,245 - INFO - Processed 35 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:15:15,245 - INFO - Movie tt17526714 has 35/35 reviews
+2024-10-14 14:15:17,496 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=7&rating=7
+2024-10-14 14:15:19,557 - INFO - Total reviews found: 42
+2024-10-14 14:15:24,670 - INFO - No 'All' button found.
+2024-10-14 14:15:28,708 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:15:33,901 - INFO - No 'Load More' button found.
+2024-10-14 14:15:33,901 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:15:39,032 - INFO - No 'More' button found.
+2024-10-14 14:15:39,032 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:15:59,223 - INFO - Processed 42 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:15:59,225 - INFO - Movie tt17526714 has 42/42 reviews
+2024-10-14 14:16:01,606 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=8&rating=8
+2024-10-14 14:16:03,676 - INFO - Total reviews found: 79
+2024-10-14 14:16:08,800 - INFO - No 'All' button found.
+2024-10-14 14:16:12,846 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:16:16,891 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:16:20,932 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:16:26,152 - INFO - No 'Load More' button found.
+2024-10-14 14:16:26,152 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:16:31,291 - INFO - No 'More' button found.
+2024-10-14 14:16:31,291 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:16:51,701 - INFO - Processed 79 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:16:51,701 - INFO - Movie tt17526714 has 79/79 reviews
+2024-10-14 14:16:54,014 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=9&rating=9
+2024-10-14 14:16:56,068 - INFO - Total reviews found: 100
+2024-10-14 14:17:01,184 - INFO - No 'All' button found.
+2024-10-14 14:17:05,220 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:17:09,257 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:17:13,293 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:17:18,496 - INFO - No 'Load More' button found.
+2024-10-14 14:17:18,496 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:17:23,642 - INFO - No 'More' button found.
+2024-10-14 14:17:23,642 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:17:43,924 - INFO - Processed 100 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:17:43,925 - INFO - Movie tt17526714 has 100/100 reviews
+2024-10-14 14:17:45,692 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=10&rating=10
+2024-10-14 14:17:47,753 - INFO - Total reviews found: 74
+2024-10-14 14:17:52,862 - INFO - No 'All' button found.
+2024-10-14 14:17:56,901 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:18:00,933 - INFO - Clicked 'Load More' button successfully.
+2024-10-14 14:18:06,144 - INFO - No 'Load More' button found.
+2024-10-14 14:18:06,144 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-14 14:18:11,275 - INFO - No 'More' button found.
+2024-10-14 14:18:11,275 - INFO - No 'More' button found, all reviews loaded.
+2024-10-14 14:18:31,538 - INFO - Processed 74 reviews for Movie ID: tt17526714, Title: The Substance.
+2024-10-14 14:18:31,538 - INFO - Movie tt17526714 has 74/74 reviews
+2024-10-14 14:18:31,538 - INFO - Movie tt17526714 has 507/507 reviews
+2024-10-14 20:43:01,177 - INFO - Fetching reviews for movie_id: tt17526714
+2024-10-14 20:43:07,193 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc&ratingFilter=1&rating=1
+2024-10-14 20:43:07,196 - ERROR - Error fetching total reviews: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E07FB095+29557]
+	(No symbol) [0x00007FF7E076FA50]
+	(No symbol) [0x00007FF7E062B56A]
+	(No symbol) [0x00007FF7E05FFCC5]
+	(No symbol) [0x00007FF7E06AEE07]
+	(No symbol) [0x00007FF7E06C7E21]
+	(No symbol) [0x00007FF7E06A6F33]
+	(No symbol) [0x00007FF7E067116F]
+	(No symbol) [0x00007FF7E06722D1]
+	GetHandleVerifier [0x00007FF7E0B2C96D+3378253]
+	GetHandleVerifier [0x00007FF7E0B78497+3688311]
+	GetHandleVerifier [0x00007FF7E0B6D1CB+3642539]
+	GetHandleVerifier [0x00007FF7E08BA6B6+813462]
+	(No symbol) [0x00007FF7E077AB5F]
+	(No symbol) [0x00007FF7E0776B74]
+	(No symbol) [0x00007FF7E0776D10]
+	(No symbol) [0x00007FF7E0765C1F]
+	BaseThreadInitThunk [0x00007FFEE125257D+29]
+	RtlUserThreadStart [0x00007FFEE2ECAF08+40]
+
+2024-10-14 20:43:07,200 - INFO - No reviews found for Movie ID tt17526714 with rating 1
+2024-10-14 20:43:07,204 - ERROR - Error in fetch_reviews: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E07FB095+29557]
+	(No symbol) [0x00007FF7E076FA50]
+	(No symbol) [0x00007FF7E062B56A]
+	(No symbol) [0x00007FF7E05FFCC5]
+	(No symbol) [0x00007FF7E06AEE07]
+	(No symbol) [0x00007FF7E06C7E21]
+	(No symbol) [0x00007FF7E06A6F33]
+	(No symbol) [0x00007FF7E067116F]
+	(No symbol) [0x00007FF7E06722D1]
+	GetHandleVerifier [0x00007FF7E0B2C96D+3378253]
+	GetHandleVerifier [0x00007FF7E0B78497+3688311]
+	GetHandleVerifier [0x00007FF7E0B6D1CB+3642539]
+	GetHandleVerifier [0x00007FF7E08BA6B6+813462]
+	(No symbol) [0x00007FF7E077AB5F]
+	(No symbol) [0x00007FF7E0776B74]
+	(No symbol) [0x00007FF7E0776D10]
+	(No symbol) [0x00007FF7E0765C1F]
+	BaseThreadInitThunk [0x00007FFEE125257D+29]
+	RtlUserThreadStart [0x00007FFEE2ECAF08+40]
+
+2024-10-14 20:43:07,207 - INFO - Movie tt17526714 has 0/0 reviews

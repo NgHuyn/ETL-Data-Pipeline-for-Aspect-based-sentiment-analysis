@@ -1,0 +1,4 @@
+2024-10-19 17:08:36,303 - INFO - Fetching reviews for movie_id: tt30850717
+2024-10-19 17:08:38,696 - INFO - Accessed URL: https://www.imdb.com/title/tt30850717/reviews?sort=submissionDate&dir=desc
+2024-10-19 17:08:40,804 - INFO - Total reviews found: 0
+2024-10-19 17:08:40,804 - INFO - No reviews found for Movie ID tt30850717

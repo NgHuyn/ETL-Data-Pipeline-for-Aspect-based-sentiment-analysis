@@ -1,0 +1,10 @@
+2024-10-19 17:05:56,882 - INFO - Fetching reviews for movie_id: tt19882708
+2024-10-19 17:06:00,148 - INFO - Accessed URL: https://www.imdb.com/title/tt19882708/reviews?sort=submissionDate&dir=desc
+2024-10-19 17:06:00,170 - INFO - Total reviews found: 1
+2024-10-19 17:06:05,316 - INFO - No 'All' button found.
+2024-10-19 17:06:10,452 - INFO - No 'Load More' button found.
+2024-10-19 17:06:10,452 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-19 17:06:15,611 - INFO - No 'More' button found.
+2024-10-19 17:06:15,612 - INFO - No 'More' button found, all reviews loaded.
+2024-10-19 17:06:35,715 - INFO - Processed 1 reviews for Movie ID: tt19882708, Title: Kísértés az erdö mélyén.
+2024-10-19 17:06:35,715 - INFO - Movie tt19882708 has 1/1 reviews

@@ -1,0 +1,226 @@
+2024-10-14 10:52:45,463 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 10:52:49,201 - ERROR - Error in fetch_movies: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF67873B095+29557]
+	(No symbol) [0x00007FF6786AFA50]
+	(No symbol) [0x00007FF67856B56A]
+	(No symbol) [0x00007FF67853FCC5]
+	(No symbol) [0x00007FF6785EEE07]
+	(No symbol) [0x00007FF678607E21]
+	(No symbol) [0x00007FF6785E6F33]
+	(No symbol) [0x00007FF6785B116F]
+	(No symbol) [0x00007FF6785B22D1]
+	GetHandleVerifier [0x00007FF678A6C96D+3378253]
+	GetHandleVerifier [0x00007FF678AB8497+3688311]
+	GetHandleVerifier [0x00007FF678AAD1CB+3642539]
+	GetHandleVerifier [0x00007FF6787FA6B6+813462]
+	(No symbol) [0x00007FF6786BAB5F]
+	(No symbol) [0x00007FF6786B6B74]
+	(No symbol) [0x00007FF6786B6D10]
+	(No symbol) [0x00007FF6786A5C1F]
+	BaseThreadInitThunk [0x00007FFEA4FC257D+29]
+	RtlUserThreadStart [0x00007FFEA5E8AF08+40]
+
+2024-10-14 11:14:50,826 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 11:14:53,610 - ERROR - Error in fetch_movies: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF67873B095+29557]
+	(No symbol) [0x00007FF6786AFA50]
+	(No symbol) [0x00007FF67856B56A]
+	(No symbol) [0x00007FF67853FCC5]
+	(No symbol) [0x00007FF6785EEE07]
+	(No symbol) [0x00007FF678607E21]
+	(No symbol) [0x00007FF6785E6F33]
+	(No symbol) [0x00007FF6785B116F]
+	(No symbol) [0x00007FF6785B22D1]
+	GetHandleVerifier [0x00007FF678A6C96D+3378253]
+	GetHandleVerifier [0x00007FF678AB8497+3688311]
+	GetHandleVerifier [0x00007FF678AAD1CB+3642539]
+	GetHandleVerifier [0x00007FF6787FA6B6+813462]
+	(No symbol) [0x00007FF6786BAB5F]
+	(No symbol) [0x00007FF6786B6B74]
+	(No symbol) [0x00007FF6786B6D10]
+	(No symbol) [0x00007FF6786A5C1F]
+	BaseThreadInitThunk [0x00007FFEA4FC257D+29]
+	RtlUserThreadStart [0x00007FFEA5E8AF08+40]
+
+2024-10-14 12:58:08,320 - INFO - MoviesScraper initialized with 1 clicks
+2024-10-14 12:58:15,076 - INFO - Completed fetching movies. Total movies: 100
+2024-10-14 13:01:42,821 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 13:01:47,315 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 13:12:45,570 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 13:12:52,868 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 13:27:57,956 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 13:28:02,370 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 14:05:21,738 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 14:05:28,568 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 14:59:27,822 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 14:59:32,454 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 15:24:08,527 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 15:24:13,351 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 15:43:04,109 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 15:43:07,957 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 17:45:21,434 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 17:45:26,452 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 19:54:52,379 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 19:54:56,688 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 20:15:37,903 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 20:15:42,101 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 20:30:14,481 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 20:30:18,834 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 20:49:14,213 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 20:49:18,544 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 21:01:27,555 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 21:01:28,623 - ERROR - Error in fetch_movies: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E07FB095+29557]
+	(No symbol) [0x00007FF7E076FA50]
+	(No symbol) [0x00007FF7E062B56A]
+	(No symbol) [0x00007FF7E05FFCC5]
+	(No symbol) [0x00007FF7E06AEE07]
+	(No symbol) [0x00007FF7E06C7E21]
+	(No symbol) [0x00007FF7E06A6F33]
+	(No symbol) [0x00007FF7E067116F]
+	(No symbol) [0x00007FF7E06722D1]
+	GetHandleVerifier [0x00007FF7E0B2C96D+3378253]
+	GetHandleVerifier [0x00007FF7E0B78497+3688311]
+	GetHandleVerifier [0x00007FF7E0B6D1CB+3642539]
+	GetHandleVerifier [0x00007FF7E08BA6B6+813462]
+	(No symbol) [0x00007FF7E077AB5F]
+	(No symbol) [0x00007FF7E0776B74]
+	(No symbol) [0x00007FF7E0776D10]
+	(No symbol) [0x00007FF7E0765C1F]
+	BaseThreadInitThunk [0x00007FFEE125257D+29]
+	RtlUserThreadStart [0x00007FFEE2ECAF08+40]
+
+2024-10-14 21:01:51,855 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 21:01:55,759 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 21:15:20,185 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 21:15:24,762 - INFO - Completed fetching movies. Total movies: 50
+2024-10-14 21:24:40,898 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-14 21:24:45,130 - INFO - Completed fetching movies. Total movies: 50
+2024-10-15 18:05:53,610 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-15 18:05:58,102 - INFO - Completed fetching movies. Total movies: 50
+2024-10-15 18:27:07,823 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-15 18:27:10,549 - ERROR - Error in fetch_movies: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71F74B095+29557]
+	(No symbol) [0x00007FF71F6BFA50]
+	(No symbol) [0x00007FF71F57B56A]
+	(No symbol) [0x00007FF71F54FCC5]
+	(No symbol) [0x00007FF71F5FEE07]
+	(No symbol) [0x00007FF71F617E21]
+	(No symbol) [0x00007FF71F5F6F33]
+	(No symbol) [0x00007FF71F5C116F]
+	(No symbol) [0x00007FF71F5C22D1]
+	GetHandleVerifier [0x00007FF71FA7C96D+3378253]
+	GetHandleVerifier [0x00007FF71FAC8497+3688311]
+	GetHandleVerifier [0x00007FF71FABD1CB+3642539]
+	GetHandleVerifier [0x00007FF71F80A6B6+813462]
+	(No symbol) [0x00007FF71F6CAB5F]
+	(No symbol) [0x00007FF71F6C6B74]
+	(No symbol) [0x00007FF71F6C6D10]
+	(No symbol) [0x00007FF71F6B5C1F]
+	BaseThreadInitThunk [0x00007FFEE125257D+29]
+	RtlUserThreadStart [0x00007FFEE2ECAF08+40]
+
+2024-10-15 18:44:20,836 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-15 18:44:25,670 - INFO - Completed fetching movies. Total movies: 50
+2024-10-15 18:47:23,060 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-15 18:47:27,175 - INFO - Completed fetching movies. Total movies: 50
+2024-10-15 18:58:43,464 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-15 18:58:47,973 - INFO - Completed fetching movies. Total movies: 50
+2024-10-15 19:02:01,320 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-15 19:02:05,179 - INFO - Completed fetching movies. Total movies: 50
+2024-10-15 19:19:02,736 - INFO - MoviesScraper initialized with 50 clicks
+2024-10-15 19:21:57,684 - INFO - Completed fetching movies. Total movies: 2550
+2024-10-15 19:23:03,720 - INFO - MoviesScraper initialized with 200 clicks
+2024-10-15 19:51:33,801 - INFO - Completed fetching movies. Total movies: 10050
+2024-10-15 20:36:34,709 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-15 20:36:38,835 - INFO - Completed fetching movies. Total movies: 50
+2024-10-15 20:37:08,124 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-15 20:37:12,561 - INFO - Completed fetching movies. Total movies: 50
+2024-10-19 11:55:45,020 - INFO - Total reviews found: 139
+2024-10-19 11:55:45,020 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 11:55:45,124 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 11:55:46,428 - INFO - Completed fetching movies. Total movies: 0
+2024-10-19 12:09:31,248 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-19 12:09:35,641 - INFO - Completed fetching movies. Total movies: 0
+2024-10-19 12:09:57,134 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-19 12:10:01,255 - INFO - Completed fetching movies. Total movies: 0
+2024-10-19 15:14:10,462 - INFO - Total reviews found: 139
+2024-10-19 15:14:10,463 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 15:14:10,516 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:14:11,557 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:14:12,905 - INFO - Finished extraction of movie data.
+2024-10-19 15:14:12,906 - INFO - Completed fetching movies. Total movies: 139
+2024-10-19 15:18:01,808 - INFO - Total reviews found: 139
+2024-10-19 15:18:01,808 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 15:18:01,879 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:18:02,922 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:18:04,226 - INFO - Finished extraction of movie data.
+2024-10-19 15:18:04,227 - INFO - Completed fetching movies. Total movies: 139
+2024-10-19 15:19:06,944 - INFO - Total reviews found: 139
+2024-10-19 15:19:06,944 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 15:19:06,997 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:19:08,567 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:19:10,006 - INFO - Finished extraction of movie data.
+2024-10-19 15:19:10,006 - INFO - Completed fetching movies. Total movies: 139
+2024-10-19 15:23:02,032 - INFO - Total reviews found: 139
+2024-10-19 15:23:02,032 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 15:23:02,093 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:23:03,134 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:23:04,527 - INFO - Finished extraction of movie data.
+2024-10-19 15:23:04,527 - INFO - Completed fetching movies. Total movies: 139
+2024-10-19 15:28:17,958 - INFO - Total reviews found: 139
+2024-10-19 15:28:17,959 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 15:28:18,031 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:28:19,070 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:28:20,569 - INFO - Finished extraction of movie data.
+2024-10-19 15:28:20,570 - INFO - Completed fetching movies. Total movies: 139
+2024-10-19 15:45:34,527 - INFO - Total reviews found: 139
+2024-10-19 15:45:34,528 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 15:45:34,581 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:45:35,789 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:45:37,228 - INFO - Finished extraction of movie data.
+2024-10-19 15:45:37,229 - INFO - Completed fetching movies. Total movies: 139
+2024-10-19 15:58:39,819 - INFO - Total reviews found: 139
+2024-10-19 15:58:39,820 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 15:58:39,873 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:58:41,470 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 15:58:42,978 - INFO - Finished extraction of movie data.
+2024-10-19 15:58:42,979 - INFO - Completed fetching movies. Total movies: 139
+2024-10-19 16:26:32,067 - INFO - Total reviews found: 139
+2024-10-19 16:26:32,067 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 16:26:32,121 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 16:26:33,722 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 16:26:35,105 - INFO - Finished extraction of movie data.
+2024-10-19 16:26:35,105 - INFO - Completed fetching movies. Total movies: 100
+2024-10-19 16:36:02,622 - INFO - Total reviews found: 139
+2024-10-19 16:36:02,623 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 16:36:02,676 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 16:36:03,726 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 16:36:05,052 - INFO - Finished extraction of movie data.
+2024-10-19 16:36:05,052 - INFO - Completed fetching movies. Total movies: 139
+2024-10-19 16:37:30,899 - INFO - Total reviews found: 104
+2024-10-19 16:37:30,899 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-19 16:37:30,944 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 16:37:32,008 - INFO - Clicked 'Load More' button successfully.
+2024-10-19 16:37:33,308 - INFO - Finished extraction of movie data.
+2024-10-19 16:37:33,309 - INFO - Completed fetching movies. Total movies: 104
+2024-10-19 16:51:45,078 - INFO - Total reviews found: 40
+2024-10-19 16:51:45,079 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-19 16:51:45,338 - INFO - Finished extraction of movie data.
+2024-10-19 16:51:45,338 - INFO - Completed fetching movies. Total movies: 40
+2024-10-19 16:55:54,196 - INFO - Total reviews found: 40
+2024-10-19 16:55:54,197 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-19 16:55:54,558 - INFO - Finished extraction of movie data.
+2024-10-19 16:55:54,559 - INFO - Completed fetching movies. Total movies: 40

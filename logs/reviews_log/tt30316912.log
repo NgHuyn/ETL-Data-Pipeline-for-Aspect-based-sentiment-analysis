@@ -1,0 +1,4 @@
+2024-10-19 16:06:48,707 - INFO - Fetching reviews for movie_id: tt30316912
+2024-10-19 16:06:55,129 - INFO - Accessed URL: https://www.imdb.com/title/tt30316912/reviews?sort=submissionDate&dir=desc
+2024-10-19 16:06:57,225 - INFO - Total reviews found: 0
+2024-10-19 16:06:57,225 - INFO - No reviews found for Movie ID tt30316912

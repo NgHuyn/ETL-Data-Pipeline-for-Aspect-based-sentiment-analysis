@@ -1,0 +1,26 @@
+2024-10-14 20:43:18,793 - INFO - Fetching reviews for movie_id: tt10245072
+2024-10-14 20:43:22,861 - ERROR - Error in fetch_reviews: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E07FB095+29557]
+	(No symbol) [0x00007FF7E076FA50]
+	(No symbol) [0x00007FF7E062B56A]
+	(No symbol) [0x00007FF7E05FFCC5]
+	(No symbol) [0x00007FF7E06AEE07]
+	(No symbol) [0x00007FF7E06C7E21]
+	(No symbol) [0x00007FF7E06A6F33]
+	(No symbol) [0x00007FF7E067116F]
+	(No symbol) [0x00007FF7E06722D1]
+	GetHandleVerifier [0x00007FF7E0B2C96D+3378253]
+	GetHandleVerifier [0x00007FF7E0B78497+3688311]
+	GetHandleVerifier [0x00007FF7E0B6D1CB+3642539]
+	GetHandleVerifier [0x00007FF7E08BA6B6+813462]
+	(No symbol) [0x00007FF7E077AB5F]
+	(No symbol) [0x00007FF7E0776B74]
+	(No symbol) [0x00007FF7E0776D10]
+	(No symbol) [0x00007FF7E0765C1F]
+	BaseThreadInitThunk [0x00007FFEE125257D+29]
+	RtlUserThreadStart [0x00007FFEE2ECAF08+40]
+
+2024-10-14 20:43:22,864 - INFO - Movie tt10245072 has 0/0 reviews

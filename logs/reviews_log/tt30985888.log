@@ -1,0 +1,4 @@
+2024-10-19 17:09:06,274 - INFO - Fetching reviews for movie_id: tt30985888
+2024-10-19 17:09:08,460 - INFO - Accessed URL: https://www.imdb.com/title/tt30985888/reviews?sort=submissionDate&dir=desc
+2024-10-19 17:09:10,555 - INFO - Total reviews found: 0
+2024-10-19 17:09:10,556 - INFO - No reviews found for Movie ID tt30985888

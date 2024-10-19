@@ -1,0 +1,10 @@
+2024-10-19 16:05:40,915 - INFO - Fetching reviews for movie_id: tt29220279
+2024-10-19 16:05:48,535 - INFO - Accessed URL: https://www.imdb.com/title/tt29220279/reviews?sort=submissionDate&dir=desc
+2024-10-19 16:05:48,562 - INFO - Total reviews found: 2
+2024-10-19 16:05:53,758 - INFO - No 'All' button found.
+2024-10-19 16:05:58,915 - INFO - No 'Load More' button found.
+2024-10-19 16:05:58,915 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-19 16:06:04,095 - INFO - No 'More' button found.
+2024-10-19 16:06:04,095 - INFO - No 'More' button found, all reviews loaded.
+2024-10-19 16:06:24,227 - INFO - Processed 2 reviews for Movie ID: tt29220279, Title: Slightly New.
+2024-10-19 16:06:24,242 - INFO - Movie tt29220279 has 2/2 reviews

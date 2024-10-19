@@ -1,0 +1,16 @@
+2024-10-19 16:02:54,224 - INFO - Fetching reviews for movie_id: tt30430918
+2024-10-19 16:03:01,186 - INFO - Accessed URL: https://www.imdb.com/title/tt30430918/reviews?sort=submissionDate&dir=desc
+2024-10-19 16:03:03,309 - INFO - Total reviews found: 15
+2024-10-19 16:03:08,494 - INFO - No 'All' button found.
+2024-10-19 16:03:13,698 - INFO - No 'Load More' button found.
+2024-10-19 16:03:13,698 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-19 16:03:18,885 - INFO - No 'More' button found.
+2024-10-19 16:03:18,885 - INFO - No 'More' button found, all reviews loaded.
+2024-10-19 16:03:39,055 - INFO - Processed 15 reviews for Movie ID: tt30430918, Title: Tati Part Time.
+2024-10-19 16:03:39,055 - INFO - Movie tt30430918 has 15/15 reviews
+2024-10-19 16:30:45,371 - INFO - Fetching reviews for movie_id: tt30430918
+2024-10-19 16:30:47,828 - INFO - Accessed URL: https://www.imdb.com/title/tt30430918/reviews?sort=submissionDate&dir=desc
+2024-10-19 16:30:49,916 - INFO - Total reviews found: 15
+2024-10-19 16:30:55,069 - INFO - No 'All' button found.
+2024-10-19 16:31:00,195 - INFO - No 'Load More' button found.
+2024-10-19 16:31:00,195 - INFO - No more 'Load More' buttons found, moving to 'More' button check.

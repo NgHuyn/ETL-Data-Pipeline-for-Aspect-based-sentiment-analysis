@@ -11,7 +11,7 @@ class BaseScraper:
         options = webdriver.ChromeOptions()
         
         # Set Chrome options to reduce memory usage
-        options.add_argument("--headless")
+        # options.add_argument("--headless")
         options.add_argument('--disable-extensions')
         options.add_argument('--disable-gpu')
         options.add_argument('--disable-dev-shm-usage')
@@ -20,7 +20,7 @@ class BaseScraper:
         options.add_argument("--disable-infobars")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option("useAutomationExtension", False)
-        options.add_argument("--window-position=-2400,-2400")
+        # options.add_argument("--window-position=-2400,-2400")
         options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36")
 
 

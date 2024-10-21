@@ -10,11 +10,13 @@ from .utils import setup_reviews_logger
 
 # ReviewsScraper class to fetch reviews for each movie
 class MovieReviewScraper(BaseScraper):
-    def __init__(self, movie_id, movie_title):
+    def __init__(self, movie_id, movie_title, total_reviews=0, last_date_review='01/01/1001'):
         super().__init__()  # Call the base class constructor
         self.movie_id = movie_id
         self.movie_title = movie_title
+        self.total_reviews = total_reviews
         self.clicks = 0  # Initialize click counter
+        self.last_date_review = last_date_review
         self.movie_info = { 
             'Movie ID': movie_id,
             'Total Reviews': 0,
@@ -26,18 +28,18 @@ class MovieReviewScraper(BaseScraper):
         self.logger.info("Fetching reviews for movie_id: %s", movie_id)
 
     def fetch_reviews(self):
-            total_reviews = 0
+            total_recent_reviews = 0
             try:
                 review_url = f"https://www.imdb.com/title/{self.movie_id}/reviews?sort=submissionDate&dir=desc"
                 self.driver.get(review_url)
 
                 self.logger.info("Accessed URL: %s", review_url)
                 # Check if there are any reviews available
-                total_reviews = self._get_total_reviews()
-                if total_reviews == 0:
+                total_recent_reviews = self._get_total_reviews()
+                if total_recent_reviews == 0:
                     self.logger.info("No reviews found for Movie ID %s", self.movie_id)
                     return None
-                self.movie_info['Total Reviews'] = total_reviews
+                self.movie_info['Total Reviews'] = total_recent_reviews
 
                 # If reviews are available, attempt to load all or more reviews
                 self._load_reviews()  # Load more reviews by clicking the button
@@ -55,9 +57,9 @@ class MovieReviewScraper(BaseScraper):
                     self.logger.warning(f"No reviews found for Movie ID: {self.movie_id}.")
                     return None
 
-                if total_reviews - num_reviews != 0:
-                    self.logger.warning('Missing %d reviews', total_reviews - num_reviews)
-                self.logger.info('Movie %s has %d/%d reviews', self.movie_id, num_reviews, total_reviews)
+                if self.total_reviews - num_reviews != 0:
+                    self.logger.warning('Missing %d reviews', total_recent_reviews - num_reviews)
+                self.logger.info('Movie %s has %d/%d reviews', self.movie_id, num_reviews, total_recent_reviews)
             except Exception as e:
                 self.logger.error("Error in fetch_reviews: %s", str(e))
             finally:
@@ -88,7 +90,7 @@ class MovieReviewScraper(BaseScraper):
                 self.logger.error("Error fetching total reviews: %s", e)
                 return 0  # Default to 0 if neither element is found
 
-    def _load_reviews(self):
+    def _load_reviews(self, max_clicks=None):
         def click_button(xpath, name, wait=5):
             """Helper function to find and click a button if available."""
             try:
@@ -113,10 +115,16 @@ class MovieReviewScraper(BaseScraper):
             return  # Stop after 'All' is clicked
 
         # 2. Continuously click 'Load More' button until it no longer appears
+        clicks = 0
         while True:
-            if not click_button('//*[@id="load-more-trigger"]', 'Load More'):
+            if click_button('//*[@id="load-more-trigger"]', 'Load More'):
+                clicks += 1 
+                if max_clicks is not None and clicks >= max_clicks:
+                    self.logger.info("Reached max clicks limit of %d, exiting.", max_clicks)
+                    break 
+            else:
                 self.logger.info("No more 'Load More' buttons found, moving to 'More' button check.")
-                break  # Exit the loop when 'Load More' is no longer available
+                break # Exit the loop when 'Load More' is no longer available
 
         # 3. Try clicking the 'More' button if it exists
         if click_button('//*[@id="__next"]/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[1]/button/span/span', 'More'):
@@ -154,6 +162,18 @@ class MovieReviewScraper(BaseScraper):
     def _extract_reviews(self, soup, movie_id, title):
         # Attempt to extract reviews using the primary selector
         reviews = soup.select('article.user-review-item')
+
+        # # Check if movie info already exists in the list
+        # movie_info = next((info for info in self.movie_reviews if info['Movie ID'] == movie_id), None)
+
+        # if movie_info is None:
+        #     # Initialize a new movie_info if it doesn't exist
+        #     movie_info = {
+        #         'Movie ID': movie_id,
+        #         'Reviews': []
+        #     }
+        #     self.movie_reviews.append(movie_info)  # Append to the main list
+        #     self.logger.info(f"Initialized new movie info for Movie ID: {movie_id}, Title: {title}.")
 
         # If no reviews found, try to load more reviews
         if not reviews:  # Attempt to load more reviews

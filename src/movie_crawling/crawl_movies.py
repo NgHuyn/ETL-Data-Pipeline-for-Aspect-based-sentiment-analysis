@@ -1,4 +1,4 @@
-from base_scraper import BaseScraper
+from .base_scraper import BaseScraper
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -6,19 +6,18 @@ import time
 import re
 from tqdm import tqdm  
 from bs4 import BeautifulSoup
-from datetime import datetime, date
-from utils import setup_movies_scraper_logger
+from .utils import setup_movies_scraper_logger
 import math
 
 class MoviesScraper(BaseScraper):
-    def __init__(self, release_date_from, release_date_to):
+    def __init__(self, release_date_from='2024-01-01', release_date_to='2024-10-01'):
         super().__init__()
         self.release_date_from = release_date_from
         self.release_date_to = release_date_to
         self.movie_data = []
         self.logger = setup_movies_scraper_logger()  # Initialize new logger
 
-    def fetch_movies(self):
+    def fetch_movies(self, limit=10):
             try:
                 url = f'https://www.imdb.com/search/title/?title_type=feature&release_date={self.release_date_from},{self.release_date_to}'
                 self.driver.get(url)
@@ -30,16 +29,18 @@ class MoviesScraper(BaseScraper):
                             '//*[@id="__next"]/main/div[2]/div[3]/section/section/div/section/section/div[2]/div/section/div[2]/div[2]/div[1]/div[1]'))
                     )
                     total_movies_text = total_movies_elements.text.split()[-1]
-                    total_movies = int(total_movies_text.replace('.', '')) 
-                    
-                    self.logger.info("Total reviews found: %s", total_movies)
+                    total_movies_found = int(total_movies_text.replace(',', '')) 
+                    self.logger.info("Total reviews found: %s", total_movies_found)
 
-                    clicks = math.ceil((total_movies - 50) / 50)  
+                    if limit is None:
+                        limit = total_movies_found
+                    clicks = math.ceil((limit - 50) / 50)  
                     self.logger.info("MoviesScraper initialized with %s clicks", clicks)
 
                 except Exception as e:
-                    self.logger.error(f"Error fetching total reviews: {str(e)}")
+                    self.logger.error(f"Error fetching total movies: {str(e)}")
 
+                # clicking for loading more movies
                 with tqdm(total=clicks, desc='Loading movies') as pbar:
                     for _ in range(clicks):
                         self.click_see_more_button()
@@ -49,7 +50,7 @@ class MoviesScraper(BaseScraper):
                  # After all clicks, extract movie data
                 html = self.driver.page_source
                 soup = BeautifulSoup(html, 'html.parser')
-                self.extract_movie_data(soup)
+                self.extract_movie_data(soup, limit)
 
                 self.logger.info("Completed fetching movies. Total movies: %d", len(self.movie_data))
             except Exception as e:
@@ -71,8 +72,12 @@ class MoviesScraper(BaseScraper):
             self.logger.warning(f"No more 'See More' buttons found")
             return None
 
-    def extract_movie_data(self, soup):
+    def extract_movie_data(self, soup, limit):
         movies = soup.select('li.ipc-metadata-list-summary-item')
+        
+        if limit is not None:
+            movies = movies[:limit]
+
         for movie in movies:
             title_tag = movie.select_one('h3.ipc-title__text')
             link_tag = movie.select_one('a.ipc-title-link-wrapper')

@@ -1,23 +1,24 @@
-from base_scraper import BaseScraper
+from .base_scraper import BaseScraper
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
+import math
 from bs4 import BeautifulSoup
-from datetime import datetime, date
-from utils import setup_reviews_logger
+from datetime import datetime
+from .utils import setup_reviews_logger
 
 # ReviewsScraper class to fetch reviews for each movie
 class MovieReviewScraper(BaseScraper):
-    def __init__(self, movie_id, movie_title):
+    def __init__(self, movie_id, total_reviews=0, last_date_review=None):
         super().__init__()  # Call the base class constructor
         self.movie_id = movie_id
-        self.movie_title = movie_title
         self.clicks = 0  # Initialize click counter
         self.movie_info = { 
             'Movie ID': movie_id,
-            'Total Reviews': 0,
+            'Total Reviews': total_reviews,
+            'Last Date Review': last_date_review,
             'Reviews': []
         }
         self.is_scraping = True  # Flag to manage scraping status
@@ -28,19 +29,24 @@ class MovieReviewScraper(BaseScraper):
     def fetch_reviews(self):
             total_reviews = 0
             try:
-                review_url = f"https://www.imdb.com/title/{self.movie_id}/reviews?sort=submissionDate&dir=desc"
+                review_url = f"https://www.imdb.com/title/{self.movie_id}/reviews/?sort=submission_date%2Cdesc&dir=desc"
                 self.driver.get(review_url)
 
                 self.logger.info("Accessed URL: %s", review_url)
+
                 # Check if there are any reviews available
                 total_reviews = self._get_total_reviews()
                 if total_reviews == 0:
                     self.logger.info("No reviews found for Movie ID %s", self.movie_id)
                     return None
-                self.movie_info['Total Reviews'] = total_reviews
+                if total_reviews <= self.movie_info['Total Reviews']:
+                    self.logger.info("No new reviews found for Movie ID %s", self.movie_id)
+                    return None
+                new_reviews_count = total_reviews - self.movie_info['Total Reviews']
 
                 # If reviews are available, attempt to load all or more reviews
-                self._load_reviews()  # Load more reviews by clicking the button
+                self._load_reviews(new_reviews_count)  # Load more reviews by clicking the button
+
                 wait_time = self._calculate_wait_time(10, self.clicks)  # Adjust wait time based on click count
                 time.sleep(wait_time)
 
@@ -49,7 +55,7 @@ class MovieReviewScraper(BaseScraper):
                 soup = BeautifulSoup(html, 'html.parser')
 
                 # Extract reviews for the current movie and accumulate total_reviews
-                self.movie_info, num_reviews = self._extract_reviews(soup, self.movie_id, self.movie_title)
+                self.movie_info, num_reviews = self._extract_reviews(soup, self.movie_id)
 
                 if num_reviews == 0:
                     self.logger.warning(f"No reviews found for Movie ID: {self.movie_id}.")
@@ -58,6 +64,16 @@ class MovieReviewScraper(BaseScraper):
                 if total_reviews - num_reviews != 0:
                     self.logger.warning('Missing %d reviews', total_reviews - num_reviews)
                 self.logger.info('Movie %s has %d/%d reviews', self.movie_id, num_reviews, total_reviews)
+
+                # self.movie_info['Last Date Review'] = self.movie_info['Reviews'][0]['Date'] #updating last date review
+                for i in range(len(self.movie_info['Reviews'])):
+                    if 'Date' in self.movie_info['Reviews'][i] and self.movie_info['Reviews'][i]['Date']:
+                        self.movie_info['Last Date Review'] = self.movie_info['Reviews'][i]['Date'] #updating last date review
+                        break  
+                    else:
+                        self.logger.warning(f"Review {i} is missing a date.")
+                self.movie_info['Total Reviews'] = num_reviews #updating new total reviews
+
             except Exception as e:
                 self.logger.error("Error in fetch_reviews: %s", str(e))
             finally:
@@ -88,7 +104,7 @@ class MovieReviewScraper(BaseScraper):
                 self.logger.error("Error fetching total reviews: %s", e)
                 return 0  # Default to 0 if neither element is found
 
-    def _load_reviews(self):
+    def _load_reviews(self, new_reviews_count):
         def click_button(xpath, name, wait=5):
             """Helper function to find and click a button if available."""
             try:
@@ -105,24 +121,32 @@ class MovieReviewScraper(BaseScraper):
             except Exception:
                 self.logger.info(f"No '{name}' button found.")
                 return False
+        if new_reviews_count <= 0:
+            self.logger.info("No new reviews found for Movie ID %s", self.movie_id)
+            return
+        
+        if new_reviews_count > 25:
+            # 1. Try clicking the 'All' button first
+            if click_button('//*[@id="__next"]/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[2]/button/span/span', 'All'):
+                self.logger.info("Clicked 'All' button successfully.")
+                self._scroll_to_load_all()  # Scroll if 'All' button is clicked
+                return  # Stop after 'All' is clicked
 
-        # 1. Try clicking the 'All' button first
-        if click_button('//*[@id="__next"]/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[2]/button/span/span', 'All'):
-            self.logger.info("Clicked 'All' button successfully.")
-            self._scroll_to_load_all()  # Scroll if 'All' button is clicked
-            return  # Stop after 'All' is clicked
+            # 2. Try clicking the 'More' button if it exists
+            if click_button('//*[@id="__next"]/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[1]/button/span/span', 'More'):
+                self.logger.info("Clicked 'More' button successfully.")
+                return # Stop after 'More' is clicked
 
-        # 2. Continuously click 'Load More' button until it no longer appears
-        while True:
-            if not click_button('//*[@id="load-more-trigger"]', 'Load More'):
-                self.logger.info("No more 'Load More' buttons found, moving to 'More' button check.")
-                break  # Exit the loop when 'Load More' is no longer available
+            # 3. Continuously click 'Load More' button until it no longer appears
+            clicks_needed = math.ceil(new_reviews_count / 25)
+            for _ in range(clicks_needed):
+                if not click_button('//*[@id="load-more-trigger"]', 'Load More'):
+                    self.logger.info("No more 'Load More' buttons found.")
+                    break # Exit the loop when 'Load More' is no longer available
+            return
+        else: 
+            return
 
-        # 3. Try clicking the 'More' button if it exists
-        if click_button('//*[@id="__next"]/main/div/section/div/section/div/div[1]/section[1]/div[3]/div/span[1]/button/span/span', 'More'):
-            self.logger.info("Clicked 'More' button successfully.")
-        else:
-            self.logger.info("No 'More' button found, all reviews loaded.")
 
     def _scroll_to_load_all(self):
         """Scroll the page slowly to ensure all reviews are loaded."""
@@ -151,7 +175,7 @@ class MovieReviewScraper(BaseScraper):
         
         return base_wait_time + additional_wait_time
 
-    def _extract_reviews(self, soup, movie_id, title):
+    def _extract_reviews(self, soup, movie_id):
         # Attempt to extract reviews using the primary selector
         reviews = soup.select('article.user-review-item')
 
@@ -159,7 +183,7 @@ class MovieReviewScraper(BaseScraper):
         if not reviews:  # Attempt to load more reviews
             reviews = soup.select('div.lister-item.mode-detail.imdb-user-review')
             if not reviews:  # If still no reviews available
-                self.logger.warning(f"No reviews found for {title}.")
+                self.logger.warning(f"No reviews found for {movie_id}.")
                 return 0  # Return 0 if no reviews found
 
         # Parse reviews and add them to the movie_info['Reviews'] list
@@ -168,11 +192,14 @@ class MovieReviewScraper(BaseScraper):
             button_type = "load_more" if review.select_one('span.rating-other-user-rating span') else "all"
             parsed_review = self._parse_review(review, button_type)
 
+            if self.movie_info['Last Date Review'] is not None:
+                if parsed_review['Date'] <= self.movie_info['Last Date Review']: # if it is the older review, stop the iteration
+                    break
+
             # Append the parsed review to the 'Reviews' list
             self.movie_info['Reviews'].append(parsed_review)
-            # self.logger.info(f"Added review for Movie ID: {movie_id}, Title: {title}, Button Type: {button_type}.")
 
-        self.logger.info(f"Processed {len(reviews)} reviews for Movie ID: {movie_id}, Title: {title}.")
+        self.logger.info(f"Processed {len(reviews)} reviews for Movie ID: {movie_id}.")
         return self.movie_info, len(reviews) # Return the number of reviews processed
     
     def convert_to_int(self, human_readable):
@@ -183,6 +210,17 @@ class MovieReviewScraper(BaseScraper):
             return int(float(human_readable.replace('M', '').strip()) * 1000000)
         else:
             return int(human_readable.strip())
+
+    def convert_date_format(self, date_str, button_type):
+        desired_format = "%Y-%m-%d"
+
+        if button_type == "load_more":
+            current_format = "%d %B %Y"
+        elif button_type == "all":
+            current_format = "%b %d, %Y"
+
+        date_object = datetime.strptime(date_str, current_format)
+        return date_object.strftime(desired_format)
 
     def _parse_review(self, review, button_type):
         """
@@ -198,13 +236,13 @@ class MovieReviewScraper(BaseScraper):
             review_summary = review.select_one('a.title').get_text(strip=True) if review.select_one('a.title') else 'No summary'
             review_text = review.select_one('div.text.show-more__control').get_text(strip=True) if review.select_one('div.text.show-more__control') else 'No content'
             author_tag = review.select_one('span.display-name-link a').get_text(strip=True) if review.select_one('span.display-name-link a') else 'Unknown Author'
-            review_date = review.select_one('span.review-date').get_text(strip=True) if review.select_one('span.review-date') else 'No date'
+            review_date = self.convert_date_format(review.select_one('span.review-date').get_text(strip=True), button_type) if review.select_one('span.review-date') else 'No date'
         else:
             review_rating = review.select_one('span.ipc-rating-star--rating').get_text(strip=True) if review.select_one('span.ipc-rating-star--rating') else 'No rating'
             review_summary = review.select_one('span[data-testid="review-summary"]').get_text(strip=True) if review.select_one('span[data-testid="review-summary"]') else 'No summary'
             review_text = review.select_one('div.ipc-html-content-inner-div').get_text(strip=True) if review.select_one('div.ipc-html-content-inner-div') else 'No content'
             author_tag = review.select_one('a[data-testid="author-link"]').get_text(strip=True) if review.select_one('a[data-testid="author-link"]') else 'Unknown Author'
-            review_date = review.select_one('li.review-date').get_text(strip=True) if review.select_one('li.review-date') else 'No date'
+            review_date = self.convert_date_format(review.select_one('li.review-date').get_text(strip=True), button_type) if review.select_one('li.review-date') else 'No date'
 
         # Extract helpful votes
         if button_type == "load_more":

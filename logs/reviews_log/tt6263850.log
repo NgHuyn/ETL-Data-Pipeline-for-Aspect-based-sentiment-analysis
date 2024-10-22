@@ -33,3 +33,13 @@
 2024-10-14 14:35:41,386 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
 2024-10-14 14:35:41,388 - INFO - No 'More' button found.
 2024-10-14 14:35:41,388 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 18:34:49,230 - INFO - Fetching reviews for movie_id: tt6263850
+2024-10-21 18:34:52,751 - INFO - Accessed URL: https://www.imdb.com/title/tt6263850/reviews?sort=submissionDate&dir=desc
+2024-10-21 18:34:52,776 - INFO - Total reviews found: 1,842
+2024-10-21 18:34:56,812 - INFO - Clicked 'All' button successfully.
+2024-10-21 18:34:56,813 - INFO - Clicked 'All' button successfully.
+2024-10-21 18:34:56,824 - INFO - Starting to scroll to load all reviews.
+2024-10-21 18:37:06,803 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-21 18:37:36,475 - INFO - Processed 1840 reviews for Movie ID: tt6263850, Title: None.
+2024-10-21 18:37:36,476 - WARNING - Missing 2 reviews
+2024-10-21 18:37:36,476 - INFO - Movie tt6263850 has 1840/1842 reviews

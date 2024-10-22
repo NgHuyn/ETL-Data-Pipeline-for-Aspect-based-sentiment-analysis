@@ -1,0 +1,18 @@
+2024-10-21 20:57:36,307 - INFO - Fetching reviews for movie_id: tt8060328
+2024-10-21 20:57:40,551 - INFO - Accessed URL: https://www.imdb.com/title/tt8060328/reviews?sort=submissionDate&dir=desc
+2024-10-21 20:57:40,579 - INFO - Total reviews found: 73
+2024-10-21 20:57:44,627 - INFO - Clicked 'All' button successfully.
+2024-10-21 20:57:44,629 - INFO - Clicked 'All' button successfully.
+2024-10-21 20:57:44,642 - INFO - Starting to scroll to load all reviews.
+2024-10-21 20:57:46,660 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-21 20:58:07,022 - INFO - Processed 73 reviews for Movie ID: tt8060328, Title: Invasion.
+2024-10-21 20:58:07,029 - INFO - Movie tt8060328 has 73/73 reviews
+2024-10-21 21:01:32,357 - INFO - Fetching reviews for movie_id: tt8060328
+2024-10-21 21:01:36,897 - INFO - Accessed URL: https://www.imdb.com/title/tt8060328/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:01:36,927 - INFO - Total reviews found: 73
+2024-10-21 21:01:40,975 - INFO - Clicked 'All' button successfully.
+2024-10-21 21:01:40,975 - INFO - Clicked 'All' button successfully.
+2024-10-21 21:01:40,981 - INFO - Starting to scroll to load all reviews.
+2024-10-21 21:01:42,994 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-21 21:02:03,362 - INFO - Processed 73 reviews for Movie ID: tt8060328, Title: Invasion.
+2024-10-21 21:02:03,362 - INFO - Movie tt8060328 has 73/73 reviews

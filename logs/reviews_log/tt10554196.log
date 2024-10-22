@@ -1,0 +1,9 @@
+2024-10-21 21:07:52,168 - INFO - Fetching reviews for movie_id: tt10554196
+2024-10-21 21:07:56,265 - INFO - Accessed URL: https://www.imdb.com/title/tt10554196/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:07:56,296 - INFO - Total reviews found: 59
+2024-10-21 21:08:00,341 - INFO - Clicked 'All' button successfully.
+2024-10-21 21:08:00,341 - INFO - Clicked 'All' button successfully.
+2024-10-21 21:08:00,348 - INFO - Starting to scroll to load all reviews.
+2024-10-21 21:08:02,362 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-21 21:08:22,675 - INFO - Processed 59 reviews for Movie ID: tt10554196, Title: Pungo: A Witch's Tale.
+2024-10-21 21:08:22,676 - INFO - Movie tt10554196 has 59/59 reviews

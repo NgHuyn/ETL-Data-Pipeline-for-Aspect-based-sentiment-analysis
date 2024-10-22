@@ -1,0 +1,10 @@
+2024-10-21 21:11:10,016 - INFO - Fetching reviews for movie_id: tt16154576
+2024-10-21 21:11:13,606 - INFO - Accessed URL: https://www.imdb.com/title/tt16154576/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:11:13,641 - INFO - Total reviews found: 2
+2024-10-21 21:11:18,730 - INFO - No 'All' button found.
+2024-10-21 21:11:23,812 - INFO - No 'Load More' button found.
+2024-10-21 21:11:23,812 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:11:28,901 - INFO - No 'More' button found.
+2024-10-21 21:11:28,901 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:11:49,003 - INFO - Processed 2 reviews for Movie ID: tt16154576, Title: The Mask of Shura of Fire Cloud.
+2024-10-21 21:11:49,004 - INFO - Movie tt16154576 has 2/2 reviews

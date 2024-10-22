@@ -262,3 +262,41 @@ Stacktrace:
 	RtlUserThreadStart [0x00007FFEE2ECAF08+40]
 
 2024-10-14 20:43:07,207 - INFO - Movie tt17526714 has 0/0 reviews
+2024-10-21 18:32:04,702 - INFO - Fetching reviews for movie_id: tt17526714
+2024-10-21 18:32:07,308 - INFO - Accessed URL: https://www.imdb.com/title/tt17526714/reviews?sort=submissionDate&dir=desc
+2024-10-21 18:32:09,379 - INFO - Total reviews found: 717
+2024-10-21 18:32:14,555 - INFO - No 'All' button found.
+2024-10-21 18:32:18,610 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:22,646 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:26,686 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:30,716 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:34,750 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:38,793 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:42,846 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:46,889 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:50,942 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:54,992 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:32:59,043 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:03,097 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:07,152 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:11,221 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:15,275 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:19,335 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:23,407 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:27,464 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:31,517 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:35,609 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:39,667 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:43,730 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:47,825 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:51,887 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:33:55,947 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:34:00,036 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:34:04,113 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:34:08,205 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:34:13,575 - INFO - No 'Load More' button found.
+2024-10-21 18:34:13,575 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 18:34:18,849 - INFO - No 'More' button found.
+2024-10-21 18:34:18,849 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 18:34:41,145 - INFO - Processed 717 reviews for Movie ID: tt17526714, Title: None.
+2024-10-21 18:34:41,146 - INFO - Movie tt17526714 has 717/717 reviews

@@ -1,0 +1,8 @@
+2024-10-21 21:13:51,068 - INFO - Fetching reviews for movie_id: tt7853142
+2024-10-21 21:13:54,627 - INFO - Accessed URL: https://www.imdb.com/title/tt7853142/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:13:54,661 - INFO - Total reviews found: 5
+2024-10-21 21:13:59,772 - INFO - No 'All' button found.
+2024-10-21 21:14:04,905 - INFO - No 'Load More' button found.
+2024-10-21 21:14:04,906 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:14:10,024 - INFO - No 'More' button found.
+2024-10-21 21:14:10,024 - INFO - No 'More' button found, all reviews loaded.

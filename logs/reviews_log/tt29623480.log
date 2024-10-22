@@ -1,0 +1,49 @@
+2024-10-21 18:20:46,180 - INFO - Fetching reviews for movie_id: tt29623480
+2024-10-21 18:20:50,508 - INFO - Accessed URL: https://www.imdb.com/title/tt29623480/reviews?sort=submissionDate&dir=desc
+2024-10-21 18:20:50,535 - INFO - Total reviews found: 348
+2024-10-21 18:20:54,612 - INFO - Clicked 'All' button successfully.
+2024-10-21 18:20:54,613 - INFO - Clicked 'All' button successfully.
+2024-10-21 18:20:54,700 - INFO - Starting to scroll to load all reviews.
+2024-10-21 18:21:04,926 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-21 18:21:26,515 - INFO - Processed 349 reviews for Movie ID: tt29623480, Title: None.
+2024-10-21 18:21:26,516 - WARNING - Missing -1 reviews
+2024-10-21 18:21:26,517 - INFO - Movie tt29623480 has 349/348 reviews
+2024-10-21 18:23:31,296 - INFO - Fetching reviews for movie_id: tt29623480
+2024-10-21 18:23:33,757 - INFO - Accessed URL: https://www.imdb.com/title/tt29623480/reviews?sort=submissionDate&dir=desc
+2024-10-21 18:23:35,838 - INFO - Total reviews found: 349
+2024-10-21 18:23:40,995 - INFO - No 'All' button found.
+2024-10-21 18:23:45,042 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:23:49,082 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:23:53,114 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:23:57,168 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:24:01,235 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:24:05,300 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:24:09,376 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:24:13,420 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:24:17,479 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:24:21,535 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:24:25,588 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:24:29,637 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:25:10,231 - INFO - Fetching reviews for movie_id: tt29623480
+2024-10-21 18:25:12,760 - INFO - Accessed URL: https://www.imdb.com/title/tt29623480/reviews?sort=submissionDate&dir=desc
+2024-10-21 18:25:14,847 - INFO - Total reviews found: 349
+2024-10-21 18:25:20,041 - INFO - No 'All' button found.
+2024-10-21 18:25:24,095 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:25:28,141 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:25:32,174 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:25:36,203 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:25:40,235 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:25:44,317 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:25:48,370 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:25:52,418 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:25:56,456 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:26:00,494 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:26:04,542 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:26:08,594 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:26:12,637 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:26:17,921 - INFO - No 'Load More' button found.
+2024-10-21 18:26:17,922 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 18:26:23,181 - INFO - No 'More' button found.
+2024-10-21 18:26:23,181 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 18:26:44,221 - INFO - Processed 349 reviews for Movie ID: tt29623480, Title: None.
+2024-10-21 18:26:44,222 - INFO - Movie tt29623480 has 349/349 reviews

@@ -1,0 +1,8 @@
+2024-10-21 22:07:59,076 - INFO - Fetching reviews for movie_id: tt29961167
+2024-10-21 22:08:02,494 - INFO - Accessed URL: https://www.imdb.com/title/tt29961167/reviews?sort=submissionDate&dir=desc
+2024-10-21 22:08:02,526 - INFO - Total reviews found: 0
+2024-10-21 22:08:02,526 - INFO - No reviews found for Movie ID tt29961167
+2024-10-22 11:01:02,487 - INFO - Fetching reviews for movie_id: tt29961167
+2024-10-22 11:01:05,773 - INFO - Accessed URL: https://www.imdb.com/title/tt29961167/reviews?sort=submissionDate&dir=desc
+2024-10-22 11:01:05,795 - INFO - Total reviews found: 0
+2024-10-22 11:01:05,796 - INFO - No reviews found for Movie ID tt29961167

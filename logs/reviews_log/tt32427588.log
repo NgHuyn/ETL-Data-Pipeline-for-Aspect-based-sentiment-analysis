@@ -1,0 +1,8 @@
+2024-10-21 22:06:50,399 - INFO - Fetching reviews for movie_id: tt32427588
+2024-10-21 22:06:53,712 - INFO - Accessed URL: https://www.imdb.com/title/tt32427588/reviews?sort=submissionDate&dir=desc
+2024-10-21 22:06:53,751 - INFO - Total reviews found: 0
+2024-10-21 22:06:53,752 - INFO - No reviews found for Movie ID tt32427588
+2024-10-22 10:59:50,422 - INFO - Fetching reviews for movie_id: tt32427588
+2024-10-22 10:59:53,011 - INFO - Accessed URL: https://www.imdb.com/title/tt32427588/reviews?sort=submissionDate&dir=desc
+2024-10-22 10:59:55,084 - INFO - Total reviews found: 0
+2024-10-22 10:59:55,085 - INFO - No reviews found for Movie ID tt32427588

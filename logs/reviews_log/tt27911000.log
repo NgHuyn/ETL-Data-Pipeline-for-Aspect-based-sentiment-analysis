@@ -94,3 +94,19 @@
 2024-10-14 21:00:33,119 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
 2024-10-14 21:00:38,286 - INFO - No 'More' button found.
 2024-10-14 21:00:38,286 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 18:43:03,900 - INFO - Fetching reviews for movie_id: tt27911000
+2024-10-21 18:43:06,411 - INFO - Accessed URL: https://www.imdb.com/title/tt27911000/reviews?sort=submissionDate&dir=desc
+2024-10-21 18:43:08,512 - INFO - Total reviews found: 203
+2024-10-21 18:43:13,696 - INFO - No 'All' button found.
+2024-10-21 18:43:17,750 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:43:21,797 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:43:25,833 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:43:29,873 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:43:33,936 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:43:37,983 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:43:42,044 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:43:46,093 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:43:51,406 - INFO - No 'Load More' button found.
+2024-10-21 18:43:51,407 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 18:43:56,610 - INFO - No 'More' button found.
+2024-10-21 18:43:56,611 - INFO - No 'More' button found, all reviews loaded.

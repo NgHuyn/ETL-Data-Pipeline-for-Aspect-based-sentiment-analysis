@@ -1,0 +1,10 @@
+2024-10-21 21:12:01,507 - INFO - Fetching reviews for movie_id: tt10549312
+2024-10-21 21:12:05,186 - INFO - Accessed URL: https://www.imdb.com/title/tt10549312/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:12:05,220 - INFO - Total reviews found: 25
+2024-10-21 21:12:10,335 - INFO - No 'All' button found.
+2024-10-21 21:12:15,458 - INFO - No 'Load More' button found.
+2024-10-21 21:12:15,459 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:12:20,565 - INFO - No 'More' button found.
+2024-10-21 21:12:20,565 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:12:40,741 - INFO - Processed 25 reviews for Movie ID: tt10549312, Title: Baba Parasi.
+2024-10-21 21:12:40,742 - INFO - Movie tt10549312 has 25/25 reviews

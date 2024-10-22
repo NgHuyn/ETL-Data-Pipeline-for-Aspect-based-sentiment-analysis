@@ -1,0 +1,8 @@
+2024-10-21 22:00:52,579 - INFO - Fetching reviews for movie_id: tt11354056
+2024-10-21 22:00:55,451 - INFO - Accessed URL: https://www.imdb.com/title/tt11354056/reviews?sort=submissionDate&dir=desc
+2024-10-21 22:00:57,561 - INFO - Total reviews found: 0
+2024-10-21 22:00:57,562 - INFO - No reviews found for Movie ID tt11354056
+2024-10-22 10:53:52,170 - INFO - Fetching reviews for movie_id: tt11354056
+2024-10-22 10:53:55,730 - INFO - Accessed URL: https://www.imdb.com/title/tt11354056/reviews?sort=submissionDate&dir=desc
+2024-10-22 10:53:55,766 - INFO - Total reviews found: 0
+2024-10-22 10:53:55,767 - INFO - No reviews found for Movie ID tt11354056

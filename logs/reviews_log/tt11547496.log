@@ -1,0 +1,10 @@
+2024-10-21 21:12:55,939 - INFO - Fetching reviews for movie_id: tt11547496
+2024-10-21 21:12:58,687 - INFO - Accessed URL: https://www.imdb.com/title/tt11547496/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:13:00,777 - INFO - Total reviews found: 9
+2024-10-21 21:13:05,892 - INFO - No 'All' button found.
+2024-10-21 21:13:11,021 - INFO - No 'Load More' button found.
+2024-10-21 21:13:11,021 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:13:16,132 - INFO - No 'More' button found.
+2024-10-21 21:13:16,132 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:13:36,229 - INFO - Processed 9 reviews for Movie ID: tt11547496, Title: Camp Blood 8: Revelations.
+2024-10-21 21:13:36,230 - INFO - Movie tt11547496 has 9/9 reviews

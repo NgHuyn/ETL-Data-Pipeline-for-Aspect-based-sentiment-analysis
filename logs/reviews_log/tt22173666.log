@@ -1,0 +1,11 @@
+2024-10-21 18:37:44,455 - INFO - Fetching reviews for movie_id: tt22173666
+2024-10-21 18:37:46,662 - INFO - Accessed URL: https://www.imdb.com/title/tt22173666/reviews?sort=submissionDate&dir=desc
+2024-10-21 18:37:48,776 - INFO - Total reviews found: 45
+2024-10-21 18:37:53,964 - INFO - No 'All' button found.
+2024-10-21 18:37:58,016 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:38:03,231 - INFO - No 'Load More' button found.
+2024-10-21 18:38:03,232 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 18:38:08,356 - INFO - No 'More' button found.
+2024-10-21 18:38:08,357 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 18:38:28,500 - INFO - Processed 45 reviews for Movie ID: tt22173666, Title: None.
+2024-10-21 18:38:28,502 - INFO - Movie tt22173666 has 45/45 reviews

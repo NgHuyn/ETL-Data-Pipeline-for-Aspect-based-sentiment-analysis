@@ -1,0 +1,10 @@
+2024-10-21 21:04:10,714 - INFO - Fetching reviews for movie_id: tt10665040
+2024-10-21 21:04:13,508 - INFO - Accessed URL: https://www.imdb.com/title/tt10665040/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:04:15,583 - INFO - Total reviews found: 15
+2024-10-21 21:04:20,702 - INFO - No 'All' button found.
+2024-10-21 21:04:25,831 - INFO - No 'Load More' button found.
+2024-10-21 21:04:25,832 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:04:30,968 - INFO - No 'More' button found.
+2024-10-21 21:04:30,968 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:04:51,113 - INFO - Processed 15 reviews for Movie ID: tt10665040, Title: Slashlorette Party.
+2024-10-21 21:04:51,113 - INFO - Movie tt10665040 has 15/15 reviews

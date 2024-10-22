@@ -1,0 +1,8 @@
+2024-10-21 22:02:16,373 - INFO - Fetching reviews for movie_id: tt29458545
+2024-10-21 22:02:19,602 - INFO - Accessed URL: https://www.imdb.com/title/tt29458545/reviews?sort=submissionDate&dir=desc
+2024-10-21 22:02:19,638 - INFO - Total reviews found: 0
+2024-10-21 22:02:19,639 - INFO - No reviews found for Movie ID tt29458545
+2024-10-22 10:55:13,233 - INFO - Fetching reviews for movie_id: tt29458545
+2024-10-22 10:55:15,683 - INFO - Accessed URL: https://www.imdb.com/title/tt29458545/reviews?sort=submissionDate&dir=desc
+2024-10-22 10:55:17,768 - INFO - Total reviews found: 0
+2024-10-22 10:55:17,769 - INFO - No reviews found for Movie ID tt29458545

@@ -1,0 +1,8 @@
+2024-10-21 20:57:21,965 - INFO - Fetching reviews for movie_id: tt11095208
+2024-10-21 20:57:24,537 - INFO - Accessed URL: https://www.imdb.com/title/tt11095208/reviews?sort=submissionDate&dir=desc
+2024-10-21 20:57:26,622 - INFO - Total reviews found: 0
+2024-10-21 20:57:26,623 - INFO - No reviews found for Movie ID tt11095208
+2024-10-21 21:01:19,537 - INFO - Fetching reviews for movie_id: tt11095208
+2024-10-21 21:01:21,982 - INFO - Accessed URL: https://www.imdb.com/title/tt11095208/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:01:24,062 - INFO - Total reviews found: 0
+2024-10-21 21:01:24,062 - INFO - No reviews found for Movie ID tt11095208

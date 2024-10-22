@@ -1,0 +1,10 @@
+2024-10-21 21:10:21,512 - INFO - Fetching reviews for movie_id: tt11553304
+2024-10-21 21:10:25,167 - INFO - Accessed URL: https://www.imdb.com/title/tt11553304/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:10:25,198 - INFO - Total reviews found: 14
+2024-10-21 21:10:30,281 - INFO - No 'All' button found.
+2024-10-21 21:10:35,371 - INFO - No 'Load More' button found.
+2024-10-21 21:10:35,371 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:10:40,456 - INFO - No 'More' button found.
+2024-10-21 21:10:40,456 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:11:00,589 - INFO - Processed 14 reviews for Movie ID: tt11553304, Title: The Blackwell Ghost 4.
+2024-10-21 21:11:00,590 - INFO - Movie tt11553304 has 14/14 reviews

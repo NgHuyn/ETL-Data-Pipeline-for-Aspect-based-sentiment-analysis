@@ -28,3 +28,43 @@
 2024-10-19 16:28:53,820 - INFO - No 'More' button found, all reviews loaded.
 2024-10-19 16:29:14,037 - INFO - Processed 16 reviews for Movie ID: tt30317302, Title: Bitconned.
 2024-10-19 16:29:14,037 - INFO - Movie tt30317302 has 16/16 reviews
+2024-10-21 20:14:03,289 - INFO - Fetching reviews for movie_id: tt30317302
+2024-10-21 20:14:07,225 - INFO - Accessed URL: https://www.imdb.com/title/tt30317302/reviews?sort=submissionDate&dir=desc
+2024-10-21 20:14:07,264 - INFO - Total reviews found: 16
+2024-10-21 20:14:12,419 - INFO - No 'All' button found.
+2024-10-21 20:14:17,541 - INFO - No 'Load More' button found.
+2024-10-21 20:14:17,543 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 20:14:22,661 - INFO - No 'More' button found.
+2024-10-21 20:14:22,662 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 20:14:42,831 - INFO - Processed 16 reviews for Movie ID: tt30317302, Title: Bitconned.
+2024-10-21 20:14:42,831 - INFO - Movie tt30317302 has 16/16 reviews
+2024-10-21 21:20:14,784 - INFO - Fetching reviews for movie_id: tt30317302
+2024-10-21 21:20:18,410 - INFO - Accessed URL: https://www.imdb.com/title/tt30317302/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:20:18,439 - INFO - Total reviews found: 16
+2024-10-21 21:20:23,557 - INFO - No 'All' button found.
+2024-10-21 21:20:28,663 - INFO - No 'Load More' button found.
+2024-10-21 21:20:28,663 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:20:33,773 - INFO - No 'More' button found.
+2024-10-21 21:20:33,774 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:20:53,926 - INFO - Processed 16 reviews for Movie ID: tt30317302, Title: Bitconned.
+2024-10-21 21:20:53,927 - INFO - Movie tt30317302 has 16/16 reviews
+2024-10-21 21:50:03,027 - INFO - Fetching reviews for movie_id: tt30317302
+2024-10-21 21:50:06,721 - INFO - Accessed URL: https://www.imdb.com/title/tt30317302/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:50:06,759 - INFO - Total reviews found: 16
+2024-10-21 21:50:11,852 - INFO - No 'All' button found.
+2024-10-21 21:50:16,938 - INFO - No 'Load More' button found.
+2024-10-21 21:50:16,938 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:50:22,020 - INFO - No 'More' button found.
+2024-10-21 21:50:22,020 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:50:42,167 - INFO - Processed 16 reviews for Movie ID: tt30317302, Title: Bitconned.
+2024-10-21 21:50:42,167 - INFO - Movie tt30317302 has 16/16 reviews
+2024-10-22 10:42:44,655 - INFO - Fetching reviews for movie_id: tt30317302
+2024-10-22 10:42:47,327 - INFO - Accessed URL: https://www.imdb.com/title/tt30317302/reviews?sort=submissionDate&dir=desc
+2024-10-22 10:42:49,439 - INFO - Total reviews found: 16
+2024-10-22 10:42:54,599 - INFO - No 'All' button found.
+2024-10-22 10:42:59,754 - INFO - No 'Load More' button found.
+2024-10-22 10:42:59,754 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-22 10:43:04,935 - INFO - No 'More' button found.
+2024-10-22 10:43:04,936 - INFO - No 'More' button found, all reviews loaded.
+2024-10-22 10:43:25,032 - INFO - Processed 16 reviews for Movie ID: tt30317302, Title: Bitconned.
+2024-10-22 10:43:25,032 - INFO - Movie tt30317302 has 16/16 reviews

@@ -1,1 +1,10 @@
 2024-10-14 20:43:37,620 - INFO - Fetching reviews for movie_id: tt2049403
+2024-10-21 18:38:36,488 - INFO - Fetching reviews for movie_id: tt2049403
+2024-10-21 18:38:40,563 - INFO - Accessed URL: https://www.imdb.com/title/tt2049403/reviews?sort=submissionDate&dir=desc
+2024-10-21 18:38:40,594 - INFO - Total reviews found: 840
+2024-10-21 18:38:44,643 - INFO - Clicked 'All' button successfully.
+2024-10-21 18:38:44,643 - INFO - Clicked 'All' button successfully.
+2024-10-21 18:38:44,650 - INFO - Starting to scroll to load all reviews.
+2024-10-21 18:39:27,951 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-21 18:39:51,338 - INFO - Processed 840 reviews for Movie ID: tt2049403, Title: None.
+2024-10-21 18:39:51,339 - INFO - Movie tt2049403 has 840/840 reviews

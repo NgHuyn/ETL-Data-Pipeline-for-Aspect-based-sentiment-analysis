@@ -1,0 +1,20 @@
+2024-10-21 20:55:32,161 - INFO - Fetching reviews for movie_id: tt6673612
+2024-10-21 20:55:36,329 - INFO - Accessed URL: https://www.imdb.com/title/tt6673612/reviews?sort=submissionDate&dir=desc
+2024-10-21 20:55:36,361 - INFO - Total reviews found: 855
+2024-10-21 20:55:40,404 - INFO - Clicked 'All' button successfully.
+2024-10-21 20:55:40,405 - INFO - Clicked 'All' button successfully.
+2024-10-21 20:55:40,429 - INFO - Starting to scroll to load all reviews.
+2024-10-21 20:56:28,020 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-21 20:56:51,241 - INFO - Processed 854 reviews for Movie ID: tt6673612, Title: Dolittle.
+2024-10-21 20:56:51,249 - WARNING - Missing 1 reviews
+2024-10-21 20:56:51,250 - INFO - Movie tt6673612 has 854/855 reviews
+2024-10-21 21:00:11,794 - INFO - Fetching reviews for movie_id: tt6673612
+2024-10-21 21:00:15,455 - INFO - Accessed URL: https://www.imdb.com/title/tt6673612/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:00:15,495 - INFO - Total reviews found: 855
+2024-10-21 21:00:19,556 - INFO - Clicked 'All' button successfully.
+2024-10-21 21:00:19,556 - INFO - Clicked 'All' button successfully.
+2024-10-21 21:00:19,928 - INFO - Starting to scroll to load all reviews.
+2024-10-21 21:00:39,037 - INFO - Reached the bottom of the page, all reviews loaded.
+2024-10-21 21:01:02,540 - INFO - Processed 854 reviews for Movie ID: tt6673612, Title: Dolittle.
+2024-10-21 21:01:02,541 - WARNING - Missing 1 reviews
+2024-10-21 21:01:02,542 - INFO - Movie tt6673612 has 854/855 reviews

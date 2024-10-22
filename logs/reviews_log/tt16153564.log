@@ -1,0 +1,8 @@
+2024-10-21 21:56:45,996 - INFO - Fetching reviews for movie_id: tt16153564
+2024-10-21 21:56:48,868 - INFO - Accessed URL: https://www.imdb.com/title/tt16153564/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:56:50,922 - INFO - Total reviews found: 0
+2024-10-21 21:56:50,922 - INFO - No reviews found for Movie ID tt16153564
+2024-10-22 10:49:52,301 - INFO - Fetching reviews for movie_id: tt16153564
+2024-10-22 10:49:54,973 - INFO - Accessed URL: https://www.imdb.com/title/tt16153564/reviews?sort=submissionDate&dir=desc
+2024-10-22 10:49:57,062 - INFO - Total reviews found: 0
+2024-10-22 10:49:57,063 - INFO - No reviews found for Movie ID tt16153564

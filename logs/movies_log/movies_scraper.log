@@ -224,3 +224,73 @@ Stacktrace:
 2024-10-19 16:55:54,197 - INFO - MoviesScraper initialized with 0 clicks
 2024-10-19 16:55:54,558 - INFO - Finished extraction of movie data.
 2024-10-19 16:55:54,559 - INFO - Completed fetching movies. Total movies: 40
+2024-10-21 18:55:39,164 - INFO - Total reviews found: 124
+2024-10-21 18:55:39,165 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-21 18:55:39,225 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:55:40,800 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:55:42,141 - INFO - Finished extraction of movie data.
+2024-10-21 18:55:42,141 - INFO - Completed fetching movies. Total movies: 124
+2024-10-21 20:12:03,983 - INFO - Total reviews found: 124
+2024-10-21 20:12:03,984 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-21 20:12:04,049 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 20:12:05,147 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 20:12:06,480 - INFO - Finished extraction of movie data.
+2024-10-21 20:12:06,480 - INFO - Completed fetching movies. Total movies: 100
+2024-10-21 20:54:57,062 - ERROR - Error fetching total reviews: invalid literal for int() with base 10: '16,321'
+2024-10-21 20:54:57,064 - ERROR - Error in fetch_movies: cannot access local variable 'clicks' where it is not associated with a value
+2024-10-21 20:55:20,064 - INFO - Total reviews found: 225
+2024-10-21 20:55:20,065 - INFO - MoviesScraper initialized with 4 clicks
+2024-10-21 20:55:20,205 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 20:55:22,447 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 20:55:24,580 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 20:55:26,171 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 20:55:27,841 - INFO - Finished extraction of movie data.
+2024-10-21 20:55:27,843 - INFO - Completed fetching movies. Total movies: 200
+2024-10-21 21:00:03,127 - INFO - Total reviews found: 225
+2024-10-21 21:00:03,127 - INFO - MoviesScraper initialized with 4 clicks
+2024-10-21 21:00:03,219 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 21:00:04,265 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 21:00:05,311 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 21:00:06,373 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 21:00:07,997 - INFO - Finished extraction of movie data.
+2024-10-21 21:00:07,997 - INFO - Completed fetching movies. Total movies: 225
+2024-10-21 21:18:30,863 - INFO - Total reviews found: 124
+2024-10-21 21:18:30,866 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-21 21:18:30,923 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 21:18:32,701 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 21:18:34,270 - INFO - Finished extraction of movie data.
+2024-10-21 21:18:34,271 - INFO - Completed fetching movies. Total movies: 100
+2024-10-21 21:48:11,804 - INFO - Total reviews found: 124
+2024-10-21 21:48:11,805 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-21 21:48:11,870 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 21:48:12,910 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 21:48:14,337 - INFO - Finished extraction of movie data.
+2024-10-21 21:48:14,337 - INFO - Completed fetching movies. Total movies: 124
+2024-10-22 10:39:12,038 - INFO - Total reviews found: 124
+2024-10-22 10:39:12,039 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-22 10:39:12,133 - INFO - Clicked 'Load More' button successfully.
+2024-10-22 10:39:13,165 - INFO - Clicked 'Load More' button successfully.
+2024-10-22 10:39:14,626 - INFO - Finished extraction of movie data.
+2024-10-22 10:39:14,627 - INFO - Completed fetching movies. Total movies: 124
+2024-10-22 10:40:42,124 - INFO - Total reviews found: 124
+2024-10-22 10:40:42,125 - INFO - MoviesScraper initialized with 2 clicks
+2024-10-22 10:40:42,180 - INFO - Clicked 'Load More' button successfully.
+2024-10-22 10:40:43,227 - INFO - Clicked 'Load More' button successfully.
+2024-10-22 10:40:44,733 - INFO - Finished extraction of movie data.
+2024-10-22 10:40:44,734 - INFO - Completed fetching movies. Total movies: 124
+2024-10-22 11:15:09,599 - INFO - Total reviews found: 140
+2024-10-22 11:15:09,600 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-22 11:15:09,854 - INFO - Finished extraction of movie data.
+2024-10-22 11:15:09,855 - INFO - Completed fetching movies. Total movies: 10
+2024-10-22 11:20:02,897 - INFO - Total reviews found: 140
+2024-10-22 11:20:02,899 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-22 11:20:03,087 - INFO - Finished extraction of movie data.
+2024-10-22 11:20:03,089 - INFO - Completed fetching movies. Total movies: 10
+2024-10-22 11:43:32,959 - INFO - Total reviews found: 93
+2024-10-22 11:43:32,960 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-22 11:43:33,154 - INFO - Finished extraction of movie data.
+2024-10-22 11:43:33,155 - INFO - Completed fetching movies. Total movies: 10
+2024-10-22 12:48:37,070 - INFO - Total reviews found: 140
+2024-10-22 12:48:37,071 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-22 12:48:37,301 - INFO - Finished extraction of movie data.
+2024-10-22 12:48:37,301 - INFO - Completed fetching movies. Total movies: 10

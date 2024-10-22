@@ -1,0 +1,16 @@
+2024-10-21 18:39:59,278 - INFO - Fetching reviews for movie_id: tt27729779
+2024-10-21 18:40:02,023 - INFO - Accessed URL: https://www.imdb.com/title/tt27729779/reviews?sort=submissionDate&dir=desc
+2024-10-21 18:40:04,106 - INFO - Total reviews found: 158
+2024-10-21 18:40:09,284 - INFO - No 'All' button found.
+2024-10-21 18:40:13,323 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:40:17,355 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:40:21,382 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:40:25,412 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:40:29,455 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:40:33,497 - INFO - Clicked 'Load More' button successfully.
+2024-10-21 18:40:38,756 - INFO - No 'Load More' button found.
+2024-10-21 18:40:38,757 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 18:40:43,968 - INFO - No 'More' button found.
+2024-10-21 18:40:43,969 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 18:41:04,513 - INFO - Processed 158 reviews for Movie ID: tt27729779, Title: None.
+2024-10-21 18:41:04,513 - INFO - Movie tt27729779 has 158/158 reviews

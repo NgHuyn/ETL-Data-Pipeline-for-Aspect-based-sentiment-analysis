@@ -1,0 +1,8 @@
+2024-10-21 21:57:44,972 - INFO - Fetching reviews for movie_id: tt30320712
+2024-10-21 21:57:48,521 - INFO - Accessed URL: https://www.imdb.com/title/tt30320712/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:57:48,557 - INFO - Total reviews found: 0
+2024-10-21 21:57:48,558 - INFO - No reviews found for Movie ID tt30320712
+2024-10-22 10:50:52,348 - INFO - Fetching reviews for movie_id: tt30320712
+2024-10-22 10:50:54,933 - INFO - Accessed URL: https://www.imdb.com/title/tt30320712/reviews?sort=submissionDate&dir=desc
+2024-10-22 10:50:57,000 - INFO - Total reviews found: 0
+2024-10-22 10:50:57,001 - INFO - No reviews found for Movie ID tt30320712

@@ -1,0 +1,8 @@
+2024-10-21 22:00:21,254 - INFO - Fetching reviews for movie_id: tt29330297
+2024-10-21 22:00:24,817 - INFO - Accessed URL: https://www.imdb.com/title/tt29330297/reviews?sort=submissionDate&dir=desc
+2024-10-21 22:00:24,849 - INFO - Total reviews found: 0
+2024-10-21 22:00:24,850 - INFO - No reviews found for Movie ID tt29330297
+2024-10-22 10:53:20,788 - INFO - Fetching reviews for movie_id: tt29330297
+2024-10-22 10:53:23,825 - INFO - Accessed URL: https://www.imdb.com/title/tt29330297/reviews?sort=submissionDate&dir=desc
+2024-10-22 10:53:25,915 - INFO - Total reviews found: 0
+2024-10-22 10:53:25,916 - INFO - No reviews found for Movie ID tt29330297

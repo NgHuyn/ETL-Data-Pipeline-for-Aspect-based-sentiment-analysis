@@ -1,0 +1,8 @@
+2024-10-21 22:06:35,367 - INFO - Fetching reviews for movie_id: tt31843697
+2024-10-21 22:06:38,067 - INFO - Accessed URL: https://www.imdb.com/title/tt31843697/reviews?sort=submissionDate&dir=desc
+2024-10-21 22:06:40,135 - INFO - Total reviews found: 0
+2024-10-21 22:06:40,135 - INFO - No reviews found for Movie ID tt31843697
+2024-10-22 10:59:35,482 - INFO - Fetching reviews for movie_id: tt31843697
+2024-10-22 10:59:38,135 - INFO - Accessed URL: https://www.imdb.com/title/tt31843697/reviews?sort=submissionDate&dir=desc
+2024-10-22 10:59:40,237 - INFO - Total reviews found: 0
+2024-10-22 10:59:40,238 - INFO - No reviews found for Movie ID tt31843697

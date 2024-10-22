@@ -1,0 +1,10 @@
+2024-10-21 21:02:21,147 - INFO - Fetching reviews for movie_id: tt7316968
+2024-10-21 21:02:24,654 - INFO - Accessed URL: https://www.imdb.com/title/tt7316968/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:02:24,686 - INFO - Total reviews found: 12
+2024-10-21 21:02:29,790 - INFO - No 'All' button found.
+2024-10-21 21:02:34,892 - INFO - No 'Load More' button found.
+2024-10-21 21:02:34,893 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:02:40,012 - INFO - No 'More' button found.
+2024-10-21 21:02:40,013 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:03:00,141 - INFO - Processed 12 reviews for Movie ID: tt7316968, Title: Bikini Valley Car Wash.
+2024-10-21 21:03:00,142 - INFO - Movie tt7316968 has 12/12 reviews

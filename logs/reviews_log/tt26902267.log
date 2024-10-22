@@ -48,3 +48,44 @@
 2024-10-19 16:27:50,741 - INFO - No 'More' button found, all reviews loaded.
 2024-10-19 16:28:10,907 - INFO - Processed 24 reviews for Movie ID: tt26902267, Title: The Vampire Next Door.
 2024-10-19 16:28:10,909 - INFO - Movie tt26902267 has 24/24 reviews
+2024-10-21 20:13:09,770 - INFO - Fetching reviews for movie_id: tt26902267
+2024-10-21 20:13:13,494 - INFO - Accessed URL: https://www.imdb.com/title/tt26902267/reviews?sort=submissionDate&dir=desc
+2024-10-21 20:13:13,514 - INFO - Total reviews found: 24
+2024-10-21 20:13:18,645 - INFO - No 'All' button found.
+2024-10-21 20:13:23,762 - INFO - No 'Load More' button found.
+2024-10-21 20:13:23,762 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 20:13:28,883 - INFO - No 'More' button found.
+2024-10-21 20:13:28,883 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 20:13:49,055 - INFO - Processed 24 reviews for Movie ID: tt26902267, Title: The Vampire Next Door.
+2024-10-21 20:13:49,056 - INFO - Movie tt26902267 has 24/24 reviews
+2024-10-21 21:19:26,585 - INFO - Fetching reviews for movie_id: tt26902267
+2024-10-21 21:19:29,300 - INFO - Accessed URL: https://www.imdb.com/title/tt26902267/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:19:31,379 - INFO - Total reviews found: 24
+2024-10-21 21:19:36,487 - INFO - No 'All' button found.
+2024-10-21 21:19:41,608 - INFO - No 'Load More' button found.
+2024-10-21 21:19:41,609 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:19:46,728 - INFO - No 'More' button found.
+2024-10-21 21:19:46,728 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:20:06,978 - INFO - Processed 24 reviews for Movie ID: tt26902267, Title: The Vampire Next Door.
+2024-10-21 21:20:06,979 - INFO - Movie tt26902267 has 24/24 reviews
+2024-10-21 21:49:12,547 - INFO - Fetching reviews for movie_id: tt26902267
+2024-10-21 21:49:16,530 - INFO - Accessed URL: https://www.imdb.com/title/tt26902267/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:49:16,564 - INFO - Total reviews found: 24
+2024-10-21 21:49:21,656 - INFO - No 'All' button found.
+2024-10-21 21:49:26,753 - INFO - No 'Load More' button found.
+2024-10-21 21:49:26,753 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:49:31,843 - INFO - No 'More' button found.
+2024-10-21 21:49:31,843 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:49:52,015 - INFO - Processed 24 reviews for Movie ID: tt26902267, Title: The Vampire Next Door.
+2024-10-21 21:49:52,015 - INFO - Movie tt26902267 has 24/24 reviews
+2024-10-22 10:41:51,960 - INFO - Fetching reviews for movie_id: tt26902267
+2024-10-22 10:41:55,437 - INFO - Accessed URL: https://www.imdb.com/title/tt26902267/reviews?sort=submissionDate&dir=desc
+2024-10-22 10:41:55,461 - INFO - Total reviews found: 24
+2024-10-22 10:42:00,603 - INFO - No 'All' button found.
+2024-10-22 10:42:05,758 - INFO - No 'Load More' button found.
+2024-10-22 10:42:05,758 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-22 10:42:10,937 - INFO - No 'More' button found.
+2024-10-22 10:42:10,937 - INFO - No 'More' button found, all reviews loaded.
+2024-10-22 10:42:31,067 - INFO - Processed 24 reviews for Movie ID: tt26902267, Title: The Vampire Next Door.
+2024-10-22 10:42:31,068 - INFO - Movie tt26902267 has 24/24 reviews
+2024-10-22 11:20:45,033 - INFO - Fetching reviews for movie_id: tt26902267

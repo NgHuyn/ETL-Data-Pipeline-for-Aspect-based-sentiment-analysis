@@ -1,0 +1,10 @@
+2024-10-21 21:07:00,933 - INFO - Fetching reviews for movie_id: tt9486184
+2024-10-21 21:07:03,746 - INFO - Accessed URL: https://www.imdb.com/title/tt9486184/reviews?sort=submissionDate&dir=desc
+2024-10-21 21:07:05,807 - INFO - Total reviews found: 8
+2024-10-21 21:07:10,895 - INFO - No 'All' button found.
+2024-10-21 21:07:15,980 - INFO - No 'Load More' button found.
+2024-10-21 21:07:15,980 - INFO - No more 'Load More' buttons found, moving to 'More' button check.
+2024-10-21 21:07:21,067 - INFO - No 'More' button found.
+2024-10-21 21:07:21,067 - INFO - No 'More' button found, all reviews loaded.
+2024-10-21 21:07:41,224 - INFO - Processed 8 reviews for Movie ID: tt9486184, Title: Positive.
+2024-10-21 21:07:41,225 - INFO - Movie tt9486184 has 8/8 reviews

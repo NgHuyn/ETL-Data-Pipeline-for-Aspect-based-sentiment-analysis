@@ -1,0 +1,8 @@
+2024-10-21 22:07:35,605 - INFO - Fetching reviews for movie_id: tt31215703
+2024-10-21 22:07:38,356 - INFO - Accessed URL: https://www.imdb.com/title/tt31215703/reviews?sort=submissionDate&dir=desc
+2024-10-21 22:07:40,431 - INFO - Total reviews found: 0
+2024-10-21 22:07:40,431 - INFO - No reviews found for Movie ID tt31215703
+2024-10-22 11:00:38,217 - INFO - Fetching reviews for movie_id: tt31215703
+2024-10-22 11:00:41,517 - INFO - Accessed URL: https://www.imdb.com/title/tt31215703/reviews?sort=submissionDate&dir=desc
+2024-10-22 11:00:43,611 - INFO - Total reviews found: 0
+2024-10-22 11:00:43,612 - INFO - No reviews found for Movie ID tt31215703

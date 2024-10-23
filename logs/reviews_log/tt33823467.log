@@ -1,0 +1,4 @@
+2024-10-23 14:51:31,794 - INFO - Fetching reviews for movie_id: tt33823467
+2024-10-23 14:51:35,056 - INFO - Accessed URL: https://www.imdb.com/title/tt33823467/reviews/?sort=submission_date%2Cdesc&dir=desc
+2024-10-23 14:51:35,089 - INFO - Total reviews found: 0
+2024-10-23 14:51:35,090 - INFO - No reviews found for Movie ID tt33823467

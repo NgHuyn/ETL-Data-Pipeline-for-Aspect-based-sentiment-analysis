@@ -18,3 +18,7 @@
 2024-10-22 10:44:21,770 - INFO - Accessed URL: https://www.imdb.com/title/tt21352916/reviews?sort=submissionDate&dir=desc
 2024-10-22 10:44:21,799 - INFO - Total reviews found: 0
 2024-10-22 10:44:21,800 - INFO - No reviews found for Movie ID tt21352916
+2024-10-22 20:55:48,696 - INFO - Fetching reviews for movie_id: tt21352916
+2024-10-22 20:55:49,721 - INFO - Accessed URL: https://www.imdb.com/title/tt21352916/reviews/?sort=submission_date%2Cdesc&dir=desc
+2024-10-22 20:55:52,147 - INFO - Total reviews found: 0
+2024-10-22 20:55:52,149 - INFO - No reviews found for Movie ID tt21352916

@@ -1,5 +1,5 @@
 from prefect import task, flow
-from flow.movie_crawling.fetch_data import fetch_and_save_movie_data
+from movie_crawling.fetch_data import fetch_and_save_movie_data
 
 # Task to fetch and load movies in batches
 @task(retries=2)

@@ -1,4 +1,4 @@
-from base_scraper import BaseScraper
+from .base_scraper import BaseScraper
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -7,7 +7,7 @@ import re
 import math
 from bs4 import BeautifulSoup
 from datetime import datetime
-from utils import setup_reviews_logger
+from .utils import setup_reviews_logger
 
 # ReviewsScraper class to fetch reviews for each movie
 class MovieReviewScraper(BaseScraper):

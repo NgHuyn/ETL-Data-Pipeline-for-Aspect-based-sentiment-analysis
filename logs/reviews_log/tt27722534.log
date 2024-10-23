@@ -1,0 +1,4 @@
+2024-10-23 14:51:44,777 - INFO - Fetching reviews for movie_id: tt27722534
+2024-10-23 14:51:50,107 - INFO - Accessed URL: https://www.imdb.com/title/tt27722534/reviews/?sort=submission_date%2Cdesc&dir=desc
+2024-10-23 14:51:50,152 - INFO - Total reviews found: 0
+2024-10-23 14:51:50,153 - INFO - No reviews found for Movie ID tt27722534

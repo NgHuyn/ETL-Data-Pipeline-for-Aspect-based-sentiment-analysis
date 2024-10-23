@@ -1,0 +1,4 @@
+2024-10-23 14:50:56,587 - INFO - Fetching reviews for movie_id: tt32123826
+2024-10-23 14:50:59,928 - INFO - Accessed URL: https://www.imdb.com/title/tt32123826/reviews/?sort=submission_date%2Cdesc&dir=desc
+2024-10-23 14:50:59,953 - INFO - Total reviews found: 0
+2024-10-23 14:50:59,954 - INFO - No reviews found for Movie ID tt32123826

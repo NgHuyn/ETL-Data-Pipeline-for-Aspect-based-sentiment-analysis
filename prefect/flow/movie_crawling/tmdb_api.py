@@ -1,7 +1,7 @@
 import requests
 import logging
 import time
-from rate_limit_exception import RateLimitException
+from .rate_limit_exception import RateLimitException
 
 logging.basicConfig(level=logging.INFO)
 

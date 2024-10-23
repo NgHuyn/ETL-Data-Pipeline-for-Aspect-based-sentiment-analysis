@@ -294,3 +294,27 @@ Stacktrace:
 2024-10-22 12:48:37,071 - INFO - MoviesScraper initialized with 0 clicks
 2024-10-22 12:48:37,301 - INFO - Finished extraction of movie data.
 2024-10-22 12:48:37,301 - INFO - Completed fetching movies. Total movies: 10
+2024-10-22 20:52:57,207 - INFO - Total reviews found: 124
+2024-10-22 20:52:57,210 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-22 20:52:57,597 - INFO - Finished extraction of movie data.
+2024-10-22 20:52:57,598 - INFO - Completed fetching movies. Total movies: 10
+2024-10-22 21:29:17,865 - INFO - Total reviews found: 93
+2024-10-22 21:29:17,867 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-22 21:29:18,150 - INFO - Finished extraction of movie data.
+2024-10-22 21:29:18,150 - INFO - Completed fetching movies. Total movies: 10
+2024-10-22 22:07:34,771 - INFO - Total reviews found: 124
+2024-10-22 22:07:34,772 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-22 22:07:35,089 - INFO - Finished extraction of movie data.
+2024-10-22 22:07:35,090 - INFO - Completed fetching movies. Total movies: 10
+2024-10-22 22:08:00,209 - INFO - Total reviews found: 124
+2024-10-22 22:08:00,211 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-22 22:08:00,510 - INFO - Finished extraction of movie data.
+2024-10-22 22:08:00,510 - INFO - Completed fetching movies. Total movies: 10
+2024-10-22 22:13:33,060 - INFO - Total reviews found: 124
+2024-10-22 22:13:33,061 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-22 22:13:33,863 - INFO - Finished extraction of movie data.
+2024-10-22 22:13:33,864 - INFO - Completed fetching movies. Total movies: 10
+2024-10-23 14:48:49,526 - INFO - Total reviews found: 47
+2024-10-23 14:48:49,526 - INFO - MoviesScraper initialized with 0 clicks
+2024-10-23 14:48:49,763 - INFO - Finished extraction of movie data.
+2024-10-23 14:48:49,764 - INFO - Completed fetching movies. Total movies: 10

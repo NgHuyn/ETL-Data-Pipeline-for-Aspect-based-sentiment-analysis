@@ -18,3 +18,7 @@
 2024-10-22 10:44:02,081 - INFO - Accessed URL: https://www.imdb.com/title/tt27726037/reviews?sort=submissionDate&dir=desc
 2024-10-22 10:44:02,108 - INFO - Total reviews found: 0
 2024-10-22 10:44:02,108 - INFO - No reviews found for Movie ID tt27726037
+2024-10-22 20:55:28,370 - INFO - Fetching reviews for movie_id: tt27726037
+2024-10-22 20:55:30,915 - INFO - Accessed URL: https://www.imdb.com/title/tt27726037/reviews/?sort=submission_date%2Cdesc&dir=desc
+2024-10-22 20:55:32,990 - INFO - Total reviews found: 0
+2024-10-22 20:55:32,992 - INFO - No reviews found for Movie ID tt27726037

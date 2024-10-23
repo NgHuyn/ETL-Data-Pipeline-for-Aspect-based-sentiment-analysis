@@ -1,4 +1,4 @@
-from base_scraper import BaseScraper
+from .base_scraper import BaseScraper
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -6,7 +6,7 @@ import time
 import re
 from tqdm import tqdm  
 from bs4 import BeautifulSoup
-from utils import setup_movies_scraper_logger
+from .utils import setup_movies_scraper_logger
 import math
 
 class MoviesScraper(BaseScraper):

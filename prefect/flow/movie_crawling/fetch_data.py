@@ -1,6 +1,6 @@
-from crawl_movies import MoviesScraper
-from crawl_reviews import MovieReviewScraper
-from tmdb_api import TMDBApi  
+from .crawl_movies import MoviesScraper
+from .crawl_reviews import MovieReviewScraper
+from .tmdb_api import TMDBApi  
 from dotenv import load_dotenv
 import os
 import pymongo
@@ -94,7 +94,6 @@ def fetch_and_save_movie_data(release_date_from, release_date_to, batch_size=10)
         
         logging.info(f"Finished processing batch of {len(movie_batch)} movies.")
 
-# fetch_and_save_movie_data(release_date_from='2024-02-02', release_date_to='2024-02-02')
 
 
 

@@ -1,0 +1,5 @@
+2024-10-23 14:48:53,981 - INFO - Fetching reviews for movie_id: tt16366836
+2024-10-23 14:48:57,301 - INFO - Accessed URL: https://www.imdb.com/title/tt16366836/reviews/?sort=submission_date%2Cdesc&dir=desc
+2024-10-23 14:48:57,332 - INFO - Total reviews found: 3
+2024-10-23 14:49:17,458 - INFO - Processed 3 reviews for Movie ID: tt16366836.
+2024-10-23 14:49:17,459 - INFO - Movie tt16366836 has 3/3 reviews

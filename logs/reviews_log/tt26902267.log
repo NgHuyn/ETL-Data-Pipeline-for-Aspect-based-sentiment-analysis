@@ -89,3 +89,8 @@
 2024-10-22 10:42:31,067 - INFO - Processed 24 reviews for Movie ID: tt26902267, Title: The Vampire Next Door.
 2024-10-22 10:42:31,068 - INFO - Movie tt26902267 has 24/24 reviews
 2024-10-22 11:20:45,033 - INFO - Fetching reviews for movie_id: tt26902267
+2024-10-22 20:53:50,634 - INFO - Fetching reviews for movie_id: tt26902267
+2024-10-22 20:53:53,367 - INFO - Accessed URL: https://www.imdb.com/title/tt26902267/reviews/?sort=submission_date%2Cdesc&dir=desc
+2024-10-22 20:53:53,430 - INFO - Total reviews found: 24
+2024-10-22 20:54:13,834 - INFO - Processed 24 reviews for Movie ID: tt26902267.
+2024-10-22 20:54:13,837 - INFO - Movie tt26902267 has 24/24 reviews

@@ -11,12 +11,12 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-# Task to fetch and load movies in the last 24 hours
+# Task to fetch and load movies in a week
 @task(retries=2)
 def extract_and_load_recent_movies(batch_size=10):
-    release_date_from = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+    release_date_from = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')
     release_date_to = datetime.now().strftime('%Y-%m-%d')
-    fetch_and_save_movie_data('2024-01-01', '2024-10-01', batch_size)
+    fetch_and_save_movie_data(release_date_from, release_date_to, batch_size)
 
 # Task to check for top popular movies collection
 @task
@@ -27,61 +27,100 @@ def check_top_popular_movies(db):
     return list(db[collection_name].find().limit(10))
 
 # Task to fetch and update reviews for popular movies
-@task
-def update_movie_reviews(db, popular_movies):
-    tmdb_api_key = os.getenv('TMDB_API_KEY')
-    tmdb_api = TMDBApi(api_key=tmdb_api_key)
+# @task
+# def update_movie_reviews(db):
+    # tmdb_api_key = os.getenv('TMDB_API_KEY')
+    # tmdb_api = TMDBApi(api_key=tmdb_api_key)
 
-    popular_movies = check_top_popular_movies(db)
-    # case 1: if the collection exists
-    if popular_movies:
-        # delete all the collection before updating new reviews
-        db['top_popular_movies'].delete_many({})
-        for movie in popular_movies:
-            # get the info from the collection "top_popular_movies"
-            imdb_id = movie.get('imdb_id')
-            last_date_review = movie.get('last_date_review')
-            total_reviews = movie.get('total_reviews')
+    # popular_movies = check_top_popular_movies(db)
+    # # case 1: if the collection exists
+    # if popular_movies:
+    #     # Lưu danh sách imdb_id hiện có trong cơ sở dữ liệu
+    #     existing_movies = db['top_popular_movies'].find({}, {'imdb_id': 1})
+    #     existing_imdb_ids = {movie['imdb_id'] for movie in existing_movies}
 
-            # Fetch new total reviews from the review page
-            new_reviews, total_new_reviews, last_date_new_review = MovieReviewScraper(movie_id=imdb_id, total_reviews=total_reviews, last_date_review=last_date_review).fetch_reviews()
+    #     for movie in popular_movies:
+    #         # get the info from the collection "top_popular_movies"
+    #         imdb_id = movie.get('imdb_id')
+    #         last_date_review = movie.get('last_date_review')
+    #         initial_reviews = movie.get('total_reviews')
+
+    #         # Fetch new total reviews from the review page
+    #         fetch_reviews = MovieReviewScraper(movie_id=imdb_id, total_reviews=initial_reviews, last_date_review=last_date_review)
+    #         new_reviews = fetch_reviews.fetch_reviews()
+    #         # update the reviews for the db movie_reviews
+    #         if new_reviews is not None and len(new_reviews['Reviews']) > 0:
+    #             db['movie_reviews'].update_one(
+    #                 {'Movie ID': imdb_id},
+    #                 {
+    #                     '$addToSet': {'Reviews': {'$each': new_reviews['Reviews']}},
+    #                 },
+    #                     upsert=True
+    #                 )
+    #             logging.info(f"Added {new_reviews['Reviews']} new reviews for {imdb_id}.")
+
+    #         movie['total_reviews'] = new_reviews.total_reviews
+    #         movie['last_date_review'] = new_reviews.last_date_review
+
+    #         # update db top_popular_movies
+    #         db['top_popular_movies'].update_one(
+    #                 {'imdb_id': imdb_id},
+    #                 {'$set': {'total_reviews': movie['total_reviews'], 'last_date_review': movie['last_date_review']},
+    #                 '$addToSet': {'reviews': {'$each': new_reviews['Reviews']}}}
+    #             )
             
-            # update the reviews for the db movie_reviews
-            if new_reviews is not None and len(new_reviews['Reviews']) > 0:
-                db['movie_reviews'].update_one(
-                    {'Movie ID': imdb_id},
-                    {
-                        '$addToSet': {'Reviews': {'$each': new_reviews['Reviews']}},
-                    },
-                        upsert=True
-                    )
-                logging.info(f"Added {len(new_reviews)} new reviews for {imdb_id}.")
+    #         # Xóa các phim không còn trong danh sách popular_movies
+    #         popular_imdb_ids = {movie['imdb_id'] for movie in popular_movies}
+    #         for existing_id in existing_imdb_ids:
+    #             if existing_id not in popular_imdb_ids:
+    #                 db['top_popular_movies'].delete_one({'imdb_id': existing_id})
+    #                 logging.info(f"Removed movie with imdb_id: {existing_id} from top_popular_movies.")
+    # # case 2: the collection doesn't exist
+    # else:
+    #     # pick top 10 popular movies
+    #     release_date_to = datetime.now().strftime('%Y-%m-%d')
+    #     popular_movies = MoviesScraper(release_date_from='2024-01-01', release_date_to=release_date_to).fetch_movies(limit=10)
 
-            movie['total_reviews'] = total_new_reviews
-            movie['last_date_review'] = last_date_new_review
+    #     # fetch all reviews for each movie
+    #     for movie in popular_movies:
+    #         imdb_id = movie['Movie ID']
+    #         fetch_reviews = MovieReviewScraper(movie_id=imdb_id)
+    #         new_reviews = fetch_reviews.fetch_reviews()
 
-            # update db top_popular_movies
-            db['top_popular_movies'].update_one(
-                    {'imdb_id': imdb_id},
-                    {'$set': {'total_reviews': movie['total_reviews'], 'last_date_review': movie['last_date_review']},
-                    '$addToSet': {'reviews': {'$each': new_reviews['Reviews']}}}
-                )
-    # case 2: the collection doesn't exist
-    else:
-        # pick top 10 popular movies
-        release_date_to = datetime.now().strftime('%Y-%m-%d')
-        popular_movies = MoviesScraper(release_date_from='2024-01-01', release_date_to=release_date_to).fetch_movies(limit=10)
+    #         # insert to db top_popular_movies
+    #         db['top_popular_movies'].insert_one({
+    #             'imdb_id': imdb_id,  # Giá trị ví dụ
+    #             'total_reviews': new_reviews.total_reviews,
+    #             'last_date_review': new_reviews.last_date_review,
+    #             'reviews': new_reviews['Reviews']
+    #         })
 
-        for movie in popular_movies:
-            new_reviews, total_reviews, last_date_review = MovieReviewScraper(movie_id=imdb_id).fetch_reviews()
+    #         # Kiểm tra xem có bản ghi trong movie_reviews không
+    #         existing_review = db['movie_reviews'].find_one({'Movie ID': imdb_id})
 
-        db['top_popular_movies'].insert_one({
-            'imdb_id': 'example_id',  # Giá trị ví dụ
-            'total_reviews': 0,
-            'last_date_review': None,
-            'reviews': []
-        })
-        
+    #         if existing_review:
+    #             # Nếu bản ghi đã tồn tại, cập nhật reviews
+    #             db['movie_reviews'].update_one(
+    #                 {'Movie ID': imdb_id},
+    #                 {
+    #                     '$addToSet': {'Reviews': {'$each': new_reviews['Reviews']}},
+    #                     '$set': {
+    #                         'total_reviews': new_reviews.total_reviews,
+    #                         'last_date_review': new_reviews.last_date_review
+    #                     }
+    #                 },
+    #                 upsert=True  # Chỉ cần thêm nếu không tồn tại
+    #             )
+    #             logging.info(f"Updated reviews for {imdb_id}.")
+    #         else:
+    #             # Nếu bản ghi không tồn tại, tạo mới
+    #             db['movie_reviews'].insert_one({
+    #                 'Movie ID': imdb_id,
+    #                 'Reviews': new_reviews['Reviews'],
+    #                 'total_reviews': new_reviews.total_reviews,
+    #                 'last_date_review': new_reviews.last_date_review
+    #             })
+    #             logging.info(f"Inserted new movie review for {imdb_id}.")
 
 
 
@@ -110,6 +149,110 @@ def update_movie_reviews(db, popular_movies):
         #         {'imdb_id': imdb_id},
         #         {'$set': {'total_reviews': movie['total_reviews'], 'last_date_review': movie['last_date_review']}}
         #     )
+@task
+def update_movie_reviews(db):
+    tmdb_api_key = os.getenv('TMDB_API_KEY')
+    tmdb_api = TMDBApi(api_key=tmdb_api_key)
+
+    popular_movies = check_top_popular_movies(db)
+    
+    # Case 1: if the collection exists
+    if popular_movies:
+        logging.info("Updating reviews for existing popular movies.")
+        
+        existing_movies = db['top_popular_movies'].find({}, {'imdb_id': 1})
+        existing_imdb_ids = {movie['imdb_id'] for movie in existing_movies}
+        
+        for movie in popular_movies:
+            imdb_id = movie.get('imdb_id')
+            last_date_review = movie.get('last_date_review')
+            initial_reviews = movie.get('total_reviews')
+
+            logging.info(f"Fetching new reviews for movie ID: {imdb_id}")
+            fetch_reviews = MovieReviewScraper(movie_id=imdb_id, total_reviews=initial_reviews, last_date_review=last_date_review)
+            new_reviews = fetch_reviews.fetch_reviews()
+
+            # Update the reviews for the db movie_reviews
+            if new_reviews is not None and len(new_reviews['Reviews']) > 0:
+                db['movie_reviews'].update_one(
+                    {'Movie ID': imdb_id},
+                    {
+                        '$addToSet': {'Reviews': {'$each': new_reviews['Reviews']}},
+                    },
+                    upsert=True
+                )
+                logging.info(f"Added {len(new_reviews['Reviews'])} new reviews for {imdb_id}.")
+
+            movie['total_reviews'] = fetch_reviews.total_reviews
+            movie['last_date_review'] = fetch_reviews.last_date_review
+
+            # Update db top_popular_movies
+            db['top_popular_movies'].update_one(
+                {'imdb_id': imdb_id},
+                {
+                    '$set': {
+                        'total_reviews': movie['total_reviews'],
+                        'last_date_review': movie['last_date_review']
+                    },
+                    '$addToSet': {'reviews': {'$each': new_reviews['Reviews']}}
+                }
+            )
+            logging.info(f"Updated top_popular_movies for {imdb_id}.")
+
+        # Remove movies not in the new popular_movies list
+        popular_imdb_ids = {movie['imdb_id'] for movie in popular_movies}
+        for existing_id in existing_imdb_ids:
+            if existing_id not in popular_imdb_ids:
+                db['top_popular_movies'].delete_one({'imdb_id': existing_id})
+                logging.info(f"Removed movie with imdb_id: {existing_id} from top_popular_movies.")
+
+    # Case 2: the collection doesn't exist
+    else:
+        logging.info("No existing popular movies found. Fetching new top 10 popular movies.")
+        
+        release_date_to = datetime.now().strftime('%Y-%m-%d')
+        popular_movies = MoviesScraper(release_date_from='2024-01-01', release_date_to=release_date_to).fetch_movies(limit=10)
+
+        for movie in popular_movies:
+            imdb_id = movie['Movie ID']
+            logging.info(f"Fetching reviews for new movie ID: {imdb_id}")
+            fetch_reviews = MovieReviewScraper(movie_id=imdb_id)
+            new_reviews = fetch_reviews.fetch_reviews()
+            total_reviews = fetch_reviews.total_reviews
+            last_date_review = fetch_reviews.last_date_review
+
+            # Insert to db top_popular_movies
+            db['top_popular_movies'].insert_one({
+                'imdb_id': imdb_id,
+                'total_reviews': total_reviews,
+                'last_date_review': last_date_review,
+                'reviews': new_reviews['Reviews']
+            })
+            logging.info(f"Inserted new popular movie with ID: {imdb_id}.")
+
+            # Check if there is a record in movie_reviews
+            existing_review = db['movie_reviews'].find_one({'Movie ID': imdb_id})
+
+            if existing_review:
+                logging.info(f"Updating existing reviews for movie ID: {imdb_id}.")
+                # If the record exists, update reviews
+                db['movie_reviews'].update_one(
+                    {'Movie ID': imdb_id},
+                    {
+                        '$addToSet': {'Reviews': {'$each': new_reviews['Reviews']}},
+                    },
+                    upsert=True
+                )
+                logging.info(f"Updated reviews for {imdb_id}.")
+            else:
+                logging.info(f"Inserting new reviews for movie ID: {imdb_id}.")
+                # If the record does not exist, create a new one
+                db['movie_reviews'].insert_one({
+                    'Movie ID': imdb_id,
+                    'Reviews': new_reviews['Reviews'],
+                })
+                logging.info(f"Inserted new movie review for {imdb_id}.")
+
 @flow(name="Movie-ETL-History", log_prints=True)
 def movie_etl_flow():
     # Database configuration
@@ -119,14 +262,10 @@ def movie_etl_flow():
     db = client[db_name]
 
     # Step 1: Fetch recent movies
-    extract_and_load_recent_movies()
+    # extract_and_load_recent_movies()
 
-    # Step 2: Check top popular movies
-    popular_movies = check_top_popular_movies(db)
-    
-    if popular_movies:
-        # Step 3: Update reviews for popular movies
-        update_movie_reviews(db, popular_movies)
+    # step 2: update new review of top popular movies
+    update_movie_reviews(db)
 
 # Execute the flow
 if __name__ == "__main__":

@@ -21,7 +21,7 @@ class MovieReviewScraper(BaseScraper):
             # 'Last Date Review': last_date_review,
             'Reviews': []
         }
-        self.total_reviews = total_reviews,
+        self.total_reviews = total_reviews
         self.last_date_review = last_date_review
 
         self.is_scraping = True  # Flag to manage scraping status
@@ -42,9 +42,12 @@ class MovieReviewScraper(BaseScraper):
                 if total_reviews == 0:
                     self.logger.info("No reviews found for Movie ID %s", self.movie_id)
                     return None
-                if total_reviews <= self.movie_info['Total Reviews']:
-                    self.logger.info("No new reviews found for Movie ID %s", self.movie_id)
-                    return None
+                try:
+                    if total_reviews <= self.total_reviews:
+                        self.logger.info("No new reviews found for Movie ID %s", self.movie_id)
+                        return None
+                except Exception as e:
+                    self.logger.error("Error coc vai lon")
                 # new_reviews_count = total_reviews - self.movie_info['Total Reviews']
                 new_reviews_count = total_reviews - self.total_reviews
                 
@@ -88,7 +91,7 @@ class MovieReviewScraper(BaseScraper):
             finally:
                 self.close_driver()
                 self.is_scraping = False
-            return self.movie_info, self.total_reviews, self.last_date_review
+            return self.movie_info
 
     def _get_total_reviews(self):
         """Fetch the total number of reviews from the page."""
@@ -200,11 +203,13 @@ class MovieReviewScraper(BaseScraper):
             # Determine the button type (all vs. load more) based on the presence of specific elements
             button_type = "load_more" if review.select_one('span.rating-other-user-rating span') else "all"
             parsed_review = self._parse_review(review, button_type)
-
-            if self.movie_info['Last Date Review'] is not None:
-                if parsed_review['Date'] <= self.movie_info['Last Date Review']: # if it is the older review, stop the iteration
-                    break
-
+            try:
+                if self.last_date_review is not None:
+                    last_date = datetime.strptime(self.last_date_review, "%Y-%m-%d")
+                    if parsed_review['Date'] <= last_date:
+                        break
+            except Exception:
+                self.logger.error(f"error at comparison")
             # Append the parsed review to the 'Reviews' list
             self.movie_info['Reviews'].append(parsed_review)
 

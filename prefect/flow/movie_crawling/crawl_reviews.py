@@ -17,10 +17,13 @@ class MovieReviewScraper(BaseScraper):
         self.clicks = 0  # Initialize click counter
         self.movie_info = { 
             'Movie ID': movie_id,
-            'Total Reviews': total_reviews,
-            'Last Date Review': last_date_review,
+            # 'Total Reviews': total_reviews,
+            # 'Last Date Review': last_date_review,
             'Reviews': []
         }
+        self.total_reviews = total_reviews,
+        self.last_date_review = last_date_review
+
         self.is_scraping = True  # Flag to manage scraping status
 
         self.logger = setup_reviews_logger(movie_id) 
@@ -42,7 +45,9 @@ class MovieReviewScraper(BaseScraper):
                 if total_reviews <= self.movie_info['Total Reviews']:
                     self.logger.info("No new reviews found for Movie ID %s", self.movie_id)
                     return None
-                new_reviews_count = total_reviews - self.movie_info['Total Reviews']
+                # new_reviews_count = total_reviews - self.movie_info['Total Reviews']
+                new_reviews_count = total_reviews - self.total_reviews
+                
 
                 # If reviews are available, attempt to load all or more reviews
                 self._load_reviews(new_reviews_count)  # Load more reviews by clicking the button
@@ -68,18 +73,22 @@ class MovieReviewScraper(BaseScraper):
                 # self.movie_info['Last Date Review'] = self.movie_info['Reviews'][0]['Date'] #updating last date review
                 for i in range(len(self.movie_info['Reviews'])):
                     if 'Date' in self.movie_info['Reviews'][i] and self.movie_info['Reviews'][i]['Date']:
-                        self.movie_info['Last Date Review'] = self.movie_info['Reviews'][i]['Date'] #updating last date review
+                        # self.movie_info['Last Date Review'] = self.movie_info['Reviews'][i]['Date'] #updating last date review
+                        self.last_date_review = self.movie_info['Reviews'][i]['Date'] #updating last date review
+
                         break  
                     else:
                         self.logger.warning(f"Review {i} is missing a date.")
-                self.movie_info['Total Reviews'] = num_reviews #updating new total reviews
+                # self.movie_info['Total Reviews'] = num_reviews #updating new total reviews
+                self.total_reviews = num_reviews #updating new total reviews
+
 
             except Exception as e:
                 self.logger.error("Error in fetch_reviews: %s", str(e))
             finally:
                 self.close_driver()
                 self.is_scraping = False
-            return self.movie_info
+            return self.movie_info, self.total_reviews, self.last_date_review
 
     def _get_total_reviews(self):
         """Fetch the total number of reviews from the page."""

@@ -76,7 +76,7 @@ def fetch_and_save_movie_data(release_date_from, release_date_to, batch_size=10)
 
             # Fetch and save movie details, reviews, cast and crew
             save_to_mongo(tmdb_api.get_movie_details(tmdb_id), 'movie_details', db)
-            save_to_mongo(MovieReviewScraper(movie_id=imdb_id).fetch_reviews(), 'movie_reviews', db)
+            save_to_mongo(MovieReviewScraper(movie_id=imdb_id, last_date_review='2024-10-01').fetch_reviews(), 'movie_reviews', db)
 
             # Fetch and save cast (actors) and crew (directors)
             cast_and_crew = tmdb_api.get_cast_and_crew(tmdb_id)

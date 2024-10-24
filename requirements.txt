@@ -1,3 +1,6 @@
 pymongo
 minio
 python-dotenv
+selenium
+bs4
+tqdm

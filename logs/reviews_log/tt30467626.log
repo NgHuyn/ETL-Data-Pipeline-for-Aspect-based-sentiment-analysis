@@ -1,8 +1,0 @@
-2024-10-21 22:04:56,930 - INFO - Fetching reviews for movie_id: tt30467626
-2024-10-21 22:05:00,289 - INFO - Accessed URL: https://www.imdb.com/title/tt30467626/reviews?sort=submissionDate&dir=desc
-2024-10-21 22:05:00,338 - INFO - Total reviews found: 0
-2024-10-21 22:05:00,345 - INFO - No reviews found for Movie ID tt30467626
-2024-10-22 10:57:57,735 - INFO - Fetching reviews for movie_id: tt30467626
-2024-10-22 10:58:00,148 - INFO - Accessed URL: https://www.imdb.com/title/tt30467626/reviews?sort=submissionDate&dir=desc
-2024-10-22 10:58:02,224 - INFO - Total reviews found: 0
-2024-10-22 10:58:02,225 - INFO - No reviews found for Movie ID tt30467626

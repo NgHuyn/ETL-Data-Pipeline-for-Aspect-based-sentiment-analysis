@@ -1,4 +1,0 @@
-2024-10-23 14:49:59,474 - INFO - Fetching reviews for movie_id: tt31797833
-2024-10-23 14:50:02,558 - INFO - Accessed URL: https://www.imdb.com/title/tt31797833/reviews/?sort=submission_date%2Cdesc&dir=desc
-2024-10-23 14:50:02,581 - INFO - Total reviews found: 0
-2024-10-23 14:50:02,582 - INFO - No reviews found for Movie ID tt31797833

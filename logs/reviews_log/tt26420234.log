@@ -1,4 +1,0 @@
-2024-10-23 14:50:20,454 - INFO - Fetching reviews for movie_id: tt26420234
-2024-10-23 14:50:24,288 - INFO - Accessed URL: https://www.imdb.com/title/tt26420234/reviews/?sort=submission_date%2Cdesc&dir=desc
-2024-10-23 14:50:24,313 - INFO - Total reviews found: 0
-2024-10-23 14:50:24,314 - INFO - No reviews found for Movie ID tt26420234

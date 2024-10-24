@@ -1,8 +1,0 @@
-2024-10-21 21:58:57,738 - INFO - Fetching reviews for movie_id: tt3831118
-2024-10-21 21:59:00,349 - INFO - Accessed URL: https://www.imdb.com/title/tt3831118/reviews?sort=submissionDate&dir=desc
-2024-10-21 21:59:02,426 - INFO - Total reviews found: 0
-2024-10-21 21:59:02,426 - INFO - No reviews found for Movie ID tt3831118
-2024-10-22 10:52:03,715 - INFO - Fetching reviews for movie_id: tt3831118
-2024-10-22 10:52:06,403 - INFO - Accessed URL: https://www.imdb.com/title/tt3831118/reviews?sort=submissionDate&dir=desc
-2024-10-22 10:52:08,502 - INFO - Total reviews found: 0
-2024-10-22 10:52:08,503 - INFO - No reviews found for Movie ID tt3831118

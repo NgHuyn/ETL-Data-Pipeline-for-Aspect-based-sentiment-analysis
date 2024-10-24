@@ -1,8 +1,0 @@
-2024-10-21 22:03:39,263 - INFO - Fetching reviews for movie_id: tt30467668
-2024-10-21 22:03:42,777 - INFO - Accessed URL: https://www.imdb.com/title/tt30467668/reviews?sort=submissionDate&dir=desc
-2024-10-21 22:03:42,812 - INFO - Total reviews found: 0
-2024-10-21 22:03:42,813 - INFO - No reviews found for Movie ID tt30467668
-2024-10-22 10:56:38,034 - INFO - Fetching reviews for movie_id: tt30467668
-2024-10-22 10:56:40,709 - INFO - Accessed URL: https://www.imdb.com/title/tt30467668/reviews?sort=submissionDate&dir=desc
-2024-10-22 10:56:42,815 - INFO - Total reviews found: 0
-2024-10-22 10:56:42,816 - INFO - No reviews found for Movie ID tt30467668

@@ -1,4 +1,0 @@
-2024-10-19 17:09:24,412 - INFO - Fetching reviews for movie_id: tt29380689
-2024-10-19 17:09:27,010 - INFO - Accessed URL: https://www.imdb.com/title/tt29380689/reviews?sort=submissionDate&dir=desc
-2024-10-19 17:09:29,078 - INFO - Total reviews found: 0
-2024-10-19 17:09:29,087 - INFO - No reviews found for Movie ID tt29380689

@@ -1,8 +1,0 @@
-2024-10-21 22:08:13,364 - INFO - Fetching reviews for movie_id: tt32466840
-2024-10-21 22:08:16,771 - INFO - Accessed URL: https://www.imdb.com/title/tt32466840/reviews?sort=submissionDate&dir=desc
-2024-10-21 22:08:16,802 - INFO - Total reviews found: 0
-2024-10-21 22:08:16,803 - INFO - No reviews found for Movie ID tt32466840
-2024-10-22 11:01:16,827 - INFO - Fetching reviews for movie_id: tt32466840
-2024-10-22 11:01:19,329 - INFO - Accessed URL: https://www.imdb.com/title/tt32466840/reviews?sort=submissionDate&dir=desc
-2024-10-22 11:01:21,402 - INFO - Total reviews found: 0
-2024-10-22 11:01:21,403 - INFO - No reviews found for Movie ID tt32466840

@@ -1,8 +1,0 @@
-2024-10-21 21:57:32,833 - INFO - Fetching reviews for movie_id: tt30788650
-2024-10-21 21:57:36,393 - INFO - Accessed URL: https://www.imdb.com/title/tt30788650/reviews?sort=submissionDate&dir=desc
-2024-10-21 21:57:36,423 - INFO - Total reviews found: 0
-2024-10-21 21:57:36,423 - INFO - No reviews found for Movie ID tt30788650
-2024-10-22 10:50:40,183 - INFO - Fetching reviews for movie_id: tt30788650
-2024-10-22 10:50:43,521 - INFO - Accessed URL: https://www.imdb.com/title/tt30788650/reviews?sort=submissionDate&dir=desc
-2024-10-22 10:50:43,541 - INFO - Total reviews found: 0
-2024-10-22 10:50:43,542 - INFO - No reviews found for Movie ID tt30788650

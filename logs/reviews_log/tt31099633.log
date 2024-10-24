@@ -1,8 +1,0 @@
-2024-10-21 21:59:47,275 - INFO - Fetching reviews for movie_id: tt31099633
-2024-10-21 21:59:52,780 - INFO - Accessed URL: https://www.imdb.com/title/tt31099633/reviews?sort=submissionDate&dir=desc
-2024-10-21 21:59:52,814 - INFO - Total reviews found: 0
-2024-10-21 21:59:52,814 - INFO - No reviews found for Movie ID tt31099633
-2024-10-22 10:52:50,060 - INFO - Fetching reviews for movie_id: tt31099633
-2024-10-22 10:52:52,655 - INFO - Accessed URL: https://www.imdb.com/title/tt31099633/reviews?sort=submissionDate&dir=desc
-2024-10-22 10:52:54,744 - INFO - Total reviews found: 0
-2024-10-22 10:52:54,745 - INFO - No reviews found for Movie ID tt31099633

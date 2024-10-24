@@ -1,8 +1,0 @@
-2024-10-21 21:59:30,767 - INFO - Fetching reviews for movie_id: tt8831242
-2024-10-21 21:59:33,347 - INFO - Accessed URL: https://www.imdb.com/title/tt8831242/reviews?sort=submissionDate&dir=desc
-2024-10-21 21:59:35,388 - INFO - Total reviews found: 0
-2024-10-21 21:59:35,388 - INFO - No reviews found for Movie ID tt8831242
-2024-10-22 10:52:34,883 - INFO - Fetching reviews for movie_id: tt8831242
-2024-10-22 10:52:38,276 - INFO - Accessed URL: https://www.imdb.com/title/tt8831242/reviews?sort=submissionDate&dir=desc
-2024-10-22 10:52:38,312 - INFO - Total reviews found: 0
-2024-10-22 10:52:38,314 - INFO - No reviews found for Movie ID tt8831242

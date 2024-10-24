@@ -1,8 +1,0 @@
-2024-10-21 22:04:42,960 - INFO - Fetching reviews for movie_id: tt30760756
-2024-10-21 22:04:46,861 - INFO - Accessed URL: https://www.imdb.com/title/tt30760756/reviews?sort=submissionDate&dir=desc
-2024-10-21 22:04:46,895 - INFO - Total reviews found: 0
-2024-10-21 22:04:46,896 - INFO - No reviews found for Movie ID tt30760756
-2024-10-22 10:57:43,557 - INFO - Fetching reviews for movie_id: tt30760756
-2024-10-22 10:57:46,167 - INFO - Accessed URL: https://www.imdb.com/title/tt30760756/reviews?sort=submissionDate&dir=desc
-2024-10-22 10:57:48,234 - INFO - Total reviews found: 0
-2024-10-22 10:57:48,236 - INFO - No reviews found for Movie ID tt30760756

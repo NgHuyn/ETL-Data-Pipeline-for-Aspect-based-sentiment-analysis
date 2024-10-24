@@ -1,8 +1,0 @@
-2024-10-21 22:03:25,642 - INFO - Fetching reviews for movie_id: tt10597228
-2024-10-21 22:03:26,695 - INFO - Accessed URL: https://www.imdb.com/title/tt10597228/reviews?sort=submissionDate&dir=desc
-2024-10-21 22:03:29,359 - INFO - Total reviews found: 0
-2024-10-21 22:03:29,359 - INFO - No reviews found for Movie ID tt10597228
-2024-10-22 10:56:23,574 - INFO - Fetching reviews for movie_id: tt10597228
-2024-10-22 10:56:26,352 - INFO - Accessed URL: https://www.imdb.com/title/tt10597228/reviews?sort=submissionDate&dir=desc
-2024-10-22 10:56:28,433 - INFO - Total reviews found: 0
-2024-10-22 10:56:28,434 - INFO - No reviews found for Movie ID tt10597228

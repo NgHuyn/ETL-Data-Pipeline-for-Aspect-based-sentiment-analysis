@@ -1,8 +1,0 @@
-2024-10-21 22:06:21,707 - INFO - Fetching reviews for movie_id: tt9066030
-2024-10-21 22:06:25,150 - INFO - Accessed URL: https://www.imdb.com/title/tt9066030/reviews?sort=submissionDate&dir=desc
-2024-10-21 22:06:25,186 - INFO - Total reviews found: 0
-2024-10-21 22:06:25,186 - INFO - No reviews found for Movie ID tt9066030
-2024-10-22 10:59:21,215 - INFO - Fetching reviews for movie_id: tt9066030
-2024-10-22 10:59:23,830 - INFO - Accessed URL: https://www.imdb.com/title/tt9066030/reviews?sort=submissionDate&dir=desc
-2024-10-22 10:59:25,908 - INFO - Total reviews found: 0
-2024-10-22 10:59:25,908 - INFO - No reviews found for Movie ID tt9066030

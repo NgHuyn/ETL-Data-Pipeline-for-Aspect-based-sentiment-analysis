@@ -1,4 +1,0 @@
-2024-10-23 14:49:30,407 - INFO - Fetching reviews for movie_id: tt29195603
-2024-10-23 14:49:33,580 - INFO - Accessed URL: https://www.imdb.com/title/tt29195603/reviews/?sort=submission_date%2Cdesc&dir=desc
-2024-10-23 14:49:33,606 - INFO - Total reviews found: 0
-2024-10-23 14:49:33,608 - INFO - No reviews found for Movie ID tt29195603
